@@ -1,0 +1,3 @@
+"""
+CricEngine AI Test Suite
+"""
