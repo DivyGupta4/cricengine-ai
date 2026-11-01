@@ -1,0 +1,99 @@
+# ==============================================================================
+# CricEngine AI - Git Ignore Configuration
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. CRITICAL PERMANENT EXCLUSION: MASTER PROJECT GUIDE
+# This document contains internal developer learning material and must NEVER
+# be committed, staged, pushed, or uploaded to any remote or release.
+# ------------------------------------------------------------------------------
+docs/CRICENGINE_AI_COMPLETE_PROJECT_GUIDE.md
+*CRICENGINE_AI_COMPLETE_PROJECT_GUIDE*
+*COMPLETE_PROJECT_GUIDE*
+*project_guide*.md
+
+# ------------------------------------------------------------------------------
+# 2. Python & Development Artifacts
+# ------------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Testing, type checking, and linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.cache/
+
+# IDE and OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+.ipynb_checkpoints/
+
+# Logs and runtime databases
+*.log
+*.duckdb.wal
+*.duckdb.tmp*
+
+# ------------------------------------------------------------------------------
+# 3. Security, Secrets & Local Credentials
+# ------------------------------------------------------------------------------
+.env
+.env.*
+!.env.example
+credentials.json
+credentials*.json
+*.pem
+*.key
+*.pkcs12
+*.pfx
+*.p12
+id_rsa
+id_ed25519
+
+# ------------------------------------------------------------------------------
+# 4. Data Storage Optimization
+# (Extracted raw json files are excluded to prevent repo bloat; raw archive zips
+# in data/raw_cricsheet/archives/ and data/raw_cricsheet/manifest.json are tracked)
+# ------------------------------------------------------------------------------
+data/raw_cricsheet/extracted/
+
+# Superseded intermediate feature stores (frozen baseline is feature_store_v3b)
+data/datalake/feature_store/
+data/datalake/feature_store_v3a/

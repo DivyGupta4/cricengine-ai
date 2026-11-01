@@ -1,0 +1,3691 @@
+{
+  "7he Sevens Stadium, Dubai": {
+    "raw_venue_name": "7he Sevens Stadium, Dubai",
+    "canonical_venue_name": "7he Sevens Stadium, Dubai",
+    "canonical_venue_id": "72483ebd",
+    "city": "Dubai",
+    "is_alias_reconciled": false
+  },
+  "ACA Stadium, Barsapara": {
+    "raw_venue_name": "ACA Stadium, Barsapara",
+    "canonical_venue_name": "ACA Stadium, Barsapara",
+    "canonical_venue_id": "df86f88d",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "ACA Stadium,Mangalagiri": {
+    "raw_venue_name": "ACA Stadium,Mangalagiri",
+    "canonical_venue_name": "ACA Stadium,Mangalagiri",
+    "canonical_venue_id": "196a0222",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "AMI Stadium": {
+    "raw_venue_name": "AMI Stadium",
+    "canonical_venue_name": "AMI Stadium",
+    "canonical_venue_id": "0af9fc63",
+    "city": "Christchurch",
+    "is_alias_reconciled": false
+  },
+  "Abhimanyu Cricket Academy, Dehradun": {
+    "raw_venue_name": "Abhimanyu Cricket Academy, Dehradun",
+    "canonical_venue_name": "Abhimanyu Cricket Academy, Dehradun",
+    "canonical_venue_id": "8b0ee678",
+    "city": "Dehra Dun",
+    "is_alias_reconciled": false
+  },
+  "Achimota Senior Secondary School A Field, Accra": {
+    "raw_venue_name": "Achimota Senior Secondary School A Field, Accra",
+    "canonical_venue_name": "Achimota Senior Secondary School A Field, Accra",
+    "canonical_venue_id": "da46cc19",
+    "city": "Accra",
+    "is_alias_reconciled": false
+  },
+  "Achimota Senior Secondary School B Field, Accra": {
+    "raw_venue_name": "Achimota Senior Secondary School B Field, Accra",
+    "canonical_venue_name": "Achimota Senior Secondary School B Field, Accra",
+    "canonical_venue_id": "c8344f12",
+    "city": "Accra",
+    "is_alias_reconciled": false
+  },
+  "Adelaide Oval": {
+    "raw_venue_name": "Adelaide Oval",
+    "canonical_venue_name": "Adelaide Oval",
+    "canonical_venue_id": "ca92c7ab",
+    "city": "Adelaide",
+    "is_alias_reconciled": false
+  },
+  "Affies Park": {
+    "raw_venue_name": "Affies Park",
+    "canonical_venue_name": "Affies Park",
+    "canonical_venue_id": "526c7382",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "Airforce Complex ground, Palam": {
+    "raw_venue_name": "Airforce Complex ground, Palam",
+    "canonical_venue_name": "Airforce Complex ground, Palam",
+    "canonical_venue_id": "fa485aa0",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Airforce Complex ground, Palam II": {
+    "raw_venue_name": "Airforce Complex ground, Palam II",
+    "canonical_venue_name": "Airforce Complex ground, Palam II",
+    "canonical_venue_id": "bd129319",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)": {
+    "raw_venue_name": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)",
+    "canonical_venue_name": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)",
+    "canonical_venue_id": "fcb438b3",
+    "city": "Al Amarat",
+    "is_alias_reconciled": false
+  },
+  "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2)": {
+    "raw_venue_name": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2)",
+    "canonical_venue_name": "Al Amerat Cricket Ground Oman Cricket (Ministry Turf 2)",
+    "canonical_venue_id": "8d56eb5d",
+    "city": "Al Amarat",
+    "is_alias_reconciled": false
+  },
+  "Alembic 1 Cricket Ground": {
+    "raw_venue_name": "Alembic 1 Cricket Ground",
+    "canonical_venue_name": "Alembic 1 Cricket Ground",
+    "canonical_venue_id": "b991d586",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Alembic 2  Cricket Ground": {
+    "raw_venue_name": "Alembic 2  Cricket Ground",
+    "canonical_venue_name": "Alembic 2  Cricket Ground",
+    "canonical_venue_id": "11f89232",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Alur Cricket Stadium": {
+    "raw_venue_name": "Alur Cricket Stadium",
+    "canonical_venue_name": "Alur Cricket Stadium",
+    "canonical_venue_id": "756235fa",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Alur Cricket Stadium II": {
+    "raw_venue_name": "Alur Cricket Stadium II",
+    "canonical_venue_name": "Alur Cricket Stadium II",
+    "canonical_venue_id": "f12de973",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Alur Cricket Stadium III": {
+    "raw_venue_name": "Alur Cricket Stadium III",
+    "canonical_venue_name": "Alur Cricket Stadium III",
+    "canonical_venue_id": "2fa13def",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Amini Park": {
+    "raw_venue_name": "Amini Park",
+    "canonical_venue_name": "Amini Park",
+    "canonical_venue_id": "0373e0b3",
+    "city": "Port Moresby",
+    "is_alias_reconciled": false
+  },
+  "Amini Park, Port Moresby": {
+    "raw_venue_name": "Amini Park, Port Moresby",
+    "canonical_venue_name": "Amini Park, Port Moresby",
+    "canonical_venue_id": "19463b41",
+    "city": "Port Moresby",
+    "is_alias_reconciled": false
+  },
+  "Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium": {
+    "raw_venue_name": "Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium",
+    "canonical_venue_name": "Andhra Cricket Association-Visakhapatnam District Cricket Association Stadium",
+    "canonical_venue_id": "b4ca1500",
+    "city": "Visakhapatnam",
+    "is_alias_reconciled": false
+  },
+  "Antigua Recreation Ground": {
+    "raw_venue_name": "Antigua Recreation Ground",
+    "canonical_venue_name": "Antigua Recreation Ground",
+    "canonical_venue_id": "5274adb5",
+    "city": "St John's",
+    "is_alias_reconciled": false
+  },
+  "Antigua Recreation Ground, St John's": {
+    "raw_venue_name": "Antigua Recreation Ground, St John's",
+    "canonical_venue_name": "Antigua Recreation Ground, St John's",
+    "canonical_venue_id": "b46ed39f",
+    "city": "Antigua",
+    "is_alias_reconciled": false
+  },
+  "Antigua Recreation Ground, St John's, Antigua": {
+    "raw_venue_name": "Antigua Recreation Ground, St John's, Antigua",
+    "canonical_venue_name": "Antigua Recreation Ground, St John's, Antigua",
+    "canonical_venue_id": "598ab60a",
+    "city": "St John's",
+    "is_alias_reconciled": false
+  },
+  "Arbab Niaz Stadium": {
+    "raw_venue_name": "Arbab Niaz Stadium",
+    "canonical_venue_name": "Arbab Niaz Stadium",
+    "canonical_venue_id": "6f547e2b",
+    "city": "Peshawar",
+    "is_alias_reconciled": false
+  },
+  "Arnos Vale Ground": {
+    "raw_venue_name": "Arnos Vale Ground",
+    "canonical_venue_name": "Arnos Vale Ground",
+    "canonical_venue_id": "270f0d8e",
+    "city": "Kingstown",
+    "is_alias_reconciled": false
+  },
+  "Arnos Vale Ground, Kingstown": {
+    "raw_venue_name": "Arnos Vale Ground, Kingstown",
+    "canonical_venue_name": "Arnos Vale Ground, Kingstown",
+    "canonical_venue_id": "59c5568b",
+    "city": "St Vincent",
+    "is_alias_reconciled": false
+  },
+  "Arnos Vale Ground, Kingstown, St Vincent": {
+    "raw_venue_name": "Arnos Vale Ground, Kingstown, St Vincent",
+    "canonical_venue_name": "Arnos Vale Ground, Kingstown, St Vincent",
+    "canonical_venue_id": "ee6780c3",
+    "city": "Kingstown",
+    "is_alias_reconciled": false
+  },
+  "Arun Jaitley Stadium": {
+    "raw_venue_name": "Arun Jaitley Stadium",
+    "canonical_venue_name": "Arun Jaitley Stadium",
+    "canonical_venue_id": "eef26f35",
+    "city": "Delhi",
+    "is_alias_reconciled": false
+  },
+  "Arun Jaitley Stadium, Delhi": {
+    "raw_venue_name": "Arun Jaitley Stadium, Delhi",
+    "canonical_venue_name": "Arun Jaitley Stadium",
+    "canonical_venue_id": "eef26f35",
+    "city": "Delhi",
+    "is_alias_reconciled": true
+  },
+  "Asgiriya Stadium": {
+    "raw_venue_name": "Asgiriya Stadium",
+    "canonical_venue_name": "Asgiriya Stadium",
+    "canonical_venue_id": "fcb68f30",
+    "city": "Kandy",
+    "is_alias_reconciled": false
+  },
+  "BKC Ground": {
+    "raw_venue_name": "BKC Ground",
+    "canonical_venue_name": "BKC Ground",
+    "canonical_venue_id": "7fdfdc24",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Ballpark Ground, Graz": {
+    "raw_venue_name": "Ballpark Ground, Graz",
+    "canonical_venue_name": "Ballpark Ground, Graz",
+    "canonical_venue_id": "2efb3d1c",
+    "city": "Graz",
+    "is_alias_reconciled": false
+  },
+  "Bangabandhu National Stadium": {
+    "raw_venue_name": "Bangabandhu National Stadium",
+    "canonical_venue_name": "Bangabandhu National Stadium",
+    "canonical_venue_id": "2d8adffb",
+    "city": "Dhaka",
+    "is_alias_reconciled": false
+  },
+  "Bangabandhu National Stadium, Dhaka": {
+    "raw_venue_name": "Bangabandhu National Stadium, Dhaka",
+    "canonical_venue_name": "Bangabandhu National Stadium, Dhaka",
+    "canonical_venue_id": "5c9da760",
+    "city": "Dhaka",
+    "is_alias_reconciled": false
+  },
+  "Barabati Stadium": {
+    "raw_venue_name": "Barabati Stadium",
+    "canonical_venue_name": "Barabati Stadium",
+    "canonical_venue_id": "d4bff74d",
+    "city": "Cuttack",
+    "is_alias_reconciled": false
+  },
+  "Barabati Stadium, Cuttack": {
+    "raw_venue_name": "Barabati Stadium, Cuttack",
+    "canonical_venue_name": "Barabati Stadium, Cuttack",
+    "canonical_venue_id": "6cbe6b49",
+    "city": "Cuttack",
+    "is_alias_reconciled": true
+  },
+  "Barsapara Cricket Stadium": {
+    "raw_venue_name": "Barsapara Cricket Stadium",
+    "canonical_venue_name": "Barsapara Cricket Stadium",
+    "canonical_venue_id": "828fa520",
+    "city": "Guwahati",
+    "is_alias_reconciled": false
+  },
+  "Barsapara Cricket Stadium, Guwahati": {
+    "raw_venue_name": "Barsapara Cricket Stadium, Guwahati",
+    "canonical_venue_name": "Barsapara Cricket Stadium, Guwahati",
+    "canonical_venue_id": "61e72dcd",
+    "city": "Guwahati",
+    "is_alias_reconciled": false
+  },
+  "Basin Reserve": {
+    "raw_venue_name": "Basin Reserve",
+    "canonical_venue_name": "Basin Reserve",
+    "canonical_venue_id": "1b98446a",
+    "city": "Wellington",
+    "is_alias_reconciled": false
+  },
+  "Basin Reserve, Wellington": {
+    "raw_venue_name": "Basin Reserve, Wellington",
+    "canonical_venue_name": "Basin Reserve, Wellington",
+    "canonical_venue_id": "993ce27b",
+    "city": "Wellington",
+    "is_alias_reconciled": true
+  },
+  "Bay Oval": {
+    "raw_venue_name": "Bay Oval",
+    "canonical_venue_name": "Bay Oval",
+    "canonical_venue_id": "423f1936",
+    "city": "Mount Maunganui",
+    "is_alias_reconciled": false
+  },
+  "Bay Oval, Mount Maunganui": {
+    "raw_venue_name": "Bay Oval, Mount Maunganui",
+    "canonical_venue_name": "Bay Oval, Mount Maunganui",
+    "canonical_venue_id": "a0891586",
+    "city": "Mount Maunganui",
+    "is_alias_reconciled": false
+  },
+  "Bayer Uerdingen Cricket Ground": {
+    "raw_venue_name": "Bayer Uerdingen Cricket Ground",
+    "canonical_venue_name": "Bayer Uerdingen Cricket Ground",
+    "canonical_venue_id": "0241a598",
+    "city": "Krefeld",
+    "is_alias_reconciled": false
+  },
+  "Bayuemas Oval, Kuala Lumpur": {
+    "raw_venue_name": "Bayuemas Oval, Kuala Lumpur",
+    "canonical_venue_name": "Bayuemas Oval, Kuala Lumpur",
+    "canonical_venue_id": "8755e10d",
+    "city": "Kuala Lumpur",
+    "is_alias_reconciled": false
+  },
+  "Beausejour Stadium, Gros Islet": {
+    "raw_venue_name": "Beausejour Stadium, Gros Islet",
+    "canonical_venue_name": "Beausejour Stadium, Gros Islet",
+    "canonical_venue_id": "c2ab4cc9",
+    "city": "St Lucia",
+    "is_alias_reconciled": false
+  },
+  "Belgrano Athletic Club Ground, Buenos Aires": {
+    "raw_venue_name": "Belgrano Athletic Club Ground, Buenos Aires",
+    "canonical_venue_name": "Belgrano Athletic Club Ground, Buenos Aires",
+    "canonical_venue_id": "cfd54bfe",
+    "city": "Buenos Aires",
+    "is_alias_reconciled": false
+  },
+  "Bellerive Oval": {
+    "raw_venue_name": "Bellerive Oval",
+    "canonical_venue_name": "Bellerive Oval",
+    "canonical_venue_id": "cc86fbee",
+    "city": "Hobart",
+    "is_alias_reconciled": false
+  },
+  "Bellerive Oval, Hobart": {
+    "raw_venue_name": "Bellerive Oval, Hobart",
+    "canonical_venue_name": "Bellerive Oval, Hobart",
+    "canonical_venue_id": "783a2b83",
+    "city": "Hobart",
+    "is_alias_reconciled": true
+  },
+  "Bermuda National Stadium": {
+    "raw_venue_name": "Bermuda National Stadium",
+    "canonical_venue_name": "Bermuda National Stadium",
+    "canonical_venue_id": "1d2eb1ee",
+    "city": "Hamilton",
+    "is_alias_reconciled": false
+  },
+  "Bert Sutcliffe Oval": {
+    "raw_venue_name": "Bert Sutcliffe Oval",
+    "canonical_venue_name": "Bert Sutcliffe Oval",
+    "canonical_venue_id": "d91a77a9",
+    "city": "Lincoln",
+    "is_alias_reconciled": false
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium": {
+    "raw_venue_name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium",
+    "canonical_venue_name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+    "canonical_venue_id": "0b617c7f",
+    "city": "Lucknow",
+    "is_alias_reconciled": true
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium B": {
+    "raw_venue_name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium B",
+    "canonical_venue_name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium B",
+    "canonical_venue_id": "e01c2b29",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow": {
+    "raw_venue_name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+    "canonical_venue_name": "Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium, Lucknow",
+    "canonical_venue_id": "0b617c7f",
+    "city": "Lucknow",
+    "is_alias_reconciled": false
+  },
+  "Bir Sreshtho Flight Lieutenant Matiur Rahman Stadium, Chattogram": {
+    "raw_venue_name": "Bir Sreshtho Flight Lieutenant Matiur Rahman Stadium, Chattogram",
+    "canonical_venue_name": "Bir Sreshtho Flight Lieutenant Matiur Rahman Stadium, Chattogram",
+    "canonical_venue_id": "4300be89",
+    "city": "Chattogram",
+    "is_alias_reconciled": false
+  },
+  "Boland Bank Park, Paarl": {
+    "raw_venue_name": "Boland Bank Park, Paarl",
+    "canonical_venue_name": "Boland Bank Park, Paarl",
+    "canonical_venue_id": "7c3e32d9",
+    "city": "Paarl",
+    "is_alias_reconciled": false
+  },
+  "Boland Park": {
+    "raw_venue_name": "Boland Park",
+    "canonical_venue_name": "Boland Park",
+    "canonical_venue_id": "f577ae35",
+    "city": "Paarl",
+    "is_alias_reconciled": false
+  },
+  "Boland Park, Paarl": {
+    "raw_venue_name": "Boland Park, Paarl",
+    "canonical_venue_name": "Boland Park, Paarl",
+    "canonical_venue_id": "05ceed33",
+    "city": "Paarl",
+    "is_alias_reconciled": false
+  },
+  "Botkyrka Cricket Center, Stockholm": {
+    "raw_venue_name": "Botkyrka Cricket Center, Stockholm",
+    "canonical_venue_name": "Botkyrka Cricket Center, Stockholm",
+    "canonical_venue_id": "0f31f517",
+    "city": "Stockholm",
+    "is_alias_reconciled": false
+  },
+  "Botswana Cricket Association Oval 1, Gaborone": {
+    "raw_venue_name": "Botswana Cricket Association Oval 1, Gaborone",
+    "canonical_venue_name": "Botswana Cricket Association Oval 1, Gaborone",
+    "canonical_venue_id": "d9fe4fcb",
+    "city": "Gaborone",
+    "is_alias_reconciled": false
+  },
+  "Botswana Cricket Association Oval 2, Gaborone": {
+    "raw_venue_name": "Botswana Cricket Association Oval 2, Gaborone",
+    "canonical_venue_name": "Botswana Cricket Association Oval 2, Gaborone",
+    "canonical_venue_id": "ac2c22da",
+    "city": "Gaborone",
+    "is_alias_reconciled": false
+  },
+  "Brabourne Stadium": {
+    "raw_venue_name": "Brabourne Stadium",
+    "canonical_venue_name": "Brabourne Stadium, Mumbai",
+    "canonical_venue_id": "8d1d7db9",
+    "city": "Mumbai",
+    "is_alias_reconciled": true
+  },
+  "Brabourne Stadium, Mumbai": {
+    "raw_venue_name": "Brabourne Stadium, Mumbai",
+    "canonical_venue_name": "Brabourne Stadium, Mumbai",
+    "canonical_venue_id": "8d1d7db9",
+    "city": "Mumbai",
+    "is_alias_reconciled": false
+  },
+  "Bready": {
+    "raw_venue_name": "Bready",
+    "canonical_venue_name": "Bready",
+    "canonical_venue_id": "da478d8b",
+    "city": "Derry",
+    "is_alias_reconciled": false
+  },
+  "Bready Cricket Club, Magheramason": {
+    "raw_venue_name": "Bready Cricket Club, Magheramason",
+    "canonical_venue_name": "Bready Cricket Club, Magheramason",
+    "canonical_venue_id": "025ea836",
+    "city": "Londonderry",
+    "is_alias_reconciled": false
+  },
+  "Bready Cricket Club, Magheramason, Bready": {
+    "raw_venue_name": "Bready Cricket Club, Magheramason, Bready",
+    "canonical_venue_name": "Bready Cricket Club, Magheramason, Bready",
+    "canonical_venue_id": "0c772b82",
+    "city": "Bready",
+    "is_alias_reconciled": false
+  },
+  "Brian Lara Stadium, Tarouba, Trinidad": {
+    "raw_venue_name": "Brian Lara Stadium, Tarouba, Trinidad",
+    "canonical_venue_name": "Brian Lara Stadium, Tarouba, Trinidad",
+    "canonical_venue_id": "3c298702",
+    "city": "Tarouba",
+    "is_alias_reconciled": false
+  },
+  "Brisbane Cricket Ground": {
+    "raw_venue_name": "Brisbane Cricket Ground",
+    "canonical_venue_name": "Brisbane Cricket Ground",
+    "canonical_venue_id": "89068030",
+    "city": "Brisbane",
+    "is_alias_reconciled": false
+  },
+  "Brisbane Cricket Ground, Woolloongabba": {
+    "raw_venue_name": "Brisbane Cricket Ground, Woolloongabba",
+    "canonical_venue_name": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+    "canonical_venue_id": "673577ca",
+    "city": "Brisbane",
+    "is_alias_reconciled": true
+  },
+  "Brisbane Cricket Ground, Woolloongabba, Brisbane": {
+    "raw_venue_name": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+    "canonical_venue_name": "Brisbane Cricket Ground, Woolloongabba, Brisbane",
+    "canonical_venue_id": "673577ca",
+    "city": "Brisbane",
+    "is_alias_reconciled": true
+  },
+  "Buffalo Park": {
+    "raw_venue_name": "Buffalo Park",
+    "canonical_venue_name": "Buffalo Park",
+    "canonical_venue_id": "f57e2f64",
+    "city": "East London",
+    "is_alias_reconciled": false
+  },
+  "Buffalo Park, East London": {
+    "raw_venue_name": "Buffalo Park, East London",
+    "canonical_venue_name": "Buffalo Park, East London",
+    "canonical_venue_id": "09717c1b",
+    "city": "East London",
+    "is_alias_reconciled": false
+  },
+  "Bulawayo Athletic Club": {
+    "raw_venue_name": "Bulawayo Athletic Club",
+    "canonical_venue_name": "Bulawayo Athletic Club",
+    "canonical_venue_id": "1b07faf3",
+    "city": "Bulawayo",
+    "is_alias_reconciled": false
+  },
+  "Bundaberg Rum Stadium, Cairns": {
+    "raw_venue_name": "Bundaberg Rum Stadium, Cairns",
+    "canonical_venue_name": "Bundaberg Rum Stadium, Cairns",
+    "canonical_venue_id": "e1cc2724",
+    "city": "Cairns",
+    "is_alias_reconciled": false
+  },
+  "C B Patel Ground": {
+    "raw_venue_name": "C B Patel Ground",
+    "canonical_venue_name": "C B Patel Ground",
+    "canonical_venue_id": "7d2174f2",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Cambusdoon New Ground": {
+    "raw_venue_name": "Cambusdoon New Ground",
+    "canonical_venue_name": "Cambusdoon New Ground",
+    "canonical_venue_id": "c7cc5967",
+    "city": "Ayr",
+    "is_alias_reconciled": false
+  },
+  "Cambusdoon New Ground, Ayr": {
+    "raw_venue_name": "Cambusdoon New Ground, Ayr",
+    "canonical_venue_name": "Cambusdoon New Ground, Ayr",
+    "canonical_venue_id": "497b470b",
+    "city": "Ayr",
+    "is_alias_reconciled": false
+  },
+  "Captain Roop Singh Stadium": {
+    "raw_venue_name": "Captain Roop Singh Stadium",
+    "canonical_venue_name": "Captain Roop Singh Stadium",
+    "canonical_venue_id": "69c0ce12",
+    "city": "Gwalior",
+    "is_alias_reconciled": false
+  },
+  "Captain Roop Singh Stadium, Gwalior": {
+    "raw_venue_name": "Captain Roop Singh Stadium, Gwalior",
+    "canonical_venue_name": "Captain Roop Singh Stadium, Gwalior",
+    "canonical_venue_id": "3b6df8ab",
+    "city": "Gwalior",
+    "is_alias_reconciled": false
+  },
+  "Carisbrook": {
+    "raw_venue_name": "Carisbrook",
+    "canonical_venue_name": "Carisbrook",
+    "canonical_venue_id": "b4106dc2",
+    "city": "Dunedin",
+    "is_alias_reconciled": false
+  },
+  "Carrara Oval": {
+    "raw_venue_name": "Carrara Oval",
+    "canonical_venue_name": "Carrara Oval",
+    "canonical_venue_id": "36c9939a",
+    "city": "Carrara",
+    "is_alias_reconciled": false
+  },
+  "Castle Avenue": {
+    "raw_venue_name": "Castle Avenue",
+    "canonical_venue_name": "Castle Avenue",
+    "canonical_venue_id": "96ca9aab",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "Castle Avenue, Dublin": {
+    "raw_venue_name": "Castle Avenue, Dublin",
+    "canonical_venue_name": "Castle Avenue, Dublin",
+    "canonical_venue_id": "6313ed30",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "Cazaly's Stadium, Cairns": {
+    "raw_venue_name": "Cazaly's Stadium, Cairns",
+    "canonical_venue_name": "Cazaly's Stadium, Cairns",
+    "canonical_venue_id": "6163f39d",
+    "city": "Cairns",
+    "is_alias_reconciled": false
+  },
+  "Central Broward Regional Park Stadium Turf Ground": {
+    "raw_venue_name": "Central Broward Regional Park Stadium Turf Ground",
+    "canonical_venue_name": "Central Broward Regional Park Stadium Turf Ground",
+    "canonical_venue_id": "b7b2d91b",
+    "city": "Lauderhill",
+    "is_alias_reconciled": false
+  },
+  "Central Broward Regional Park Stadium Turf Ground, Lauderhill": {
+    "raw_venue_name": "Central Broward Regional Park Stadium Turf Ground, Lauderhill",
+    "canonical_venue_name": "Central Broward Regional Park Stadium Turf Ground, Lauderhill",
+    "canonical_venue_id": "3870b596",
+    "city": "Lauderhill",
+    "is_alias_reconciled": false
+  },
+  "Chaudhry Bansi Lal Cricket Stadium": {
+    "raw_venue_name": "Chaudhry Bansi Lal Cricket Stadium",
+    "canonical_venue_name": "Chaudhry Bansi Lal Cricket Stadium",
+    "canonical_venue_id": "06aafd36",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Chevrolet Park": {
+    "raw_venue_name": "Chevrolet Park",
+    "canonical_venue_name": "Chevrolet Park",
+    "canonical_venue_id": "3df219eb",
+    "city": "Bloemfontein",
+    "is_alias_reconciled": false
+  },
+  "Chittagong Divisional Stadium": {
+    "raw_venue_name": "Chittagong Divisional Stadium",
+    "canonical_venue_name": "Chittagong Divisional Stadium",
+    "canonical_venue_id": "425055d2",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Choice Moosa Stadium, Pearland": {
+    "raw_venue_name": "Choice Moosa Stadium, Pearland",
+    "canonical_venue_name": "Choice Moosa Stadium, Pearland",
+    "canonical_venue_id": "3842e9ff",
+    "city": "Pearland",
+    "is_alias_reconciled": false
+  },
+  "City Oval, Pietermaritzburg": {
+    "raw_venue_name": "City Oval, Pietermaritzburg",
+    "canonical_venue_name": "City Oval, Pietermaritzburg",
+    "canonical_venue_id": "72c91202",
+    "city": "Pietermaritzburg",
+    "is_alias_reconciled": false
+  },
+  "Civil Service Cricket Club, Stormont": {
+    "raw_venue_name": "Civil Service Cricket Club, Stormont",
+    "canonical_venue_name": "Civil Service Cricket Club, Stormont",
+    "canonical_venue_id": "9f4f791c",
+    "city": "Belfast",
+    "is_alias_reconciled": false
+  },
+  "Civil Service Cricket Club, Stormont, Belfast": {
+    "raw_venue_name": "Civil Service Cricket Club, Stormont, Belfast",
+    "canonical_venue_name": "Civil Service Cricket Club, Stormont",
+    "canonical_venue_id": "9f4f791c",
+    "city": "Belfast",
+    "is_alias_reconciled": true
+  },
+  "Clayton Panama, Panama City": {
+    "raw_venue_name": "Clayton Panama, Panama City",
+    "canonical_venue_name": "Clayton Panama, Panama City",
+    "canonical_venue_id": "a183dd1a",
+    "city": "Panama City",
+    "is_alias_reconciled": false
+  },
+  "Clontarf Cricket Club Ground": {
+    "raw_venue_name": "Clontarf Cricket Club Ground",
+    "canonical_venue_name": "Clontarf Cricket Club Ground",
+    "canonical_venue_id": "542046d2",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "Clontarf Cricket Club Ground, Dublin": {
+    "raw_venue_name": "Clontarf Cricket Club Ground, Dublin",
+    "canonical_venue_name": "Clontarf Cricket Club Ground, Dublin",
+    "canonical_venue_id": "6ab3b11e",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "Cobham Oval (New)": {
+    "raw_venue_name": "Cobham Oval (New)",
+    "canonical_venue_name": "Cobham Oval (New)",
+    "canonical_venue_id": "999262a4",
+    "city": "Whangarei",
+    "is_alias_reconciled": false
+  },
+  "College Field": {
+    "raw_venue_name": "College Field",
+    "canonical_venue_name": "College Field",
+    "canonical_venue_id": "1bfaf550",
+    "city": "St Peter Port",
+    "is_alias_reconciled": false
+  },
+  "College Field, St Peter Port": {
+    "raw_venue_name": "College Field, St Peter Port",
+    "canonical_venue_name": "College Field, St Peter Port",
+    "canonical_venue_id": "afe27755",
+    "city": "St Peter Port",
+    "is_alias_reconciled": false
+  },
+  "Coolidge Cricket Ground, Antigua": {
+    "raw_venue_name": "Coolidge Cricket Ground, Antigua",
+    "canonical_venue_name": "Coolidge Cricket Ground, Antigua",
+    "canonical_venue_id": "781303a2",
+    "city": "Coolidge",
+    "is_alias_reconciled": false
+  },
+  "County Ground": {
+    "raw_venue_name": "County Ground",
+    "canonical_venue_name": "County Ground",
+    "canonical_venue_id": "bfbbcd76",
+    "city": "Bristol",
+    "is_alias_reconciled": false
+  },
+  "County Ground, Bristol": {
+    "raw_venue_name": "County Ground, Bristol",
+    "canonical_venue_name": "County Ground, Bristol",
+    "canonical_venue_id": "afed0e37",
+    "city": "Bristol",
+    "is_alias_reconciled": false
+  },
+  "County Ground, Chelmsford": {
+    "raw_venue_name": "County Ground, Chelmsford",
+    "canonical_venue_name": "County Ground, Chelmsford",
+    "canonical_venue_id": "0862c4a5",
+    "city": "Chelmsford",
+    "is_alias_reconciled": false
+  },
+  "Cricket Stadium, Sector-16": {
+    "raw_venue_name": "Cricket Stadium, Sector-16",
+    "canonical_venue_name": "Cricket Stadium, Sector-16",
+    "canonical_venue_id": "0f2c4f71",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "DRIEMS Ground": {
+    "raw_venue_name": "DRIEMS Ground",
+    "canonical_venue_name": "DRIEMS Ground",
+    "canonical_venue_id": "13935aec",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Daren Sammy National Cricket Stadium": {
+    "raw_venue_name": "Daren Sammy National Cricket Stadium",
+    "canonical_venue_name": "Daren Sammy National Cricket Stadium",
+    "canonical_venue_id": "61a819f8",
+    "city": "Gros Islet",
+    "is_alias_reconciled": false
+  },
+  "Daren Sammy National Cricket Stadium, Gros Islet": {
+    "raw_venue_name": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "canonical_venue_name": "Daren Sammy National Cricket Stadium, Gros Islet",
+    "canonical_venue_id": "441641a6",
+    "city": "St Lucia",
+    "is_alias_reconciled": true
+  },
+  "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia": {
+    "raw_venue_name": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
+    "canonical_venue_name": "Daren Sammy National Cricket Stadium, Gros Islet, St Lucia",
+    "canonical_venue_id": "cb62c8ea",
+    "city": "Gros Islet",
+    "is_alias_reconciled": false
+  },
+  "Daren Sammy National Cricket Stadium, St Lucia": {
+    "raw_venue_name": "Daren Sammy National Cricket Stadium, St Lucia",
+    "canonical_venue_name": "Darren Sammy National Cricket Stadium, St Lucia",
+    "canonical_venue_id": "f4e8c928",
+    "city": "Gros Islet",
+    "is_alias_reconciled": true
+  },
+  "Darren Sammy National Cricket Stadium, Gros Islet": {
+    "raw_venue_name": "Darren Sammy National Cricket Stadium, Gros Islet",
+    "canonical_venue_name": "Darren Sammy National Cricket Stadium, Gros Islet",
+    "canonical_venue_id": "01f0c38a",
+    "city": "St Lucia",
+    "is_alias_reconciled": false
+  },
+  "Darren Sammy National Cricket Stadium, St Lucia": {
+    "raw_venue_name": "Darren Sammy National Cricket Stadium, St Lucia",
+    "canonical_venue_name": "Darren Sammy National Cricket Stadium, St Lucia",
+    "canonical_venue_id": "f4e8c928",
+    "city": "Gros Islet",
+    "is_alias_reconciled": false
+  },
+  "Davies Park, Queenstown": {
+    "raw_venue_name": "Davies Park, Queenstown",
+    "canonical_venue_name": "Davies Park, Queenstown",
+    "canonical_venue_id": "97eec807",
+    "city": "Queenstown",
+    "is_alias_reconciled": false
+  },
+  "De Beers Diamond Oval": {
+    "raw_venue_name": "De Beers Diamond Oval",
+    "canonical_venue_name": "De Beers Diamond Oval",
+    "canonical_venue_id": "38832f65",
+    "city": "Kimberley",
+    "is_alias_reconciled": false
+  },
+  "De Beers Diamond Oval, Kimberley": {
+    "raw_venue_name": "De Beers Diamond Oval, Kimberley",
+    "canonical_venue_name": "De Beers Diamond Oval, Kimberley",
+    "canonical_venue_id": "71c10454",
+    "city": "Kimberley",
+    "is_alias_reconciled": false
+  },
+  "Desert Springs Cricket Ground": {
+    "raw_venue_name": "Desert Springs Cricket Ground",
+    "canonical_venue_name": "Desert Springs Cricket Ground",
+    "canonical_venue_id": "6495b6d9",
+    "city": "Almeria",
+    "is_alias_reconciled": false
+  },
+  "Desert Springs Cricket Ground, Almeria": {
+    "raw_venue_name": "Desert Springs Cricket Ground, Almeria",
+    "canonical_venue_name": "Desert Springs Cricket Ground, Almeria",
+    "canonical_venue_id": "bf2b2800",
+    "city": "Almeria",
+    "is_alias_reconciled": false
+  },
+  "Diamond Oval": {
+    "raw_venue_name": "Diamond Oval",
+    "canonical_venue_name": "Diamond Oval",
+    "canonical_venue_id": "bb957fe8",
+    "city": "Kimberley",
+    "is_alias_reconciled": false
+  },
+  "Diamond Oval, Kimberley": {
+    "raw_venue_name": "Diamond Oval, Kimberley",
+    "canonical_venue_name": "Diamond Oval, Kimberley",
+    "canonical_venue_id": "72923025",
+    "city": "Kimberley",
+    "is_alias_reconciled": false
+  },
+  "Docklands Stadium": {
+    "raw_venue_name": "Docklands Stadium",
+    "canonical_venue_name": "Docklands Stadium",
+    "canonical_venue_id": "a1a00b66",
+    "city": "Melbourne",
+    "is_alias_reconciled": false
+  },
+  "Dr DY Patil Sports Academy": {
+    "raw_venue_name": "Dr DY Patil Sports Academy",
+    "canonical_venue_name": "Dr DY Patil Sports Academy",
+    "canonical_venue_id": "f262120a",
+    "city": "Mumbai",
+    "is_alias_reconciled": false
+  },
+  "Dr DY Patil Sports Academy, Mumbai": {
+    "raw_venue_name": "Dr DY Patil Sports Academy, Mumbai",
+    "canonical_venue_name": "Dr DY Patil Sports Academy, Mumbai",
+    "canonical_venue_id": "41a30690",
+    "city": "Mumbai",
+    "is_alias_reconciled": false
+  },
+  "Dr P.V.G. Raju ACA Sports Complex": {
+    "raw_venue_name": "Dr P.V.G. Raju ACA Sports Complex",
+    "canonical_venue_name": "Dr P.V.G. Raju ACA Sports Complex",
+    "canonical_venue_id": "18eef90b",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Dr. Gokaraju Laila Ganga Raju ACA Cricket Complex -CP Ground,Mulapadu": {
+    "raw_venue_name": "Dr. Gokaraju Laila Ganga Raju ACA Cricket Complex -CP Ground,Mulapadu",
+    "canonical_venue_name": "Dr. Gokaraju Laila Ganga Raju ACA Cricket Complex -CP Ground,Mulapadu",
+    "canonical_venue_id": "5069a923",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Dr. Gokaraju Laila Ganga Raju ACA Cricket Complex -DVR Ground,Mulapadu": {
+    "raw_venue_name": "Dr. Gokaraju Laila Ganga Raju ACA Cricket Complex -DVR Ground,Mulapadu",
+    "canonical_venue_name": "Dr. Gokaraju Laila Ganga Raju ACA Cricket Complex -DVR Ground,Mulapadu",
+    "canonical_venue_id": "769a853f",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA VDCA Cricket Stadium": {
+    "raw_venue_name": "Dr. Y.S. Rajasekhara Reddy ACA VDCA Cricket Stadium",
+    "canonical_venue_name": "Dr. Y.S. Rajasekhara Reddy ACA VDCA Cricket Stadium",
+    "canonical_venue_id": "d9310a77",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium": {
+    "raw_venue_name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "canonical_venue_name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium",
+    "canonical_venue_id": "909c516f",
+    "city": "Visakhapatnam",
+    "is_alias_reconciled": false
+  },
+  "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam": {
+    "raw_venue_name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+    "canonical_venue_name": "Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium, Visakhapatnam",
+    "canonical_venue_id": "deae8c56",
+    "city": "Visakhapatnam",
+    "is_alias_reconciled": false
+  },
+  "Dreux Sport Cricket Club": {
+    "raw_venue_name": "Dreux Sport Cricket Club",
+    "canonical_venue_name": "Dreux Sport Cricket Club",
+    "canonical_venue_id": "82900442",
+    "city": "Dreux",
+    "is_alias_reconciled": false
+  },
+  "Dubai International Cricket Stadium": {
+    "raw_venue_name": "Dubai International Cricket Stadium",
+    "canonical_venue_name": "Dubai International Cricket Stadium",
+    "canonical_venue_id": "a48e1e3a",
+    "city": "Dubai",
+    "is_alias_reconciled": false
+  },
+  "Dubai Sports City Cricket Stadium": {
+    "raw_venue_name": "Dubai Sports City Cricket Stadium",
+    "canonical_venue_name": "Dubai Sports City Cricket Stadium",
+    "canonical_venue_id": "eb393c13",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Eden Gardens": {
+    "raw_venue_name": "Eden Gardens",
+    "canonical_venue_name": "Eden Gardens",
+    "canonical_venue_id": "904e89ce",
+    "city": "Kolkata",
+    "is_alias_reconciled": false
+  },
+  "Eden Gardens, Kolkata": {
+    "raw_venue_name": "Eden Gardens, Kolkata",
+    "canonical_venue_name": "Eden Gardens, Kolkata",
+    "canonical_venue_id": "672f066b",
+    "city": "Kolkata",
+    "is_alias_reconciled": true
+  },
+  "Eden Park": {
+    "raw_venue_name": "Eden Park",
+    "canonical_venue_name": "Eden Park",
+    "canonical_venue_id": "fbd75f05",
+    "city": "Auckland",
+    "is_alias_reconciled": false
+  },
+  "Eden Park, Auckland": {
+    "raw_venue_name": "Eden Park, Auckland",
+    "canonical_venue_name": "Eden Park, Auckland",
+    "canonical_venue_id": "63714fc3",
+    "city": "Auckland",
+    "is_alias_reconciled": true
+  },
+  "Edgbaston": {
+    "raw_venue_name": "Edgbaston",
+    "canonical_venue_name": "Edgbaston",
+    "canonical_venue_id": "6b2f7c19",
+    "city": "Birmingham",
+    "is_alias_reconciled": false
+  },
+  "Edgbaston, Birmingham": {
+    "raw_venue_name": "Edgbaston, Birmingham",
+    "canonical_venue_name": "Edgbaston, Birmingham",
+    "canonical_venue_id": "bb6f55ab",
+    "city": "Birmingham",
+    "is_alias_reconciled": false
+  },
+  "Emerald Heights International School Ground": {
+    "raw_venue_name": "Emerald Heights International School Ground",
+    "canonical_venue_name": "Emerald Heights International School Ground",
+    "canonical_venue_id": "048e907b",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Entebbe Cricket Oval": {
+    "raw_venue_name": "Entebbe Cricket Oval",
+    "canonical_venue_name": "Entebbe Cricket Oval",
+    "canonical_venue_id": "250e1bc7",
+    "city": "Entebbe",
+    "is_alias_reconciled": false
+  },
+  "Estonian National Cricket and Rugby Field": {
+    "raw_venue_name": "Estonian National Cricket and Rugby Field",
+    "canonical_venue_name": "Estonian National Cricket and Rugby Field",
+    "canonical_venue_id": "57fc57b8",
+    "city": "Tallinn",
+    "is_alias_reconciled": false
+  },
+  "Europa Sports Complex": {
+    "raw_venue_name": "Europa Sports Complex",
+    "canonical_venue_name": "Europa Sports Complex",
+    "canonical_venue_id": "edc7726c",
+    "city": "Gibraltar",
+    "is_alias_reconciled": false
+  },
+  "F B Colony Ground": {
+    "raw_venue_name": "F B Colony Ground",
+    "canonical_venue_name": "F B Colony Ground",
+    "canonical_venue_id": "2b1c72b5",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Faleata Oval No 2, Apia": {
+    "raw_venue_name": "Faleata Oval No 2, Apia",
+    "canonical_venue_name": "Faleata Oval No 2, Apia",
+    "canonical_venue_id": "0389600e",
+    "city": "Apia",
+    "is_alias_reconciled": false
+  },
+  "Feroz Shah Kotla": {
+    "raw_venue_name": "Feroz Shah Kotla",
+    "canonical_venue_name": "Arun Jaitley Stadium",
+    "canonical_venue_id": "eef26f35",
+    "city": "Delhi",
+    "is_alias_reconciled": true
+  },
+  "Forthill, Dundee": {
+    "raw_venue_name": "Forthill, Dundee",
+    "canonical_venue_name": "Forthill, Dundee",
+    "canonical_venue_id": "050f5668",
+    "city": "Dundee",
+    "is_alias_reconciled": false
+  },
+  "GB Oval, Szodliget": {
+    "raw_venue_name": "GB Oval, Szodliget",
+    "canonical_venue_name": "GB Oval, Szodliget",
+    "canonical_venue_id": "ea87256f",
+    "city": "Szodliget",
+    "is_alias_reconciled": false
+  },
+  "GMHBA Stadium, South Geelong, Victoria": {
+    "raw_venue_name": "GMHBA Stadium, South Geelong, Victoria",
+    "canonical_venue_name": "GMHBA Stadium, South Geelong, Victoria",
+    "canonical_venue_id": "64a993ea",
+    "city": "Geelong",
+    "is_alias_reconciled": false
+  },
+  "GSSS, Sector 26": {
+    "raw_venue_name": "GSSS, Sector 26",
+    "canonical_venue_name": "GSSS, Sector 26",
+    "canonical_venue_id": "48b8153a",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Gaddafi Stadium": {
+    "raw_venue_name": "Gaddafi Stadium",
+    "canonical_venue_name": "Gaddafi Stadium",
+    "canonical_venue_id": "5fbab24a",
+    "city": "Lahore",
+    "is_alias_reconciled": false
+  },
+  "Gaddafi Stadium, Lahore": {
+    "raw_venue_name": "Gaddafi Stadium, Lahore",
+    "canonical_venue_name": "Gaddafi Stadium, Lahore",
+    "canonical_venue_id": "4666efc5",
+    "city": "Lahore",
+    "is_alias_reconciled": true
+  },
+  "Gahanga B Ground, Rwanda": {
+    "raw_venue_name": "Gahanga B Ground, Rwanda",
+    "canonical_venue_name": "Gahanga B Ground, Rwanda",
+    "canonical_venue_id": "8628d177",
+    "city": "Kigali City",
+    "is_alias_reconciled": false
+  },
+  "Gahanga International Cricket Stadium": {
+    "raw_venue_name": "Gahanga International Cricket Stadium",
+    "canonical_venue_name": "Gahanga International Cricket Stadium",
+    "canonical_venue_id": "46d73339",
+    "city": "Kigali City",
+    "is_alias_reconciled": false
+  },
+  "Gahanga International Cricket Stadium, Rwanda": {
+    "raw_venue_name": "Gahanga International Cricket Stadium, Rwanda",
+    "canonical_venue_name": "Gahanga International Cricket Stadium",
+    "canonical_venue_id": "46d73339",
+    "city": "Kigali City",
+    "is_alias_reconciled": true
+  },
+  "Gahanga International Cricket Stadium. Rwanda": {
+    "raw_venue_name": "Gahanga International Cricket Stadium. Rwanda",
+    "canonical_venue_name": "Gahanga International Cricket Stadium. Rwanda",
+    "canonical_venue_id": "071a8a4f",
+    "city": "Kigali City",
+    "is_alias_reconciled": false
+  },
+  "Galle International Stadium": {
+    "raw_venue_name": "Galle International Stadium",
+    "canonical_venue_name": "Galle International Stadium",
+    "canonical_venue_id": "2e3b883d",
+    "city": "Galle",
+    "is_alias_reconciled": false
+  },
+  "Gelephu International Cricket Ground": {
+    "raw_venue_name": "Gelephu International Cricket Ground",
+    "canonical_venue_name": "Gelephu International Cricket Ground",
+    "canonical_venue_id": "7f9a226a",
+    "city": "Gelephu",
+    "is_alias_reconciled": false
+  },
+  "Gokaraju Liala Gangaaraju ACA Cricket Ground": {
+    "raw_venue_name": "Gokaraju Liala Gangaaraju ACA Cricket Ground",
+    "canonical_venue_name": "Gokaraju Liala Gangaaraju ACA Cricket Ground",
+    "canonical_venue_id": "6136647a",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Goldenacre, Edinburgh": {
+    "raw_venue_name": "Goldenacre, Edinburgh",
+    "canonical_venue_name": "Goldenacre, Edinburgh",
+    "canonical_venue_id": "10c0ea34",
+    "city": "Edinburgh",
+    "is_alias_reconciled": false
+  },
+  "Goodyear Park": {
+    "raw_venue_name": "Goodyear Park",
+    "canonical_venue_name": "Goodyear Park",
+    "canonical_venue_id": "b84704bb",
+    "city": "Bloemfontein",
+    "is_alias_reconciled": false
+  },
+  "Goodyear Park, Bloemfontein": {
+    "raw_venue_name": "Goodyear Park, Bloemfontein",
+    "canonical_venue_name": "Goodyear Park, Bloemfontein",
+    "canonical_venue_id": "fd26f7a6",
+    "city": "Bloemfontein",
+    "is_alias_reconciled": false
+  },
+  "Grainville, St Saviour": {
+    "raw_venue_name": "Grainville, St Saviour",
+    "canonical_venue_name": "Grainville, St Saviour",
+    "canonical_venue_id": "909b43e8",
+    "city": "St Saviour",
+    "is_alias_reconciled": false
+  },
+  "Grand Prairie Stadium, Dallas": {
+    "raw_venue_name": "Grand Prairie Stadium, Dallas",
+    "canonical_venue_name": "Grand Prairie Stadium, Dallas",
+    "canonical_venue_id": "aeb7f2e0",
+    "city": "Dallas",
+    "is_alias_reconciled": false
+  },
+  "Grange Cricket Club Ground, Raeburn Place": {
+    "raw_venue_name": "Grange Cricket Club Ground, Raeburn Place",
+    "canonical_venue_name": "Grange Cricket Club Ground, Raeburn Place",
+    "canonical_venue_id": "d5707180",
+    "city": "Edinburgh",
+    "is_alias_reconciled": false
+  },
+  "Grange Cricket Club Ground, Raeburn Place, Edinburgh": {
+    "raw_venue_name": "Grange Cricket Club Ground, Raeburn Place, Edinburgh",
+    "canonical_venue_name": "Grange Cricket Club Ground, Raeburn Place, Edinburgh",
+    "canonical_venue_id": "1836a93e",
+    "city": "Edinburgh",
+    "is_alias_reconciled": false
+  },
+  "Grange Cricket Club, Raeburn Place": {
+    "raw_venue_name": "Grange Cricket Club, Raeburn Place",
+    "canonical_venue_name": "Grange Cricket Club, Raeburn Place",
+    "canonical_venue_id": "494281eb",
+    "city": "Edinburgh",
+    "is_alias_reconciled": false
+  },
+  "Great Barrier Reef Arena, Mackay": {
+    "raw_venue_name": "Great Barrier Reef Arena, Mackay",
+    "canonical_venue_name": "Great Barrier Reef Arena, Mackay",
+    "canonical_venue_id": "243addb1",
+    "city": "Mackay",
+    "is_alias_reconciled": false
+  },
+  "Green Park": {
+    "raw_venue_name": "Green Park",
+    "canonical_venue_name": "Green Park",
+    "canonical_venue_id": "a072b1ea",
+    "city": "Kanpur",
+    "is_alias_reconciled": false
+  },
+  "Green Park, Kanpur": {
+    "raw_venue_name": "Green Park, Kanpur",
+    "canonical_venue_name": "Green Park, Kanpur",
+    "canonical_venue_id": "9dd68e5f",
+    "city": "Kanpur",
+    "is_alias_reconciled": true
+  },
+  "Greenfield International Stadium": {
+    "raw_venue_name": "Greenfield International Stadium",
+    "canonical_venue_name": "Greenfield International Stadium",
+    "canonical_venue_id": "7b32f72d",
+    "city": "Thiruvananthapuram",
+    "is_alias_reconciled": false
+  },
+  "Greenfield International Stadium, Thiruvananthapuram": {
+    "raw_venue_name": "Greenfield International Stadium, Thiruvananthapuram",
+    "canonical_venue_name": "Greenfield International Stadium, Thiruvananthapuram",
+    "canonical_venue_id": "a5199fe6",
+    "city": "Thiruvananthapuram",
+    "is_alias_reconciled": false
+  },
+  "Greenfield Stadium": {
+    "raw_venue_name": "Greenfield Stadium",
+    "canonical_venue_name": "Greenfield Stadium",
+    "canonical_venue_id": "7fc1fb90",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Gucherre Cricket Ground": {
+    "raw_venue_name": "Gucherre Cricket Ground",
+    "canonical_venue_name": "Gucherre Cricket Ground",
+    "canonical_venue_id": "1eb99378",
+    "city": "Albergaria",
+    "is_alias_reconciled": false
+  },
+  "Guernsey Rovers Athletic Club Ground, Port Soif": {
+    "raw_venue_name": "Guernsey Rovers Athletic Club Ground, Port Soif",
+    "canonical_venue_name": "Guernsey Rovers Athletic Club Ground, Port Soif",
+    "canonical_venue_id": "2ee9bcb4",
+    "city": "Port  Soif",
+    "is_alias_reconciled": false
+  },
+  "Gurugram Cricket Ground (SRNCC)": {
+    "raw_venue_name": "Gurugram Cricket Ground (SRNCC)",
+    "canonical_venue_name": "Gurugram Cricket Ground (SRNCC)",
+    "canonical_venue_id": "45f67277",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Gymkhana Club Ground": {
+    "raw_venue_name": "Gymkhana Club Ground",
+    "canonical_venue_name": "Gymkhana Club Ground",
+    "canonical_venue_id": "72b2771d",
+    "city": "Nairobi",
+    "is_alias_reconciled": false
+  },
+  "Gymkhana Club Ground, Dar-es-Salaam": {
+    "raw_venue_name": "Gymkhana Club Ground, Dar-es-Salaam",
+    "canonical_venue_name": "Gymkhana Club Ground, Dar-es-Salaam",
+    "canonical_venue_id": "18479c2c",
+    "city": "Dar-es-Salaam",
+    "is_alias_reconciled": false
+  },
+  "Gymkhana Club Ground, Nairobi": {
+    "raw_venue_name": "Gymkhana Club Ground, Nairobi",
+    "canonical_venue_name": "Gymkhana Club Ground, Nairobi",
+    "canonical_venue_id": "8243d26f",
+    "city": "Nairobi",
+    "is_alias_reconciled": false
+  },
+  "Hagley Oval": {
+    "raw_venue_name": "Hagley Oval",
+    "canonical_venue_name": "Hagley Oval",
+    "canonical_venue_id": "6435e554",
+    "city": "Christchurch",
+    "is_alias_reconciled": false
+  },
+  "Hagley Oval, Christchurch": {
+    "raw_venue_name": "Hagley Oval, Christchurch",
+    "canonical_venue_name": "Hagley Oval, Christchurch",
+    "canonical_venue_id": "7152cefb",
+    "city": "Christchurch",
+    "is_alias_reconciled": true
+  },
+  "Happy Valley Ground": {
+    "raw_venue_name": "Happy Valley Ground",
+    "canonical_venue_name": "Happy Valley Ground",
+    "canonical_venue_id": "16c39b70",
+    "city": "Episkopi",
+    "is_alias_reconciled": false
+  },
+  "Happy Valley Ground 2": {
+    "raw_venue_name": "Happy Valley Ground 2",
+    "canonical_venue_name": "Happy Valley Ground 2",
+    "canonical_venue_id": "7471f8d1",
+    "city": "Episkopi",
+    "is_alias_reconciled": false
+  },
+  "Harare Sports Club": {
+    "raw_venue_name": "Harare Sports Club",
+    "canonical_venue_name": "Harare Sports Club",
+    "canonical_venue_id": "586b8dfc",
+    "city": "Harare",
+    "is_alias_reconciled": false
+  },
+  "Hazelaarweg": {
+    "raw_venue_name": "Hazelaarweg",
+    "canonical_venue_name": "Hazelaarweg",
+    "canonical_venue_id": "adef0aae",
+    "city": "Rotterdam",
+    "is_alias_reconciled": false
+  },
+  "Hazelaarweg, Rotterdam": {
+    "raw_venue_name": "Hazelaarweg, Rotterdam",
+    "canonical_venue_name": "Hazelaarweg, Rotterdam",
+    "canonical_venue_id": "c95f9178",
+    "city": "Rotterdam",
+    "is_alias_reconciled": false
+  },
+  "Headingley": {
+    "raw_venue_name": "Headingley",
+    "canonical_venue_name": "Headingley",
+    "canonical_venue_id": "7e0fa9a4",
+    "city": "Leeds",
+    "is_alias_reconciled": false
+  },
+  "Headingley, Leeds": {
+    "raw_venue_name": "Headingley, Leeds",
+    "canonical_venue_name": "Headingley, Leeds",
+    "canonical_venue_id": "e2460d7d",
+    "city": "Leeds",
+    "is_alias_reconciled": false
+  },
+  "High Performance Oval, Windhoek": {
+    "raw_venue_name": "High Performance Oval, Windhoek",
+    "canonical_venue_name": "High Performance Oval, Windhoek",
+    "canonical_venue_id": "2895d86a",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "Himachal Pradesh Cricket Association Stadium": {
+    "raw_venue_name": "Himachal Pradesh Cricket Association Stadium",
+    "canonical_venue_name": "Himachal Pradesh Cricket Association Stadium",
+    "canonical_venue_id": "fe8f0c2a",
+    "city": "Dharamsala",
+    "is_alias_reconciled": false
+  },
+  "Himachal Pradesh Cricket Association Stadium, Dharamsala": {
+    "raw_venue_name": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+    "canonical_venue_name": "Himachal Pradesh Cricket Association Stadium, Dharamsala",
+    "canonical_venue_id": "0ffad4ca",
+    "city": "Dharamsala",
+    "is_alias_reconciled": false
+  },
+  "Holkar Cricket Stadium": {
+    "raw_venue_name": "Holkar Cricket Stadium",
+    "canonical_venue_name": "Holkar Cricket Stadium",
+    "canonical_venue_id": "8a8f7918",
+    "city": "Indore",
+    "is_alias_reconciled": false
+  },
+  "Holkar Cricket Stadium, Indore": {
+    "raw_venue_name": "Holkar Cricket Stadium, Indore",
+    "canonical_venue_name": "Holkar Cricket Stadium, Indore",
+    "canonical_venue_id": "354f95b9",
+    "city": "Indore",
+    "is_alias_reconciled": true
+  },
+  "Holkar Stadium": {
+    "raw_venue_name": "Holkar Stadium",
+    "canonical_venue_name": "Holkar Stadium",
+    "canonical_venue_id": "a2b27d07",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Hurlingham Club Ground, Buenos Aires": {
+    "raw_venue_name": "Hurlingham Club Ground, Buenos Aires",
+    "canonical_venue_name": "Hurlingham Club Ground, Buenos Aires",
+    "canonical_venue_id": "3554bc61",
+    "city": "Buenos Aires",
+    "is_alias_reconciled": false
+  },
+  "IC-Gurunanak College Ground": {
+    "raw_venue_name": "IC-Gurunanak College Ground",
+    "canonical_venue_name": "IC-Gurunanak College Ground",
+    "canonical_venue_id": "323b6de7",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "ICC Academy": {
+    "raw_venue_name": "ICC Academy",
+    "canonical_venue_name": "ICC Academy",
+    "canonical_venue_id": "891680fb",
+    "city": "Dubai",
+    "is_alias_reconciled": false
+  },
+  "ICC Academy Ground No 2": {
+    "raw_venue_name": "ICC Academy Ground No 2",
+    "canonical_venue_name": "ICC Academy Ground No 2",
+    "canonical_venue_id": "c8d6aa78",
+    "city": "Dubai",
+    "is_alias_reconciled": false
+  },
+  "ICC Academy, Dubai": {
+    "raw_venue_name": "ICC Academy, Dubai",
+    "canonical_venue_name": "ICC Academy, Dubai",
+    "canonical_venue_id": "abca06f8",
+    "city": "Dubai",
+    "is_alias_reconciled": false
+  },
+  "ICC Global Cricket Academy": {
+    "raw_venue_name": "ICC Global Cricket Academy",
+    "canonical_venue_name": "ICC Global Cricket Academy",
+    "canonical_venue_id": "ef5b3e16",
+    "city": "Dubai",
+    "is_alias_reconciled": false
+  },
+  "Independence Park, Port Vila": {
+    "raw_venue_name": "Independence Park, Port Vila",
+    "canonical_venue_name": "Independence Park, Port Vila",
+    "canonical_venue_id": "6f6d378f",
+    "city": "Port Vila",
+    "is_alias_reconciled": false
+  },
+  "Indian Association Ground": {
+    "raw_venue_name": "Indian Association Ground",
+    "canonical_venue_name": "Indian Association Ground",
+    "canonical_venue_id": "57d973a3",
+    "city": "Singapore",
+    "is_alias_reconciled": false
+  },
+  "Indian Association Ground, Singapore": {
+    "raw_venue_name": "Indian Association Ground, Singapore",
+    "canonical_venue_name": "Indian Association Ground, Singapore",
+    "canonical_venue_id": "a37478fa",
+    "city": "Singapore",
+    "is_alias_reconciled": false
+  },
+  "Indian Petrochemicals Corporation Limited Sports Complex Ground": {
+    "raw_venue_name": "Indian Petrochemicals Corporation Limited Sports Complex Ground",
+    "canonical_venue_name": "Indian Petrochemicals Corporation Limited Sports Complex Ground",
+    "canonical_venue_id": "aa3df584",
+    "city": "Vadodara",
+    "is_alias_reconciled": false
+  },
+  "Integrated Polytechnic Regional Centre": {
+    "raw_venue_name": "Integrated Polytechnic Regional Centre",
+    "canonical_venue_name": "Integrated Polytechnic Regional Centre",
+    "canonical_venue_id": "a1f117e2",
+    "city": "Kigali City",
+    "is_alias_reconciled": false
+  },
+  "Iqbal Stadium": {
+    "raw_venue_name": "Iqbal Stadium",
+    "canonical_venue_name": "Iqbal Stadium",
+    "canonical_venue_id": "7524a8c4",
+    "city": "Faisalabad",
+    "is_alias_reconciled": false
+  },
+  "Iqbal Stadium, Faisalabad": {
+    "raw_venue_name": "Iqbal Stadium, Faisalabad",
+    "canonical_venue_name": "Iqbal Stadium, Faisalabad",
+    "canonical_venue_id": "dab94618",
+    "city": "Faisalabad",
+    "is_alias_reconciled": false
+  },
+  "Ishoj Cricket Club, Vejledalen": {
+    "raw_venue_name": "Ishoj Cricket Club, Vejledalen",
+    "canonical_venue_name": "Ishoj Cricket Club, Vejledalen",
+    "canonical_venue_id": "81b7b409",
+    "city": "Ishoj",
+    "is_alias_reconciled": false
+  },
+  "JSCA International Stadium Complex": {
+    "raw_venue_name": "JSCA International Stadium Complex",
+    "canonical_venue_name": "JSCA International Stadium Complex",
+    "canonical_venue_id": "7a847d9f",
+    "city": "Ranchi",
+    "is_alias_reconciled": false
+  },
+  "JSCA International Stadium Complex, Ranchi": {
+    "raw_venue_name": "JSCA International Stadium Complex, Ranchi",
+    "canonical_venue_name": "JSCA International Stadium Complex, Ranchi",
+    "canonical_venue_id": "cc5717a5",
+    "city": "Ranchi",
+    "is_alias_reconciled": false
+  },
+  "JU Second Campus, Salt Lake": {
+    "raw_venue_name": "JU Second Campus, Salt Lake",
+    "canonical_venue_name": "JU Second Campus, Salt Lake",
+    "canonical_venue_id": "cd545608",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Jadavpur University Campus": {
+    "raw_venue_name": "Jadavpur University Campus",
+    "canonical_venue_name": "Jadavpur University Campus",
+    "canonical_venue_id": "798043d3",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Jadavpur University Campus 2nd Ground, Kolkata": {
+    "raw_venue_name": "Jadavpur University Campus 2nd Ground, Kolkata",
+    "canonical_venue_name": "Jadavpur University Campus 2nd Ground, Kolkata",
+    "canonical_venue_id": "0b842995",
+    "city": "Kolkata",
+    "is_alias_reconciled": false
+  },
+  "Jade Stadium": {
+    "raw_venue_name": "Jade Stadium",
+    "canonical_venue_name": "Jade Stadium",
+    "canonical_venue_id": "0c75fdf0",
+    "city": "Christchurch",
+    "is_alias_reconciled": false
+  },
+  "Jade Stadium, Christchurch": {
+    "raw_venue_name": "Jade Stadium, Christchurch",
+    "canonical_venue_name": "Jade Stadium, Christchurch",
+    "canonical_venue_id": "1ee809ac",
+    "city": "Christchurch",
+    "is_alias_reconciled": false
+  },
+  "Jaffery Sports Club Ground": {
+    "raw_venue_name": "Jaffery Sports Club Ground",
+    "canonical_venue_name": "Jaffery Sports Club Ground",
+    "canonical_venue_id": "d6358a86",
+    "city": "Nairobi",
+    "is_alias_reconciled": false
+  },
+  "Jawaharlal Nehru Stadium": {
+    "raw_venue_name": "Jawaharlal Nehru Stadium",
+    "canonical_venue_name": "Jawaharlal Nehru Stadium",
+    "canonical_venue_id": "8dffa88c",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Jimmy Powell Oval, Cayman Islands": {
+    "raw_venue_name": "Jimmy Powell Oval, Cayman Islands",
+    "canonical_venue_name": "Jimmy Powell Oval, Cayman Islands",
+    "canonical_venue_id": "ad566198",
+    "city": "George Town",
+    "is_alias_reconciled": false
+  },
+  "Jinja Cricket Ground": {
+    "raw_venue_name": "Jinja Cricket Ground",
+    "canonical_venue_name": "Jinja Cricket Ground",
+    "canonical_venue_id": "0833d69a",
+    "city": "Jinja",
+    "is_alias_reconciled": false
+  },
+  "John Davies Oval": {
+    "raw_venue_name": "John Davies Oval",
+    "canonical_venue_name": "John Davies Oval",
+    "canonical_venue_id": "6767cb94",
+    "city": "Queenstown",
+    "is_alias_reconciled": false
+  },
+  "John Davies Oval, Queenstown": {
+    "raw_venue_name": "John Davies Oval, Queenstown",
+    "canonical_venue_name": "John Davies Oval, Queenstown",
+    "canonical_venue_id": "bd186851",
+    "city": "Queenstown",
+    "is_alias_reconciled": false
+  },
+  "KSCA Cricket Ground, Alur": {
+    "raw_venue_name": "KSCA Cricket Ground, Alur",
+    "canonical_venue_name": "KSCA Cricket Ground, Alur",
+    "canonical_venue_id": "d7fd34cc",
+    "city": "Bengaluru",
+    "is_alias_reconciled": false
+  },
+  "Keenan Stadium": {
+    "raw_venue_name": "Keenan Stadium",
+    "canonical_venue_name": "Keenan Stadium",
+    "canonical_venue_id": "f9759e74",
+    "city": "Jamshedpur",
+    "is_alias_reconciled": false
+  },
+  "Kennington Oval": {
+    "raw_venue_name": "Kennington Oval",
+    "canonical_venue_name": "Kennington Oval",
+    "canonical_venue_id": "769ff79a",
+    "city": "London",
+    "is_alias_reconciled": false
+  },
+  "Kennington Oval, London": {
+    "raw_venue_name": "Kennington Oval, London",
+    "canonical_venue_name": "Kennington Oval, London",
+    "canonical_venue_id": "da0a9ba0",
+    "city": "London",
+    "is_alias_reconciled": false
+  },
+  "Kensington Oval": {
+    "raw_venue_name": "Kensington Oval",
+    "canonical_venue_name": "Kensington Oval",
+    "canonical_venue_id": "d2a4ff70",
+    "city": "Bridgetown",
+    "is_alias_reconciled": false
+  },
+  "Kensington Oval, Barbados": {
+    "raw_venue_name": "Kensington Oval, Barbados",
+    "canonical_venue_name": "Kensington Oval, Barbados",
+    "canonical_venue_id": "a9b9fc2a",
+    "city": "Bridgetown",
+    "is_alias_reconciled": false
+  },
+  "Kensington Oval, Bridgetown": {
+    "raw_venue_name": "Kensington Oval, Bridgetown",
+    "canonical_venue_name": "Kensington Oval, Bridgetown",
+    "canonical_venue_id": "64f12ba9",
+    "city": "Barbados",
+    "is_alias_reconciled": false
+  },
+  "Kensington Oval, Bridgetown, Barbados": {
+    "raw_venue_name": "Kensington Oval, Bridgetown, Barbados",
+    "canonical_venue_name": "Kensington Oval, Bridgetown",
+    "canonical_venue_id": "64f12ba9",
+    "city": "Bridgetown",
+    "is_alias_reconciled": true
+  },
+  "Kerava National Cricket Ground": {
+    "raw_venue_name": "Kerava National Cricket Ground",
+    "canonical_venue_name": "Kerava National Cricket Ground",
+    "canonical_venue_id": "d0a4bce0",
+    "city": "Kerava",
+    "is_alias_reconciled": false
+  },
+  "Khan Shaheb Osman Ali Stadium": {
+    "raw_venue_name": "Khan Shaheb Osman Ali Stadium",
+    "canonical_venue_name": "Khan Shaheb Osman Ali Stadium",
+    "canonical_venue_id": "57425538",
+    "city": "Fatullah",
+    "is_alias_reconciled": false
+  },
+  "King George V Sports Ground": {
+    "raw_venue_name": "King George V Sports Ground",
+    "canonical_venue_name": "King George V Sports Ground",
+    "canonical_venue_id": "9c08f84b",
+    "city": "Castel",
+    "is_alias_reconciled": false
+  },
+  "King George V Sports Ground, Castel": {
+    "raw_venue_name": "King George V Sports Ground, Castel",
+    "canonical_venue_name": "King George V Sports Ground, Castel",
+    "canonical_venue_id": "3171c7b8",
+    "city": "Castel",
+    "is_alias_reconciled": false
+  },
+  "Kingsmead": {
+    "raw_venue_name": "Kingsmead",
+    "canonical_venue_name": "Kingsmead",
+    "canonical_venue_id": "c57b41e3",
+    "city": "Durban",
+    "is_alias_reconciled": false
+  },
+  "Kingsmead, Durban": {
+    "raw_venue_name": "Kingsmead, Durban",
+    "canonical_venue_name": "Kingsmead, Durban",
+    "canonical_venue_id": "25b64fb5",
+    "city": "Durban",
+    "is_alias_reconciled": true
+  },
+  "Kinrara Academy Oval": {
+    "raw_venue_name": "Kinrara Academy Oval",
+    "canonical_venue_name": "Kinrara Academy Oval",
+    "canonical_venue_id": "0965f1ef",
+    "city": "Kuala Lumpur",
+    "is_alias_reconciled": false
+  },
+  "Koge Cricket Club": {
+    "raw_venue_name": "Koge Cricket Club",
+    "canonical_venue_name": "Koge Cricket Club",
+    "canonical_venue_id": "d86be9cc",
+    "city": "Koge",
+    "is_alias_reconciled": false
+  },
+  "Korogi Sports Park": {
+    "raw_venue_name": "Korogi Sports Park",
+    "canonical_venue_name": "Korogi Sports Park",
+    "canonical_venue_id": "bef5bb0f",
+    "city": "Nisshin",
+    "is_alias_reconciled": false
+  },
+  "Korogi Sports Park, Nisshin": {
+    "raw_venue_name": "Korogi Sports Park, Nisshin",
+    "canonical_venue_name": "Korogi Sports Park, Nisshin",
+    "canonical_venue_id": "d1f2d788",
+    "city": "Nisshin",
+    "is_alias_reconciled": false
+  },
+  "Kotambi Stadium, Vadodara": {
+    "raw_venue_name": "Kotambi Stadium, Vadodara",
+    "canonical_venue_name": "Kotambi Stadium, Vadodara",
+    "canonical_venue_id": "5057d88a",
+    "city": "Vadodara",
+    "is_alias_reconciled": false
+  },
+  "Kyambogo Cricket Oval": {
+    "raw_venue_name": "Kyambogo Cricket Oval",
+    "canonical_venue_name": "Kyambogo Cricket Oval",
+    "canonical_venue_id": "da432938",
+    "city": "Kampala",
+    "is_alias_reconciled": false
+  },
+  "La Manga Club Bottom Ground": {
+    "raw_venue_name": "La Manga Club Bottom Ground",
+    "canonical_venue_name": "La Manga Club Bottom Ground",
+    "canonical_venue_id": "84f619cb",
+    "city": "Murcia",
+    "is_alias_reconciled": false
+  },
+  "La Manga Club Top Ground": {
+    "raw_venue_name": "La Manga Club Top Ground",
+    "canonical_venue_name": "La Manga Club Top Ground",
+    "canonical_venue_id": "7090ad54",
+    "city": "Murcia",
+    "is_alias_reconciled": false
+  },
+  "Lal Bahadur Shastri Stadium, Hyderabad, Deccan": {
+    "raw_venue_name": "Lal Bahadur Shastri Stadium, Hyderabad, Deccan",
+    "canonical_venue_name": "Lal Bahadur Shastri Stadium, Hyderabad, Deccan",
+    "canonical_venue_id": "60ce0fe1",
+    "city": "Hyderabad",
+    "is_alias_reconciled": false
+  },
+  "Lalbhai Contractor Stadium": {
+    "raw_venue_name": "Lalbhai Contractor Stadium",
+    "canonical_venue_name": "Lalbhai Contractor Stadium",
+    "canonical_venue_id": "fb6511cb",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Lisicji Jarak Cricket Ground": {
+    "raw_venue_name": "Lisicji Jarak Cricket Ground",
+    "canonical_venue_name": "Lisicji Jarak Cricket Ground",
+    "canonical_venue_id": "83f77c1e",
+    "city": "Belgrade",
+    "is_alias_reconciled": false
+  },
+  "Lord's": {
+    "raw_venue_name": "Lord's",
+    "canonical_venue_name": "Lord's",
+    "canonical_venue_id": "c6e9ea3f",
+    "city": "London",
+    "is_alias_reconciled": false
+  },
+  "Lord's, London": {
+    "raw_venue_name": "Lord's, London",
+    "canonical_venue_name": "Lord's, London",
+    "canonical_venue_id": "8bc5e5b2",
+    "city": "London",
+    "is_alias_reconciled": false
+  },
+  "Los Pinos Polo Club 1, Cundinamarca": {
+    "raw_venue_name": "Los Pinos Polo Club 1, Cundinamarca",
+    "canonical_venue_name": "Los Pinos Polo Club 1, Cundinamarca",
+    "canonical_venue_id": "6eaf2d19",
+    "city": "Bogota",
+    "is_alias_reconciled": false
+  },
+  "Los Pinos Polo Club 2, Cundinamarca": {
+    "raw_venue_name": "Los Pinos Polo Club 2, Cundinamarca",
+    "canonical_venue_name": "Los Pinos Polo Club 2, Cundinamarca",
+    "canonical_venue_id": "36c0b33a",
+    "city": "Bogota",
+    "is_alias_reconciled": false
+  },
+  "Los Reyes Polo Club": {
+    "raw_venue_name": "Los Reyes Polo Club",
+    "canonical_venue_name": "Los Reyes Polo Club",
+    "canonical_venue_id": "41ad418e",
+    "city": "Guacima",
+    "is_alias_reconciled": false
+  },
+  "Lugogo Cricket Oval": {
+    "raw_venue_name": "Lugogo Cricket Oval",
+    "canonical_venue_name": "Lugogo Cricket Oval",
+    "canonical_venue_id": "3ffd0d24",
+    "city": "Kampala",
+    "is_alias_reconciled": false
+  },
+  "M Chinnaswamy Stadium": {
+    "raw_venue_name": "M Chinnaswamy Stadium",
+    "canonical_venue_name": "M Chinnaswamy Stadium",
+    "canonical_venue_id": "8ab52f3f",
+    "city": "Bangalore",
+    "is_alias_reconciled": false
+  },
+  "M Chinnaswamy Stadium, Bangalore": {
+    "raw_venue_name": "M Chinnaswamy Stadium, Bangalore",
+    "canonical_venue_name": "M Chinnaswamy Stadium",
+    "canonical_venue_id": "8ab52f3f",
+    "city": "Bengaluru",
+    "is_alias_reconciled": true
+  },
+  "M Chinnaswamy Stadium, Bengaluru": {
+    "raw_venue_name": "M Chinnaswamy Stadium, Bengaluru",
+    "canonical_venue_name": "M Chinnaswamy Stadium, Bengaluru",
+    "canonical_venue_id": "351ac0b1",
+    "city": "Bengaluru",
+    "is_alias_reconciled": true
+  },
+  "M.Chinnaswamy Stadium": {
+    "raw_venue_name": "M.Chinnaswamy Stadium",
+    "canonical_venue_name": "M Chinnaswamy Stadium",
+    "canonical_venue_id": "8ab52f3f",
+    "city": "Bengaluru",
+    "is_alias_reconciled": true
+  },
+  "MA Aziz Stadium": {
+    "raw_venue_name": "MA Aziz Stadium",
+    "canonical_venue_name": "MA Aziz Stadium",
+    "canonical_venue_id": "10122364",
+    "city": "Chattogram",
+    "is_alias_reconciled": false
+  },
+  "MA Aziz Stadium, Chittagong": {
+    "raw_venue_name": "MA Aziz Stadium, Chittagong",
+    "canonical_venue_name": "MA Aziz Stadium, Chittagong",
+    "canonical_venue_id": "e93fecd4",
+    "city": "Chattogram",
+    "is_alias_reconciled": false
+  },
+  "MA Chidambaram Stadium": {
+    "raw_venue_name": "MA Chidambaram Stadium",
+    "canonical_venue_name": "MA Chidambaram Stadium",
+    "canonical_venue_id": "6b0a6071",
+    "city": "Chennai",
+    "is_alias_reconciled": true
+  },
+  "MA Chidambaram Stadium, Chepauk": {
+    "raw_venue_name": "MA Chidambaram Stadium, Chepauk",
+    "canonical_venue_name": "MA Chidambaram Stadium, Chepauk",
+    "canonical_venue_id": "a1bc17d0",
+    "city": "Chennai",
+    "is_alias_reconciled": false
+  },
+  "MA Chidambaram Stadium, Chepauk, Chennai": {
+    "raw_venue_name": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "canonical_venue_name": "MA Chidambaram Stadium, Chepauk, Chennai",
+    "canonical_venue_id": "f962b213",
+    "city": "Chennai",
+    "is_alias_reconciled": true
+  },
+  "Madhavrao Scindia Cricket Ground": {
+    "raw_venue_name": "Madhavrao Scindia Cricket Ground",
+    "canonical_venue_name": "Madhavrao Scindia Cricket Ground",
+    "canonical_venue_id": "31a14ccf",
+    "city": "Rajkot",
+    "is_alias_reconciled": false
+  },
+  "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur": {
+    "raw_venue_name": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "canonical_venue_name": "Maharaja Yadavindra Singh International Cricket Stadium, Mullanpur",
+    "canonical_venue_id": "29e3fb67",
+    "city": "Mohali",
+    "is_alias_reconciled": false
+  },
+  "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh": {
+    "raw_venue_name": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "canonical_venue_name": "Maharaja Yadavindra Singh International Cricket Stadium, New Chandigarh",
+    "canonical_venue_id": "98010cd2",
+    "city": "New Chandigarh",
+    "is_alias_reconciled": false
+  },
+  "Maharani Usharaje Trust Cricket Ground": {
+    "raw_venue_name": "Maharani Usharaje Trust Cricket Ground",
+    "canonical_venue_name": "Maharani Usharaje Trust Cricket Ground",
+    "canonical_venue_id": "5f644b2c",
+    "city": "Indore",
+    "is_alias_reconciled": false
+  },
+  "Maharashtra Cricket Association Stadium": {
+    "raw_venue_name": "Maharashtra Cricket Association Stadium",
+    "canonical_venue_name": "Maharashtra Cricket Association Stadium",
+    "canonical_venue_id": "06cbc254",
+    "city": "Pune",
+    "is_alias_reconciled": false
+  },
+  "Maharashtra Cricket Association Stadium, Pune": {
+    "raw_venue_name": "Maharashtra Cricket Association Stadium, Pune",
+    "canonical_venue_name": "Maharashtra Cricket Association Stadium, Pune",
+    "canonical_venue_id": "6f9052c3",
+    "city": "Pune",
+    "is_alias_reconciled": false
+  },
+  "Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa": {
+    "raw_venue_name": "Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",
+    "canonical_venue_name": "Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa",
+    "canonical_venue_id": "818b28be",
+    "city": "Hambantota",
+    "is_alias_reconciled": false
+  },
+  "Malahide": {
+    "raw_venue_name": "Malahide",
+    "canonical_venue_name": "Malahide",
+    "canonical_venue_id": "cd9900d0",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "Malahide, Dublin": {
+    "raw_venue_name": "Malahide, Dublin",
+    "canonical_venue_name": "Malahide, Dublin",
+    "canonical_venue_id": "1601c75d",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "Malkerns Country Club oval": {
+    "raw_venue_name": "Malkerns Country Club oval",
+    "canonical_venue_name": "Malkerns Country Club oval",
+    "canonical_venue_id": "b0b8cab5",
+    "city": "Malkerns",
+    "is_alias_reconciled": false
+  },
+  "Mangaung Oval": {
+    "raw_venue_name": "Mangaung Oval",
+    "canonical_venue_name": "Mangaung Oval",
+    "canonical_venue_id": "30af1818",
+    "city": "Bloemfontein",
+    "is_alias_reconciled": false
+  },
+  "Mangaung Oval, Bloemfontein": {
+    "raw_venue_name": "Mangaung Oval, Bloemfontein",
+    "canonical_venue_name": "Mangaung Oval, Bloemfontein",
+    "canonical_venue_id": "405a8927",
+    "city": "Bloemfontein",
+    "is_alias_reconciled": false
+  },
+  "Mannofield Park": {
+    "raw_venue_name": "Mannofield Park",
+    "canonical_venue_name": "Mannofield Park",
+    "canonical_venue_id": "83fddbb7",
+    "city": "Aberdeen",
+    "is_alias_reconciled": false
+  },
+  "Mannofield Park, Aberdeen": {
+    "raw_venue_name": "Mannofield Park, Aberdeen",
+    "canonical_venue_name": "Mannofield Park, Aberdeen",
+    "canonical_venue_id": "aefff617",
+    "city": "Aberdeen",
+    "is_alias_reconciled": false
+  },
+  "Manuka Oval": {
+    "raw_venue_name": "Manuka Oval",
+    "canonical_venue_name": "Manuka Oval",
+    "canonical_venue_id": "923f25de",
+    "city": "Canberra",
+    "is_alias_reconciled": false
+  },
+  "Manuka Oval, Canberra": {
+    "raw_venue_name": "Manuka Oval, Canberra",
+    "canonical_venue_name": "Manuka Oval",
+    "canonical_venue_id": "923f25de",
+    "city": "Canberra",
+    "is_alias_reconciled": true
+  },
+  "Maple Leaf North-East Ground, King City": {
+    "raw_venue_name": "Maple Leaf North-East Ground, King City",
+    "canonical_venue_name": "Maple Leaf North-East Ground, King City",
+    "canonical_venue_id": "9a308bca",
+    "city": "King City",
+    "is_alias_reconciled": false
+  },
+  "Maple Leaf North-West Ground": {
+    "raw_venue_name": "Maple Leaf North-West Ground",
+    "canonical_venue_name": "Maple Leaf North-West Ground",
+    "canonical_venue_id": "e3137b03",
+    "city": "King City",
+    "is_alias_reconciled": false
+  },
+  "Maple Leaf North-West Ground, King City": {
+    "raw_venue_name": "Maple Leaf North-West Ground, King City",
+    "canonical_venue_name": "Maple Leaf North-West Ground, King City",
+    "canonical_venue_id": "958ee6d0",
+    "city": "King City",
+    "is_alias_reconciled": false
+  },
+  "Marrara Cricket Ground": {
+    "raw_venue_name": "Marrara Cricket Ground",
+    "canonical_venue_name": "Marrara Cricket Ground",
+    "canonical_venue_id": "6e8e57dd",
+    "city": "Darwin",
+    "is_alias_reconciled": false
+  },
+  "Marrara Cricket Ground, Darwin": {
+    "raw_venue_name": "Marrara Cricket Ground, Darwin",
+    "canonical_venue_name": "Marrara Cricket Ground, Darwin",
+    "canonical_venue_id": "76b33ab4",
+    "city": "Darwin",
+    "is_alias_reconciled": false
+  },
+  "Marrara Stadium, Darwin": {
+    "raw_venue_name": "Marrara Stadium, Darwin",
+    "canonical_venue_name": "Marrara Stadium, Darwin",
+    "canonical_venue_id": "0b1f8f1d",
+    "city": "Darwin",
+    "is_alias_reconciled": false
+  },
+  "Marsa Sports Club": {
+    "raw_venue_name": "Marsa Sports Club",
+    "canonical_venue_name": "Marsa Sports Club",
+    "canonical_venue_id": "2bf1e5a1",
+    "city": "Marsa",
+    "is_alias_reconciled": false
+  },
+  "McLean Park": {
+    "raw_venue_name": "McLean Park",
+    "canonical_venue_name": "McLean Park",
+    "canonical_venue_id": "e167b291",
+    "city": "Napier",
+    "is_alias_reconciled": false
+  },
+  "McLean Park, Napier": {
+    "raw_venue_name": "McLean Park, Napier",
+    "canonical_venue_name": "McLean Park, Napier",
+    "canonical_venue_id": "189d0732",
+    "city": "Napier",
+    "is_alias_reconciled": false
+  },
+  "Meersen, Gent": {
+    "raw_venue_name": "Meersen, Gent",
+    "canonical_venue_name": "Meersen, Gent",
+    "canonical_venue_id": "64b4fa0f",
+    "city": "Ghent",
+    "is_alias_reconciled": false
+  },
+  "Melbourne Cricket Ground": {
+    "raw_venue_name": "Melbourne Cricket Ground",
+    "canonical_venue_name": "Melbourne Cricket Ground",
+    "canonical_venue_id": "291a7a33",
+    "city": "Melbourne",
+    "is_alias_reconciled": false
+  },
+  "Mission Road Ground, Mong Kok": {
+    "raw_venue_name": "Mission Road Ground, Mong Kok",
+    "canonical_venue_name": "Mission Road Ground, Mong Kok",
+    "canonical_venue_id": "990bfbaa",
+    "city": "Hong Kong",
+    "is_alias_reconciled": false
+  },
+  "Mission Road Ground, Mong Kok, Hong Kong": {
+    "raw_venue_name": "Mission Road Ground, Mong Kok, Hong Kong",
+    "canonical_venue_name": "Mission Road Ground, Mong Kok, Hong Kong",
+    "canonical_venue_id": "28fea58d",
+    "city": "Mong Kok",
+    "is_alias_reconciled": false
+  },
+  "Mladost Cricket Ground, Zagreb": {
+    "raw_venue_name": "Mladost Cricket Ground, Zagreb",
+    "canonical_venue_name": "Mladost Cricket Ground, Zagreb",
+    "canonical_venue_id": "7f0c8211",
+    "city": "Zagreb",
+    "is_alias_reconciled": false
+  },
+  "Moara Vlasiei Cricket Ground": {
+    "raw_venue_name": "Moara Vlasiei Cricket Ground",
+    "canonical_venue_name": "Moara Vlasiei Cricket Ground",
+    "canonical_venue_id": "6ef7b6bd",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Moara Vlasiei Cricket Ground, Ilfov County": {
+    "raw_venue_name": "Moara Vlasiei Cricket Ground, Ilfov County",
+    "canonical_venue_name": "Moara Vlasiei Cricket Ground, Ilfov County",
+    "canonical_venue_id": "8d94c440",
+    "city": "Ilfov County",
+    "is_alias_reconciled": false
+  },
+  "Mombasa Sports Club Ground": {
+    "raw_venue_name": "Mombasa Sports Club Ground",
+    "canonical_venue_name": "Mombasa Sports Club Ground",
+    "canonical_venue_id": "5ae37798",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Moosa Cricket Stadium, Pearland": {
+    "raw_venue_name": "Moosa Cricket Stadium, Pearland",
+    "canonical_venue_name": "Moosa Cricket Stadium, Pearland",
+    "canonical_venue_id": "ba51d8ac",
+    "city": "Pearland",
+    "is_alias_reconciled": false
+  },
+  "Moses Mabhida Stadium": {
+    "raw_venue_name": "Moses Mabhida Stadium",
+    "canonical_venue_name": "Moses Mabhida Stadium",
+    "canonical_venue_id": "e32a8d38",
+    "city": "Durban",
+    "is_alias_reconciled": false
+  },
+  "Motibaug Cricket Ground": {
+    "raw_venue_name": "Motibaug Cricket Ground",
+    "canonical_venue_name": "Motibaug Cricket Ground",
+    "canonical_venue_id": "e3d97f53",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Mulpani Cricket Ground": {
+    "raw_venue_name": "Mulpani Cricket Ground",
+    "canonical_venue_name": "Mulpani Cricket Ground",
+    "canonical_venue_id": "6bfe7dcf",
+    "city": "Kathmandu",
+    "is_alias_reconciled": false
+  },
+  "Multan Cricket Stadium": {
+    "raw_venue_name": "Multan Cricket Stadium",
+    "canonical_venue_name": "Multan Cricket Stadium",
+    "canonical_venue_id": "c3607be2",
+    "city": "Multan",
+    "is_alias_reconciled": false
+  },
+  "Nahar Singh Stadium": {
+    "raw_venue_name": "Nahar Singh Stadium",
+    "canonical_venue_name": "Nahar Singh Stadium",
+    "canonical_venue_id": "8982c7f5",
+    "city": "Faridabad",
+    "is_alias_reconciled": false
+  },
+  "Nahar Singh Stadium, Faridabad": {
+    "raw_venue_name": "Nahar Singh Stadium, Faridabad",
+    "canonical_venue_name": "Nahar Singh Stadium, Faridabad",
+    "canonical_venue_id": "829f2233",
+    "city": "Faridabad",
+    "is_alias_reconciled": false
+  },
+  "Namibia Cricket Ground, Windhoek": {
+    "raw_venue_name": "Namibia Cricket Ground, Windhoek",
+    "canonical_venue_name": "Namibia Cricket Ground, Windhoek",
+    "canonical_venue_id": "7e666178",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "Narayanganj Osmani Stadium": {
+    "raw_venue_name": "Narayanganj Osmani Stadium",
+    "canonical_venue_name": "Narayanganj Osmani Stadium",
+    "canonical_venue_id": "e30960d2",
+    "city": "Fatullah",
+    "is_alias_reconciled": false
+  },
+  "Narendra Modi Stadium": {
+    "raw_venue_name": "Narendra Modi Stadium",
+    "canonical_venue_name": "Narendra Modi Stadium, Ahmedabad",
+    "canonical_venue_id": "40fcf5d4",
+    "city": "Ahmedabad",
+    "is_alias_reconciled": true
+  },
+  "Narendra Modi Stadium Ground 'A', Motera": {
+    "raw_venue_name": "Narendra Modi Stadium Ground 'A', Motera",
+    "canonical_venue_name": "Narendra Modi Stadium Ground 'A', Motera",
+    "canonical_venue_id": "65b8d0e9",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Narendra Modi Stadium, Ahmedabad": {
+    "raw_venue_name": "Narendra Modi Stadium, Ahmedabad",
+    "canonical_venue_name": "Narendra Modi Stadium, Ahmedabad",
+    "canonical_venue_id": "40fcf5d4",
+    "city": "Ahmedabad",
+    "is_alias_reconciled": false
+  },
+  "Nassau County International Cricket Stadium, New York": {
+    "raw_venue_name": "Nassau County International Cricket Stadium, New York",
+    "canonical_venue_name": "Nassau County International Cricket Stadium, New York",
+    "canonical_venue_id": "4995e3a7",
+    "city": "New York",
+    "is_alias_reconciled": false
+  },
+  "National Cricket Stadium": {
+    "raw_venue_name": "National Cricket Stadium",
+    "canonical_venue_name": "National Cricket Stadium",
+    "canonical_venue_id": "0d6d2ec2",
+    "city": "St George's",
+    "is_alias_reconciled": false
+  },
+  "National Cricket Stadium, Grenada": {
+    "raw_venue_name": "National Cricket Stadium, Grenada",
+    "canonical_venue_name": "National Cricket Stadium, Grenada",
+    "canonical_venue_id": "de77cf31",
+    "city": "St George's",
+    "is_alias_reconciled": false
+  },
+  "National Cricket Stadium, St George's": {
+    "raw_venue_name": "National Cricket Stadium, St George's",
+    "canonical_venue_name": "National Cricket Stadium, St George's",
+    "canonical_venue_id": "e2e03642",
+    "city": "Grenada",
+    "is_alias_reconciled": false
+  },
+  "National Cricket Stadium, St George's, Grenada": {
+    "raw_venue_name": "National Cricket Stadium, St George's, Grenada",
+    "canonical_venue_name": "National Cricket Stadium, St George's, Grenada",
+    "canonical_venue_id": "024d9dc3",
+    "city": "St George's",
+    "is_alias_reconciled": false
+  },
+  "National Sports Academy, Sofia": {
+    "raw_venue_name": "National Sports Academy, Sofia",
+    "canonical_venue_name": "National Sports Academy, Sofia",
+    "canonical_venue_id": "a34fc9bf",
+    "city": "Sofia",
+    "is_alias_reconciled": false
+  },
+  "National Stadium": {
+    "raw_venue_name": "National Stadium",
+    "canonical_venue_name": "National Stadium",
+    "canonical_venue_id": "9e3f5449",
+    "city": "Karachi",
+    "is_alias_reconciled": false
+  },
+  "National Stadium, Hamilton": {
+    "raw_venue_name": "National Stadium, Hamilton",
+    "canonical_venue_name": "National Stadium, Hamilton",
+    "canonical_venue_id": "63f900dc",
+    "city": "Hamilton",
+    "is_alias_reconciled": false
+  },
+  "National Stadium, Karachi": {
+    "raw_venue_name": "National Stadium, Karachi",
+    "canonical_venue_name": "National Stadium, Karachi",
+    "canonical_venue_id": "70795294",
+    "city": "Karachi",
+    "is_alias_reconciled": true
+  },
+  "Nehru Stadium": {
+    "raw_venue_name": "Nehru Stadium",
+    "canonical_venue_name": "Nehru Stadium",
+    "canonical_venue_id": "da41ac59",
+    "city": "Kochi",
+    "is_alias_reconciled": false
+  },
+  "Nehru Stadium, Fatorda": {
+    "raw_venue_name": "Nehru Stadium, Fatorda",
+    "canonical_venue_name": "Nehru Stadium, Fatorda",
+    "canonical_venue_id": "b368fafb",
+    "city": "Margao",
+    "is_alias_reconciled": false
+  },
+  "Nehru Stadium, Poona": {
+    "raw_venue_name": "Nehru Stadium, Poona",
+    "canonical_venue_name": "Nehru Stadium, Poona",
+    "canonical_venue_id": "ae0119af",
+    "city": "Pune",
+    "is_alias_reconciled": false
+  },
+  "New Wanderers Stadium": {
+    "raw_venue_name": "New Wanderers Stadium",
+    "canonical_venue_name": "New Wanderers Stadium",
+    "canonical_venue_id": "3a3ad9dd",
+    "city": "Johannesburg",
+    "is_alias_reconciled": false
+  },
+  "New Wanderers Stadium, Johannesburg": {
+    "raw_venue_name": "New Wanderers Stadium, Johannesburg",
+    "canonical_venue_name": "New Wanderers Stadium, Johannesburg",
+    "canonical_venue_id": "27a98c16",
+    "city": "Johannesburg",
+    "is_alias_reconciled": false
+  },
+  "Newlands": {
+    "raw_venue_name": "Newlands",
+    "canonical_venue_name": "Newlands",
+    "canonical_venue_id": "c438f6cc",
+    "city": "Cape Town",
+    "is_alias_reconciled": false
+  },
+  "Newlands, Cape Town": {
+    "raw_venue_name": "Newlands, Cape Town",
+    "canonical_venue_name": "Newlands, Cape Town",
+    "canonical_venue_id": "a899c2b7",
+    "city": "Cape Town",
+    "is_alias_reconciled": true
+  },
+  "Niaz Stadium, Hyderabad": {
+    "raw_venue_name": "Niaz Stadium, Hyderabad",
+    "canonical_venue_name": "Niaz Stadium, Hyderabad",
+    "canonical_venue_id": "e6dc5746",
+    "city": "Sind",
+    "is_alias_reconciled": false
+  },
+  "Nigeria Cricket Federation Oval 1, Abuja": {
+    "raw_venue_name": "Nigeria Cricket Federation Oval 1, Abuja",
+    "canonical_venue_name": "Nigeria Cricket Federation Oval 1, Abuja",
+    "canonical_venue_id": "dff861a2",
+    "city": "Abuja",
+    "is_alias_reconciled": false
+  },
+  "Nigeria Cricket Federation Oval 2, Abuja": {
+    "raw_venue_name": "Nigeria Cricket Federation Oval 2, Abuja",
+    "canonical_venue_name": "Nigeria Cricket Federation Oval 2, Abuja",
+    "canonical_venue_id": "99d3ce22",
+    "city": "Abuja",
+    "is_alias_reconciled": false
+  },
+  "Niranjan Shah Stadium, Rajkot": {
+    "raw_venue_name": "Niranjan Shah Stadium, Rajkot",
+    "canonical_venue_name": "Niranjan Shah Stadium, Rajkot",
+    "canonical_venue_id": "111abfa0",
+    "city": "Rajkot",
+    "is_alias_reconciled": false
+  },
+  "North West Cricket Stadium, Potchefstroom": {
+    "raw_venue_name": "North West Cricket Stadium, Potchefstroom",
+    "canonical_venue_name": "North West Cricket Stadium, Potchefstroom",
+    "canonical_venue_id": "80fc5774",
+    "city": "Potchefstroom",
+    "is_alias_reconciled": false
+  },
+  "OUTsurance Oval": {
+    "raw_venue_name": "OUTsurance Oval",
+    "canonical_venue_name": "OUTsurance Oval",
+    "canonical_venue_id": "1e1ed9bb",
+    "city": "Bloemfontein",
+    "is_alias_reconciled": false
+  },
+  "Old Hararians": {
+    "raw_venue_name": "Old Hararians",
+    "canonical_venue_name": "Old Hararians",
+    "canonical_venue_id": "b1e96c57",
+    "city": "Harare",
+    "is_alias_reconciled": false
+  },
+  "Old Trafford": {
+    "raw_venue_name": "Old Trafford",
+    "canonical_venue_name": "Old Trafford",
+    "canonical_venue_id": "2a20f4bc",
+    "city": "Manchester",
+    "is_alias_reconciled": false
+  },
+  "Old Trafford, Manchester": {
+    "raw_venue_name": "Old Trafford, Manchester",
+    "canonical_venue_name": "Old Trafford, Manchester",
+    "canonical_venue_id": "ff88475e",
+    "city": "Manchester",
+    "is_alias_reconciled": false
+  },
+  "P Sara Oval": {
+    "raw_venue_name": "P Sara Oval",
+    "canonical_venue_name": "P Sara Oval",
+    "canonical_venue_id": "5c902eee",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "P Saravanamuttu Stadium": {
+    "raw_venue_name": "P Saravanamuttu Stadium",
+    "canonical_venue_name": "P Saravanamuttu Stadium",
+    "canonical_venue_id": "68e71e53",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "Pallekele International Cricket Stadium": {
+    "raw_venue_name": "Pallekele International Cricket Stadium",
+    "canonical_venue_name": "Pallekele International Cricket Stadium",
+    "canonical_venue_id": "b7eee9e3",
+    "city": "Kandy",
+    "is_alias_reconciled": false
+  },
+  "Perth Stadium": {
+    "raw_venue_name": "Perth Stadium",
+    "canonical_venue_name": "Perth Stadium",
+    "canonical_venue_id": "ba1305a8",
+    "city": "Perth",
+    "is_alias_reconciled": false
+  },
+  "Pierre Werner Cricket Ground": {
+    "raw_venue_name": "Pierre Werner Cricket Ground",
+    "canonical_venue_name": "Pierre Werner Cricket Ground",
+    "canonical_venue_id": "15521db8",
+    "city": "Walferdange",
+    "is_alias_reconciled": false
+  },
+  "Prairie View Cricket Complex": {
+    "raw_venue_name": "Prairie View Cricket Complex",
+    "canonical_venue_name": "Prairie View Cricket Complex",
+    "canonical_venue_id": "24c8cc81",
+    "city": "Houston",
+    "is_alias_reconciled": false
+  },
+  "Providence Stadium": {
+    "raw_venue_name": "Providence Stadium",
+    "canonical_venue_name": "Providence Stadium",
+    "canonical_venue_id": "7853516c",
+    "city": "Guyana",
+    "is_alias_reconciled": false
+  },
+  "Providence Stadium, Guyana": {
+    "raw_venue_name": "Providence Stadium, Guyana",
+    "canonical_venue_name": "Providence Stadium, Guyana",
+    "canonical_venue_id": "01a4fdb1",
+    "city": "Providence",
+    "is_alias_reconciled": true
+  },
+  "Punjab Cricket Association IS Bindra Stadium": {
+    "raw_venue_name": "Punjab Cricket Association IS Bindra Stadium",
+    "canonical_venue_name": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "canonical_venue_id": "21052a2d",
+    "city": "Chandigarh",
+    "is_alias_reconciled": true
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali": {
+    "raw_venue_name": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "canonical_venue_name": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "canonical_venue_id": "21052a2d",
+    "city": "Chandigarh",
+    "is_alias_reconciled": false
+  },
+  "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh": {
+    "raw_venue_name": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+    "canonical_venue_name": "Punjab Cricket Association IS Bindra Stadium, Mohali, Chandigarh",
+    "canonical_venue_id": "94bb4183",
+    "city": "Chandigarh",
+    "is_alias_reconciled": false
+  },
+  "Punjab Cricket Association Stadium, Mohali": {
+    "raw_venue_name": "Punjab Cricket Association Stadium, Mohali",
+    "canonical_venue_name": "Punjab Cricket Association IS Bindra Stadium, Mohali",
+    "canonical_venue_id": "21052a2d",
+    "city": "Chandigarh",
+    "is_alias_reconciled": true
+  },
+  "Punjab Cricket Association Stadium, Mohali, Chandigarh": {
+    "raw_venue_name": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+    "canonical_venue_name": "Punjab Cricket Association Stadium, Mohali, Chandigarh",
+    "canonical_venue_id": "f4fe4119",
+    "city": "Chandigarh",
+    "is_alias_reconciled": false
+  },
+  "Queen's Park (New), St George's, Grenada": {
+    "raw_venue_name": "Queen's Park (New), St George's, Grenada",
+    "canonical_venue_name": "Queen's Park (New), St George's, Grenada",
+    "canonical_venue_id": "b6779300",
+    "city": "St George's",
+    "is_alias_reconciled": false
+  },
+  "Queen's Park Oval": {
+    "raw_venue_name": "Queen's Park Oval",
+    "canonical_venue_name": "Queen's Park Oval",
+    "canonical_venue_id": "89979c13",
+    "city": "Port of Spain",
+    "is_alias_reconciled": false
+  },
+  "Queen's Park Oval, Port of Spain": {
+    "raw_venue_name": "Queen's Park Oval, Port of Spain",
+    "canonical_venue_name": "Queen's Park Oval, Port of Spain",
+    "canonical_venue_id": "5f7a940f",
+    "city": "Trinidad",
+    "is_alias_reconciled": false
+  },
+  "Queen's Park Oval, Port of Spain, Trinidad": {
+    "raw_venue_name": "Queen's Park Oval, Port of Spain, Trinidad",
+    "canonical_venue_name": "Queen's Park Oval, Port of Spain, Trinidad",
+    "canonical_venue_id": "d2fdb0fb",
+    "city": "Port of Spain",
+    "is_alias_reconciled": true
+  },
+  "Queen's Park Oval, Trinidad": {
+    "raw_venue_name": "Queen's Park Oval, Trinidad",
+    "canonical_venue_name": "Queen's Park Oval, Trinidad",
+    "canonical_venue_id": "306e16c4",
+    "city": "Port of Spain",
+    "is_alias_reconciled": false
+  },
+  "Queens Sports Club": {
+    "raw_venue_name": "Queens Sports Club",
+    "canonical_venue_name": "Queens Sports Club",
+    "canonical_venue_id": "e4fc8fd4",
+    "city": "Bulawayo",
+    "is_alias_reconciled": false
+  },
+  "Queens Sports Club, Bulawayo": {
+    "raw_venue_name": "Queens Sports Club, Bulawayo",
+    "canonical_venue_name": "Queens Sports Club, Bulawayo",
+    "canonical_venue_id": "81137e75",
+    "city": "Bulawayo",
+    "is_alias_reconciled": false
+  },
+  "Queenstown Events Centre": {
+    "raw_venue_name": "Queenstown Events Centre",
+    "canonical_venue_name": "Queenstown Events Centre",
+    "canonical_venue_id": "f2b98fd6",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "R Premadasa Stadium": {
+    "raw_venue_name": "R Premadasa Stadium",
+    "canonical_venue_name": "R Premadasa Stadium",
+    "canonical_venue_id": "04828d6f",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "R Premadasa Stadium, Colombo": {
+    "raw_venue_name": "R Premadasa Stadium, Colombo",
+    "canonical_venue_name": "R Premadasa Stadium, Colombo",
+    "canonical_venue_id": "146a8a08",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "R.Premadasa Stadium": {
+    "raw_venue_name": "R.Premadasa Stadium",
+    "canonical_venue_name": "R Premadasa Stadium",
+    "canonical_venue_id": "04828d6f",
+    "city": "Colombo",
+    "is_alias_reconciled": true
+  },
+  "R.Premadasa Stadium, Khettarama": {
+    "raw_venue_name": "R.Premadasa Stadium, Khettarama",
+    "canonical_venue_name": "R Premadasa Stadium",
+    "canonical_venue_id": "04828d6f",
+    "city": "Colombo",
+    "is_alias_reconciled": true
+  },
+  "Rajiv Gandhi International Stadium": {
+    "raw_venue_name": "Rajiv Gandhi International Stadium",
+    "canonical_venue_name": "Rajiv Gandhi International Stadium, Uppal",
+    "canonical_venue_id": "5094a793",
+    "city": "Hyderabad",
+    "is_alias_reconciled": true
+  },
+  "Rajiv Gandhi International Stadium, Uppal": {
+    "raw_venue_name": "Rajiv Gandhi International Stadium, Uppal",
+    "canonical_venue_name": "Rajiv Gandhi International Stadium, Uppal",
+    "canonical_venue_id": "5094a793",
+    "city": "Hyderabad",
+    "is_alias_reconciled": false
+  },
+  "Rajiv Gandhi International Stadium, Uppal, Hyderabad": {
+    "raw_venue_name": "Rajiv Gandhi International Stadium, Uppal, Hyderabad",
+    "canonical_venue_name": "Rajiv Gandhi International Stadium, Uppal",
+    "canonical_venue_id": "5094a793",
+    "city": "Hyderabad",
+    "is_alias_reconciled": true
+  },
+  "Rangiri Dambulla International Stadium": {
+    "raw_venue_name": "Rangiri Dambulla International Stadium",
+    "canonical_venue_name": "Rangiri Dambulla International Stadium",
+    "canonical_venue_id": "4bacac99",
+    "city": "Dambulla",
+    "is_alias_reconciled": false
+  },
+  "Rawalpindi Cricket Stadium": {
+    "raw_venue_name": "Rawalpindi Cricket Stadium",
+    "canonical_venue_name": "Rawalpindi Cricket Stadium",
+    "canonical_venue_id": "64e8f8d7",
+    "city": "Rawalpindi",
+    "is_alias_reconciled": false
+  },
+  "Reforma Athletic Club, Naucalpan": {
+    "raw_venue_name": "Reforma Athletic Club, Naucalpan",
+    "canonical_venue_name": "Reforma Athletic Club, Naucalpan",
+    "canonical_venue_id": "865c6c1b",
+    "city": "Naucalpan",
+    "is_alias_reconciled": false
+  },
+  "Reliance Cricket Stadium": {
+    "raw_venue_name": "Reliance Cricket Stadium",
+    "canonical_venue_name": "Reliance Cricket Stadium",
+    "canonical_venue_id": "d06b43b6",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Reliance Stadium": {
+    "raw_venue_name": "Reliance Stadium",
+    "canonical_venue_name": "Reliance Stadium",
+    "canonical_venue_id": "1a62d9b5",
+    "city": "Vadodara",
+    "is_alias_reconciled": false
+  },
+  "Riverside Ground": {
+    "raw_venue_name": "Riverside Ground",
+    "canonical_venue_name": "Riverside Ground",
+    "canonical_venue_id": "5ec638ef",
+    "city": "Chester-le-Street",
+    "is_alias_reconciled": false
+  },
+  "Riverside Ground, Chester-le-Street": {
+    "raw_venue_name": "Riverside Ground, Chester-le-Street",
+    "canonical_venue_name": "Riverside Ground, Chester-le-Street",
+    "canonical_venue_id": "cc767911",
+    "city": "Chester-le-Street",
+    "is_alias_reconciled": false
+  },
+  "Riverway Stadium, Townsville": {
+    "raw_venue_name": "Riverway Stadium, Townsville",
+    "canonical_venue_name": "Riverway Stadium, Townsville",
+    "canonical_venue_id": "8357eaa5",
+    "city": "Townsville",
+    "is_alias_reconciled": false
+  },
+  "Roma Cricket Ground": {
+    "raw_venue_name": "Roma Cricket Ground",
+    "canonical_venue_name": "Roma Cricket Ground",
+    "canonical_venue_id": "6c701055",
+    "city": "Spinaceto",
+    "is_alias_reconciled": false
+  },
+  "Royal Brussels Cricket Club Ground, Waterloo": {
+    "raw_venue_name": "Royal Brussels Cricket Club Ground, Waterloo",
+    "canonical_venue_name": "Royal Brussels Cricket Club Ground, Waterloo",
+    "canonical_venue_id": "cf894f23",
+    "city": "Waterloo",
+    "is_alias_reconciled": false
+  },
+  "Ruaraka Sports Club Ground": {
+    "raw_venue_name": "Ruaraka Sports Club Ground",
+    "canonical_venue_name": "Ruaraka Sports Club Ground",
+    "canonical_venue_id": "d426fbbc",
+    "city": "Nairobi",
+    "is_alias_reconciled": false
+  },
+  "Ruaraka Sports Club Ground, Nairobi": {
+    "raw_venue_name": "Ruaraka Sports Club Ground, Nairobi",
+    "canonical_venue_name": "Ruaraka Sports Club Ground, Nairobi",
+    "canonical_venue_id": "9a0e6fdf",
+    "city": "Nairobi",
+    "is_alias_reconciled": false
+  },
+  "SSN College Ground": {
+    "raw_venue_name": "SSN College Ground",
+    "canonical_venue_name": "SSN College Ground",
+    "canonical_venue_id": "8eb4dd03",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Sabina Park, Jamaica": {
+    "raw_venue_name": "Sabina Park, Jamaica",
+    "canonical_venue_name": "Sabina Park, Jamaica",
+    "canonical_venue_id": "9e382fd5",
+    "city": "Kingston",
+    "is_alias_reconciled": false
+  },
+  "Sabina Park, Kingston": {
+    "raw_venue_name": "Sabina Park, Kingston",
+    "canonical_venue_name": "Sabina Park, Kingston",
+    "canonical_venue_id": "29582885",
+    "city": "Jamaica",
+    "is_alias_reconciled": false
+  },
+  "Sabina Park, Kingston, Jamaica": {
+    "raw_venue_name": "Sabina Park, Kingston, Jamaica",
+    "canonical_venue_name": "Sabina Park, Kingston, Jamaica",
+    "canonical_venue_id": "565205dc",
+    "city": "Kingston",
+    "is_alias_reconciled": false
+  },
+  "Sano International Cricket Ground": {
+    "raw_venue_name": "Sano International Cricket Ground",
+    "canonical_venue_name": "Sano International Cricket Ground",
+    "canonical_venue_id": "34f4a4a5",
+    "city": "Sano",
+    "is_alias_reconciled": false
+  },
+  "Sano International Cricket Ground 2": {
+    "raw_venue_name": "Sano International Cricket Ground 2",
+    "canonical_venue_name": "Sano International Cricket Ground 2",
+    "canonical_venue_id": "5ac4dd65",
+    "city": "Sano",
+    "is_alias_reconciled": false
+  },
+  "Santarem Cricket Ground": {
+    "raw_venue_name": "Santarem Cricket Ground",
+    "canonical_venue_name": "Santarem Cricket Ground",
+    "canonical_venue_id": "ba05ccb6",
+    "city": "Albergaria",
+    "is_alias_reconciled": false
+  },
+  "Sao Fernando Polo and Cricket Club": {
+    "raw_venue_name": "Sao Fernando Polo and Cricket Club",
+    "canonical_venue_name": "Sao Fernando Polo and Cricket Club",
+    "canonical_venue_id": "936544c7",
+    "city": "Seropedica",
+    "is_alias_reconciled": false
+  },
+  "Sao Fernando Polo and Cricket Club, Campo Sede": {
+    "raw_venue_name": "Sao Fernando Polo and Cricket Club, Campo Sede",
+    "canonical_venue_name": "Sao Fernando Polo and Cricket Club, Campo Sede",
+    "canonical_venue_id": "bf1290a8",
+    "city": "Seropedica",
+    "is_alias_reconciled": false
+  },
+  "Sardar Patel (Gujarat) Stadium, Motera": {
+    "raw_venue_name": "Sardar Patel (Gujarat) Stadium, Motera",
+    "canonical_venue_name": "Sardar Patel (Gujarat) Stadium, Motera",
+    "canonical_venue_id": "ae262f33",
+    "city": "Ahmedabad",
+    "is_alias_reconciled": false
+  },
+  "Sardar Patel Stadium": {
+    "raw_venue_name": "Sardar Patel Stadium",
+    "canonical_venue_name": "Sardar Patel Stadium",
+    "canonical_venue_id": "bc37f8db",
+    "city": "Ahmedabad",
+    "is_alias_reconciled": false
+  },
+  "Sardar Patel Stadium, Motera": {
+    "raw_venue_name": "Sardar Patel Stadium, Motera",
+    "canonical_venue_name": "Narendra Modi Stadium, Ahmedabad",
+    "canonical_venue_id": "40fcf5d4",
+    "city": "Ahmedabad",
+    "is_alias_reconciled": true
+  },
+  "Saurashtra Cricket Association Stadium": {
+    "raw_venue_name": "Saurashtra Cricket Association Stadium",
+    "canonical_venue_name": "Saurashtra Cricket Association Stadium",
+    "canonical_venue_id": "0ea8a33c",
+    "city": "Rajkot",
+    "is_alias_reconciled": false
+  },
+  "Saurashtra Cricket Association Stadium, Rajkot": {
+    "raw_venue_name": "Saurashtra Cricket Association Stadium, Rajkot",
+    "canonical_venue_name": "Saurashtra Cricket Association Stadium, Rajkot",
+    "canonical_venue_id": "97ce693c",
+    "city": "Rajkot",
+    "is_alias_reconciled": false
+  },
+  "Sawai Mansingh Stadium": {
+    "raw_venue_name": "Sawai Mansingh Stadium",
+    "canonical_venue_name": "Sawai Mansingh Stadium",
+    "canonical_venue_id": "576e4cc2",
+    "city": "Jaipur",
+    "is_alias_reconciled": false
+  },
+  "Sawai Mansingh Stadium, Jaipur": {
+    "raw_venue_name": "Sawai Mansingh Stadium, Jaipur",
+    "canonical_venue_name": "Sawai Mansingh Stadium, Jaipur",
+    "canonical_venue_id": "5a985b66",
+    "city": "Jaipur",
+    "is_alias_reconciled": true
+  },
+  "Saxton Oval": {
+    "raw_venue_name": "Saxton Oval",
+    "canonical_venue_name": "Saxton Oval",
+    "canonical_venue_id": "ab4007e5",
+    "city": "Nelson",
+    "is_alias_reconciled": false
+  },
+  "Saxton Oval, Nelson": {
+    "raw_venue_name": "Saxton Oval, Nelson",
+    "canonical_venue_name": "Saxton Oval, Nelson",
+    "canonical_venue_id": "f380dc0d",
+    "city": "Nelson",
+    "is_alias_reconciled": false
+  },
+  "Scott Page Field, Vinor": {
+    "raw_venue_name": "Scott Page Field, Vinor",
+    "canonical_venue_name": "Scott Page Field, Vinor",
+    "canonical_venue_id": "221a9746",
+    "city": "Prague",
+    "is_alias_reconciled": false
+  },
+  "Sector 16 Stadium": {
+    "raw_venue_name": "Sector 16 Stadium",
+    "canonical_venue_name": "Sector 16 Stadium",
+    "canonical_venue_id": "9c3e819d",
+    "city": "Chandigarh",
+    "is_alias_reconciled": false
+  },
+  "Seddon Park": {
+    "raw_venue_name": "Seddon Park",
+    "canonical_venue_name": "Seddon Park",
+    "canonical_venue_id": "5652adad",
+    "city": "Hamilton",
+    "is_alias_reconciled": false
+  },
+  "Seddon Park, Hamilton": {
+    "raw_venue_name": "Seddon Park, Hamilton",
+    "canonical_venue_name": "Seddon Park, Hamilton",
+    "canonical_venue_id": "a1d67071",
+    "city": "Hamilton",
+    "is_alias_reconciled": true
+  },
+  "Sedgars Park": {
+    "raw_venue_name": "Sedgars Park",
+    "canonical_venue_name": "Sedgars Park",
+    "canonical_venue_id": "43cd2cdf",
+    "city": "Potchefstroom",
+    "is_alias_reconciled": false
+  },
+  "Sedgars Park, Potchefstroom": {
+    "raw_venue_name": "Sedgars Park, Potchefstroom",
+    "canonical_venue_name": "Sedgars Park, Potchefstroom",
+    "canonical_venue_id": "d0f96beb",
+    "city": "Potchefstroom",
+    "is_alias_reconciled": false
+  },
+  "Selangor Turf Club, Kuala Lumpur": {
+    "raw_venue_name": "Selangor Turf Club, Kuala Lumpur",
+    "canonical_venue_name": "Selangor Turf Club, Kuala Lumpur",
+    "canonical_venue_id": "9efd3a92",
+    "city": "Kuala Lumpur",
+    "is_alias_reconciled": false
+  },
+  "Senwes Park": {
+    "raw_venue_name": "Senwes Park",
+    "canonical_venue_name": "Senwes Park",
+    "canonical_venue_id": "d3a6d22c",
+    "city": "Potchefstroom",
+    "is_alias_reconciled": false
+  },
+  "Senwes Park, Potchefstroom": {
+    "raw_venue_name": "Senwes Park, Potchefstroom",
+    "canonical_venue_name": "Senwes Park, Potchefstroom",
+    "canonical_venue_id": "90c92fbe",
+    "city": "Potchefstroom",
+    "is_alias_reconciled": false
+  },
+  "Shaheed Chandu Stadium": {
+    "raw_venue_name": "Shaheed Chandu Stadium",
+    "canonical_venue_name": "Shaheed Chandu Stadium",
+    "canonical_venue_id": "f6007a72",
+    "city": "Bogra",
+    "is_alias_reconciled": false
+  },
+  "Shaheed Veer Narayan Singh International Stadium": {
+    "raw_venue_name": "Shaheed Veer Narayan Singh International Stadium",
+    "canonical_venue_name": "Shaheed Veer Narayan Singh International Stadium",
+    "canonical_venue_id": "b7a8a1a2",
+    "city": "Raipur",
+    "is_alias_reconciled": false
+  },
+  "Shaheed Veer Narayan Singh International Stadium, Raipur": {
+    "raw_venue_name": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+    "canonical_venue_name": "Shaheed Veer Narayan Singh International Stadium, Raipur",
+    "canonical_venue_id": "5d785c7e",
+    "city": "Raipur",
+    "is_alias_reconciled": false
+  },
+  "Sharad Pawar Cricket Academy BKC": {
+    "raw_venue_name": "Sharad Pawar Cricket Academy BKC",
+    "canonical_venue_name": "Sharad Pawar Cricket Academy BKC",
+    "canonical_venue_id": "705a4059",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Sharjah Cricket Association Stadium": {
+    "raw_venue_name": "Sharjah Cricket Association Stadium",
+    "canonical_venue_name": "Sharjah Cricket Association Stadium",
+    "canonical_venue_id": "40d9924c",
+    "city": "Sharjah",
+    "is_alias_reconciled": false
+  },
+  "Sharjah Cricket Stadium": {
+    "raw_venue_name": "Sharjah Cricket Stadium",
+    "canonical_venue_name": "Sharjah Cricket Stadium",
+    "canonical_venue_id": "2fa1bb17",
+    "city": "Sharjah",
+    "is_alias_reconciled": false
+  },
+  "Sheikh Abu Naser Stadium": {
+    "raw_venue_name": "Sheikh Abu Naser Stadium",
+    "canonical_venue_name": "Sheikh Abu Naser Stadium",
+    "canonical_venue_id": "dd36aa85",
+    "city": "Khulna",
+    "is_alias_reconciled": false
+  },
+  "Sheikh Zayed Stadium": {
+    "raw_venue_name": "Sheikh Zayed Stadium",
+    "canonical_venue_name": "Sheikh Zayed Stadium",
+    "canonical_venue_id": "d2ec1982",
+    "city": "Abu Dhabi",
+    "is_alias_reconciled": false
+  },
+  "Sheikh Zayed Stadium, Abu Dhabi": {
+    "raw_venue_name": "Sheikh Zayed Stadium, Abu Dhabi",
+    "canonical_venue_name": "Sheikh Zayed Stadium, Abu Dhabi",
+    "canonical_venue_id": "12c104c1",
+    "city": "Abu Dhabi",
+    "is_alias_reconciled": false
+  },
+  "Sheikhupura Stadium": {
+    "raw_venue_name": "Sheikhupura Stadium",
+    "canonical_venue_name": "Sheikhupura Stadium",
+    "canonical_venue_id": "3562399b",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Sher-e-Bangla National Cricket Stadium": {
+    "raw_venue_name": "Sher-e-Bangla National Cricket Stadium",
+    "canonical_venue_name": "Sher-e-Bangla National Cricket Stadium",
+    "canonical_venue_id": "7f53a1a8",
+    "city": "Mirpur",
+    "is_alias_reconciled": false
+  },
+  "Shere Bangla National Stadium": {
+    "raw_venue_name": "Shere Bangla National Stadium",
+    "canonical_venue_name": "Shere Bangla National Stadium, Mirpur",
+    "canonical_venue_id": "a167b335",
+    "city": "Mirpur",
+    "is_alias_reconciled": true
+  },
+  "Shere Bangla National Stadium, Mirpur": {
+    "raw_venue_name": "Shere Bangla National Stadium, Mirpur",
+    "canonical_venue_name": "Shere Bangla National Stadium, Mirpur",
+    "canonical_venue_id": "a167b335",
+    "city": "Dhaka",
+    "is_alias_reconciled": false
+  },
+  "Shrimant Madhavrao Scindia Cricket Stadium, Gwalior": {
+    "raw_venue_name": "Shrimant Madhavrao Scindia Cricket Stadium, Gwalior",
+    "canonical_venue_name": "Shrimant Madhavrao Scindia Cricket Stadium, Gwalior",
+    "canonical_venue_id": "87ff0859",
+    "city": "Gwalior",
+    "is_alias_reconciled": false
+  },
+  "Sikh Union Club Ground, Nairobi": {
+    "raw_venue_name": "Sikh Union Club Ground, Nairobi",
+    "canonical_venue_name": "Sikh Union Club Ground, Nairobi",
+    "canonical_venue_id": "3034f586",
+    "city": "Nairobi",
+    "is_alias_reconciled": false
+  },
+  "Simar Cricket Ground, Rome": {
+    "raw_venue_name": "Simar Cricket Ground, Rome",
+    "canonical_venue_name": "Simar Cricket Ground, Rome",
+    "canonical_venue_id": "f371221e",
+    "city": "Rome",
+    "is_alias_reconciled": false
+  },
+  "Simonds Stadium, South Geelong": {
+    "raw_venue_name": "Simonds Stadium, South Geelong",
+    "canonical_venue_name": "Simonds Stadium, South Geelong",
+    "canonical_venue_id": "119eda15",
+    "city": "Victoria",
+    "is_alias_reconciled": false
+  },
+  "Singapore National Cricket Ground": {
+    "raw_venue_name": "Singapore National Cricket Ground",
+    "canonical_venue_name": "Singapore National Cricket Ground",
+    "canonical_venue_id": "03ef7f2f",
+    "city": "Singapore",
+    "is_alias_reconciled": false
+  },
+  "Sinhalese Sports Club": {
+    "raw_venue_name": "Sinhalese Sports Club",
+    "canonical_venue_name": "Sinhalese Sports Club",
+    "canonical_venue_id": "c9912bba",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "Sinhalese Sports Club Ground": {
+    "raw_venue_name": "Sinhalese Sports Club Ground",
+    "canonical_venue_name": "Sinhalese Sports Club Ground",
+    "canonical_venue_id": "eadbad25",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "Sinhalese Sports Club Ground, Colombo": {
+    "raw_venue_name": "Sinhalese Sports Club Ground, Colombo",
+    "canonical_venue_name": "Sinhalese Sports Club Ground, Colombo",
+    "canonical_venue_id": "b9db122f",
+    "city": "Colombo",
+    "is_alias_reconciled": false
+  },
+  "Sir Vivian Richards Stadium": {
+    "raw_venue_name": "Sir Vivian Richards Stadium",
+    "canonical_venue_name": "Sir Vivian Richards Stadium",
+    "canonical_venue_id": "aaef9b22",
+    "city": "North Sound",
+    "is_alias_reconciled": false
+  },
+  "Sir Vivian Richards Stadium, Antigua": {
+    "raw_venue_name": "Sir Vivian Richards Stadium, Antigua",
+    "canonical_venue_name": "Sir Vivian Richards Stadium, Antigua",
+    "canonical_venue_id": "6361077c",
+    "city": "North Sound",
+    "is_alias_reconciled": false
+  },
+  "Sir Vivian Richards Stadium, North Sound": {
+    "raw_venue_name": "Sir Vivian Richards Stadium, North Sound",
+    "canonical_venue_name": "Sir Vivian Richards Stadium, North Sound",
+    "canonical_venue_id": "a5800260",
+    "city": "Antigua",
+    "is_alias_reconciled": false
+  },
+  "Sir Vivian Richards Stadium, North Sound, Antigua": {
+    "raw_venue_name": "Sir Vivian Richards Stadium, North Sound, Antigua",
+    "canonical_venue_name": "Sir Vivian Richards Stadium, North Sound, Antigua",
+    "canonical_venue_id": "a1af6c3f",
+    "city": "North Sound",
+    "is_alias_reconciled": true
+  },
+  "Sky Stadium": {
+    "raw_venue_name": "Sky Stadium",
+    "canonical_venue_name": "Sky Stadium",
+    "canonical_venue_id": "b91c22c8",
+    "city": "Wellington",
+    "is_alias_reconciled": false
+  },
+  "Sky Stadium, Wellington": {
+    "raw_venue_name": "Sky Stadium, Wellington",
+    "canonical_venue_name": "Sky Stadium, Wellington",
+    "canonical_venue_id": "ff69a16e",
+    "city": "Wellington",
+    "is_alias_reconciled": false
+  },
+  "Solvangs Park, Glostrup": {
+    "raw_venue_name": "Solvangs Park, Glostrup",
+    "canonical_venue_name": "Solvangs Park, Glostrup",
+    "canonical_venue_id": "285b8352",
+    "city": "Copenhagen",
+    "is_alias_reconciled": false
+  },
+  "Sophia Gardens": {
+    "raw_venue_name": "Sophia Gardens",
+    "canonical_venue_name": "Sophia Gardens",
+    "canonical_venue_id": "970ac5d5",
+    "city": "Cardiff",
+    "is_alias_reconciled": false
+  },
+  "Sophia Gardens, Cardiff": {
+    "raw_venue_name": "Sophia Gardens, Cardiff",
+    "canonical_venue_name": "Sophia Gardens, Cardiff",
+    "canonical_venue_id": "9eecb9ce",
+    "city": "Cardiff",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Het Schootsveld": {
+    "raw_venue_name": "Sportpark Het Schootsveld",
+    "canonical_venue_name": "Sportpark Het Schootsveld",
+    "canonical_venue_id": "7e3ac248",
+    "city": "Deventer",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Het Schootsveld, Deventer": {
+    "raw_venue_name": "Sportpark Het Schootsveld, Deventer",
+    "canonical_venue_name": "Sportpark Het Schootsveld, Deventer",
+    "canonical_venue_id": "11be924a",
+    "city": "Deventer",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Maarschalkerweerd": {
+    "raw_venue_name": "Sportpark Maarschalkerweerd",
+    "canonical_venue_name": "Sportpark Maarschalkerweerd",
+    "canonical_venue_id": "c3cad3c5",
+    "city": "Utrecht",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Maarschalkerweerd, Utrecht": {
+    "raw_venue_name": "Sportpark Maarschalkerweerd, Utrecht",
+    "canonical_venue_name": "Sportpark Maarschalkerweerd, Utrecht",
+    "canonical_venue_id": "c292277c",
+    "city": "Utrecht",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Westvliet": {
+    "raw_venue_name": "Sportpark Westvliet",
+    "canonical_venue_name": "Sportpark Westvliet",
+    "canonical_venue_id": "eeb27f17",
+    "city": "The Hague",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Westvliet, The Hague": {
+    "raw_venue_name": "Sportpark Westvliet, The Hague",
+    "canonical_venue_name": "Sportpark Westvliet, The Hague",
+    "canonical_venue_id": "86102b7b",
+    "city": "The Hague",
+    "is_alias_reconciled": false
+  },
+  "Sportpark Westvliet, Voorburg": {
+    "raw_venue_name": "Sportpark Westvliet, Voorburg",
+    "canonical_venue_name": "Sportpark Westvliet, Voorburg",
+    "canonical_venue_id": "0785d633",
+    "city": "The Hague",
+    "is_alias_reconciled": false
+  },
+  "Sri Ramachandra Medical College": {
+    "raw_venue_name": "Sri Ramachandra Medical College",
+    "canonical_venue_name": "Sri Ramachandra Medical College",
+    "canonical_venue_id": "809ae3e5",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "St  Pauls college ground  Kalamassery": {
+    "raw_venue_name": "St  Pauls college ground  Kalamassery",
+    "canonical_venue_name": "St  Pauls college ground  Kalamassery",
+    "canonical_venue_id": "ab28fd95",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "St Albans Club, Buenos Aires": {
+    "raw_venue_name": "St Albans Club, Buenos Aires",
+    "canonical_venue_name": "St Albans Club, Buenos Aires",
+    "canonical_venue_id": "bced6617",
+    "city": "Buenos Aires",
+    "is_alias_reconciled": false
+  },
+  "St George's College Ground, Buenos Aires": {
+    "raw_venue_name": "St George's College Ground, Buenos Aires",
+    "canonical_venue_name": "St George's College Ground, Buenos Aires",
+    "canonical_venue_id": "ec691a9a",
+    "city": "Buenos Aires",
+    "is_alias_reconciled": false
+  },
+  "St George's Park": {
+    "raw_venue_name": "St George's Park",
+    "canonical_venue_name": "St George's Park",
+    "canonical_venue_id": "51b3f911",
+    "city": "Port Elizabeth",
+    "is_alias_reconciled": false
+  },
+  "St George's Park, Gqeberha": {
+    "raw_venue_name": "St George's Park, Gqeberha",
+    "canonical_venue_name": "St George's Park, Gqeberha",
+    "canonical_venue_id": "e8345861",
+    "city": "Gqeberha",
+    "is_alias_reconciled": false
+  },
+  "St George's Park, Port Elizabeth": {
+    "raw_venue_name": "St George's Park, Port Elizabeth",
+    "canonical_venue_name": "St George's Park, Port Elizabeth",
+    "canonical_venue_id": "4e4a26a6",
+    "city": "Gqeberha",
+    "is_alias_reconciled": false
+  },
+  "St Georges Quilmes": {
+    "raw_venue_name": "St Georges Quilmes",
+    "canonical_venue_name": "St Georges Quilmes",
+    "canonical_venue_id": "f5527834",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "St Lawrence Ground": {
+    "raw_venue_name": "St Lawrence Ground",
+    "canonical_venue_name": "St Lawrence Ground",
+    "canonical_venue_id": "2e16f73e",
+    "city": "Canterbury",
+    "is_alias_reconciled": false
+  },
+  "St Lawrence Ground, Canterbury": {
+    "raw_venue_name": "St Lawrence Ground, Canterbury",
+    "canonical_venue_name": "St Lawrence Ground, Canterbury",
+    "canonical_venue_id": "50039b09",
+    "city": "Canterbury",
+    "is_alias_reconciled": false
+  },
+  "St'Xavier's KCA Cricket Ground": {
+    "raw_venue_name": "St'Xavier's KCA Cricket Ground",
+    "canonical_venue_name": "St'Xavier's KCA Cricket Ground",
+    "canonical_venue_id": "7f7969df",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "Stadium Australia": {
+    "raw_venue_name": "Stadium Australia",
+    "canonical_venue_name": "Stadium Australia",
+    "canonical_venue_id": "44fa20dc",
+    "city": "Sydney",
+    "is_alias_reconciled": false
+  },
+  "Stars Arena Hofstade, Zemst": {
+    "raw_venue_name": "Stars Arena Hofstade, Zemst",
+    "canonical_venue_name": "Stars Arena Hofstade, Zemst",
+    "canonical_venue_id": "fbd9ac09",
+    "city": "Zemst",
+    "is_alias_reconciled": false
+  },
+  "Stubberudmyra Cricket Ground, Oslo": {
+    "raw_venue_name": "Stubberudmyra Cricket Ground, Oslo",
+    "canonical_venue_name": "Stubberudmyra Cricket Ground, Oslo",
+    "canonical_venue_id": "3079c4d5",
+    "city": "Oslo",
+    "is_alias_reconciled": false
+  },
+  "Subrata Roy Sahara Stadium": {
+    "raw_venue_name": "Subrata Roy Sahara Stadium",
+    "canonical_venue_name": "Subrata Roy Sahara Stadium",
+    "canonical_venue_id": "721c603d",
+    "city": "Pune",
+    "is_alias_reconciled": false
+  },
+  "SuperSport Park": {
+    "raw_venue_name": "SuperSport Park",
+    "canonical_venue_name": "SuperSport Park",
+    "canonical_venue_id": "77d7411d",
+    "city": "Centurion",
+    "is_alias_reconciled": false
+  },
+  "SuperSport Park, Centurion": {
+    "raw_venue_name": "SuperSport Park, Centurion",
+    "canonical_venue_name": "SuperSport Park",
+    "canonical_venue_id": "77d7411d",
+    "city": "Centurion",
+    "is_alias_reconciled": true
+  },
+  "Svanholm Park, Brondby": {
+    "raw_venue_name": "Svanholm Park, Brondby",
+    "canonical_venue_name": "Svanholm Park, Brondby",
+    "canonical_venue_id": "cea6ae2e",
+    "city": "Brondby",
+    "is_alias_reconciled": false
+  },
+  "Sydney Cricket Ground": {
+    "raw_venue_name": "Sydney Cricket Ground",
+    "canonical_venue_name": "Sydney Cricket Ground",
+    "canonical_venue_id": "3198489d",
+    "city": "Sydney",
+    "is_alias_reconciled": false
+  },
+  "Sylhet International Cricket Stadium": {
+    "raw_venue_name": "Sylhet International Cricket Stadium",
+    "canonical_venue_name": "Sylhet International Cricket Stadium",
+    "canonical_venue_id": "8351bae9",
+    "city": "Sylhet",
+    "is_alias_reconciled": false
+  },
+  "Sylhet Stadium": {
+    "raw_venue_name": "Sylhet Stadium",
+    "canonical_venue_name": "Sylhet Stadium",
+    "canonical_venue_id": "d7a00dec",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "T I Murugappa Ground": {
+    "raw_venue_name": "T I Murugappa Ground",
+    "canonical_venue_name": "T I Murugappa Ground",
+    "canonical_venue_id": "2e51d5e9",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "TCA Oval, Blantyre": {
+    "raw_venue_name": "TCA Oval, Blantyre",
+    "canonical_venue_name": "TCA Oval, Blantyre",
+    "canonical_venue_id": "1b6c93bc",
+    "city": "Blantyre",
+    "is_alias_reconciled": false
+  },
+  "Tafawa Balewa Square Cricket Oval, Lagos": {
+    "raw_venue_name": "Tafawa Balewa Square Cricket Oval, Lagos",
+    "canonical_venue_name": "Tafawa Balewa Square Cricket Oval, Lagos",
+    "canonical_venue_id": "d6b79871",
+    "city": "Lagos",
+    "is_alias_reconciled": false
+  },
+  "Takashinga Sports Club, Highfield, Harare": {
+    "raw_venue_name": "Takashinga Sports Club, Highfield, Harare",
+    "canonical_venue_name": "Takashinga Sports Club, Highfield, Harare",
+    "canonical_venue_id": "3d9c33b7",
+    "city": "Harare",
+    "is_alias_reconciled": false
+  },
+  "Terdthai Cricket Ground": {
+    "raw_venue_name": "Terdthai Cricket Ground",
+    "canonical_venue_name": "Terdthai Cricket Ground",
+    "canonical_venue_id": "71ed0d7a",
+    "city": "Bangkok",
+    "is_alias_reconciled": false
+  },
+  "Terdthai Cricket Ground, Bangkok": {
+    "raw_venue_name": "Terdthai Cricket Ground, Bangkok",
+    "canonical_venue_name": "Terdthai Cricket Ground, Bangkok",
+    "canonical_venue_id": "04b1d2a8",
+    "city": "Bangkok",
+    "is_alias_reconciled": false
+  },
+  "The Cooper Associates County Ground": {
+    "raw_venue_name": "The Cooper Associates County Ground",
+    "canonical_venue_name": "The Cooper Associates County Ground",
+    "canonical_venue_id": "b4019041",
+    "city": "Taunton",
+    "is_alias_reconciled": false
+  },
+  "The Oval": {
+    "raw_venue_name": "The Oval",
+    "canonical_venue_name": "The Oval",
+    "canonical_venue_id": "b97da5c8",
+    "city": "London",
+    "is_alias_reconciled": true
+  },
+  "The Rose Bowl": {
+    "raw_venue_name": "The Rose Bowl",
+    "canonical_venue_name": "The Rose Bowl",
+    "canonical_venue_id": "cc47c38a",
+    "city": "Southampton",
+    "is_alias_reconciled": false
+  },
+  "The Rose Bowl, Southampton": {
+    "raw_venue_name": "The Rose Bowl, Southampton",
+    "canonical_venue_name": "The Rose Bowl, Southampton",
+    "canonical_venue_id": "0443d94f",
+    "city": "Southampton",
+    "is_alias_reconciled": false
+  },
+  "The Royal & Sun Alliance County Ground, Bristol": {
+    "raw_venue_name": "The Royal & Sun Alliance County Ground, Bristol",
+    "canonical_venue_name": "The Royal & Sun Alliance County Ground, Bristol",
+    "canonical_venue_id": "6e6a21f6",
+    "city": "Bristol",
+    "is_alias_reconciled": false
+  },
+  "The Village, Malahide": {
+    "raw_venue_name": "The Village, Malahide",
+    "canonical_venue_name": "The Village, Malahide",
+    "canonical_venue_id": "fb7e2b20",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "The Village, Malahide, Dublin": {
+    "raw_venue_name": "The Village, Malahide, Dublin",
+    "canonical_venue_name": "The Village, Malahide, Dublin",
+    "canonical_venue_id": "cf789756",
+    "city": "Dublin",
+    "is_alias_reconciled": false
+  },
+  "The Wanderers Stadium": {
+    "raw_venue_name": "The Wanderers Stadium",
+    "canonical_venue_name": "New Wanderers Stadium",
+    "canonical_venue_id": "3a3ad9dd",
+    "city": "Johannesburg",
+    "is_alias_reconciled": true
+  },
+  "The Wanderers Stadium, Johannesburg": {
+    "raw_venue_name": "The Wanderers Stadium, Johannesburg",
+    "canonical_venue_name": "The Wanderers Stadium, Johannesburg",
+    "canonical_venue_id": "55630571",
+    "city": "Johannesburg",
+    "is_alias_reconciled": false
+  },
+  "Tikkurila Cricket Ground": {
+    "raw_venue_name": "Tikkurila Cricket Ground",
+    "canonical_venue_name": "Tikkurila Cricket Ground",
+    "canonical_venue_id": "73840e16",
+    "city": "Vantaa",
+    "is_alias_reconciled": false
+  },
+  "Titwood": {
+    "raw_venue_name": "Titwood",
+    "canonical_venue_name": "Titwood",
+    "canonical_venue_id": "b12b7a04",
+    "city": "Glasgow",
+    "is_alias_reconciled": false
+  },
+  "Titwood, Glasgow": {
+    "raw_venue_name": "Titwood, Glasgow",
+    "canonical_venue_name": "Titwood, Glasgow",
+    "canonical_venue_id": "b5f5ef25",
+    "city": "Glasgow",
+    "is_alias_reconciled": false
+  },
+  "Tolerance Oval": {
+    "raw_venue_name": "Tolerance Oval",
+    "canonical_venue_name": "Tolerance Oval",
+    "canonical_venue_id": "f090eca3",
+    "city": "Abu Dhabi",
+    "is_alias_reconciled": false
+  },
+  "Tony Ireland Stadium": {
+    "raw_venue_name": "Tony Ireland Stadium",
+    "canonical_venue_name": "Tony Ireland Stadium",
+    "canonical_venue_id": "ca8926d0",
+    "city": "Townsville",
+    "is_alias_reconciled": false
+  },
+  "Tony Ireland Stadium, Townsville": {
+    "raw_venue_name": "Tony Ireland Stadium, Townsville",
+    "canonical_venue_name": "Tony Ireland Stadium, Townsville",
+    "canonical_venue_id": "0a284476",
+    "city": "Townsville",
+    "is_alias_reconciled": false
+  },
+  "Toronto Cricket, Skating and Curling Club": {
+    "raw_venue_name": "Toronto Cricket, Skating and Curling Club",
+    "canonical_venue_name": "Toronto Cricket, Skating and Curling Club",
+    "canonical_venue_id": "8732bcd1",
+    "city": "Toronto",
+    "is_alias_reconciled": false
+  },
+  "Trent Bridge": {
+    "raw_venue_name": "Trent Bridge",
+    "canonical_venue_name": "Trent Bridge",
+    "canonical_venue_id": "93304ba7",
+    "city": "Nottingham",
+    "is_alias_reconciled": false
+  },
+  "Trent Bridge, Nottingham": {
+    "raw_venue_name": "Trent Bridge, Nottingham",
+    "canonical_venue_name": "Trent Bridge, Nottingham",
+    "canonical_venue_id": "3a7db4c6",
+    "city": "Nottingham",
+    "is_alias_reconciled": false
+  },
+  "Tribhuvan University International Cricket Ground": {
+    "raw_venue_name": "Tribhuvan University International Cricket Ground",
+    "canonical_venue_name": "Tribhuvan University International Cricket Ground, Kirtipur",
+    "canonical_venue_id": "c72700bb",
+    "city": "Kirtipur",
+    "is_alias_reconciled": true
+  },
+  "Tribhuvan University International Cricket Ground, Kirtipur": {
+    "raw_venue_name": "Tribhuvan University International Cricket Ground, Kirtipur",
+    "canonical_venue_name": "Tribhuvan University International Cricket Ground, Kirtipur",
+    "canonical_venue_id": "c72700bb",
+    "city": "Kirtipur",
+    "is_alias_reconciled": false
+  },
+  "UKM-YSD Cricket Oval, Bangi": {
+    "raw_venue_name": "UKM-YSD Cricket Oval, Bangi",
+    "canonical_venue_name": "UKM-YSD Cricket Oval, Bangi",
+    "canonical_venue_id": "9ac7db37",
+    "city": "Bangi",
+    "is_alias_reconciled": false
+  },
+  "Udayana Cricket Ground": {
+    "raw_venue_name": "Udayana Cricket Ground",
+    "canonical_venue_name": "Udayana Cricket Ground",
+    "canonical_venue_id": "95b92a18",
+    "city": "Bali",
+    "is_alias_reconciled": false
+  },
+  "Udayana Cricket Ground, Bali": {
+    "raw_venue_name": "Udayana Cricket Ground, Bali",
+    "canonical_venue_name": "Udayana Cricket Ground, Bali",
+    "canonical_venue_id": "59af6dc1",
+    "city": "Bali",
+    "is_alias_reconciled": false
+  },
+  "United Cricket Club Ground": {
+    "raw_venue_name": "United Cricket Club Ground",
+    "canonical_venue_name": "United Cricket Club Ground",
+    "canonical_venue_id": "7ac64d64",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "United Cricket Club Ground, Windhoek": {
+    "raw_venue_name": "United Cricket Club Ground, Windhoek",
+    "canonical_venue_name": "United Cricket Club Ground, Windhoek",
+    "canonical_venue_id": "cbeb2208",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "University Oval": {
+    "raw_venue_name": "University Oval",
+    "canonical_venue_name": "University Oval",
+    "canonical_venue_id": "8fdf93ff",
+    "city": "Dunedin",
+    "is_alias_reconciled": false
+  },
+  "University Oval, Dunedin": {
+    "raw_venue_name": "University Oval, Dunedin",
+    "canonical_venue_name": "University Oval, Dunedin",
+    "canonical_venue_id": "d9627581",
+    "city": "Dunedin",
+    "is_alias_reconciled": false
+  },
+  "University of Dar-es-Salaam Ground": {
+    "raw_venue_name": "University of Dar-es-Salaam Ground",
+    "canonical_venue_name": "University of Dar-es-Salaam Ground",
+    "canonical_venue_id": "68f637da",
+    "city": "Dar-es-Salaam",
+    "is_alias_reconciled": false
+  },
+  "University of Doha for Science and Technology": {
+    "raw_venue_name": "University of Doha for Science and Technology",
+    "canonical_venue_name": "University of Doha for Science and Technology",
+    "canonical_venue_id": "6c70a9e1",
+    "city": "Doha",
+    "is_alias_reconciled": false
+  },
+  "University of Lagos Cricket Oval": {
+    "raw_venue_name": "University of Lagos Cricket Oval",
+    "canonical_venue_name": "University of Lagos Cricket Oval",
+    "canonical_venue_id": "9bb07ae1",
+    "city": "Lagos",
+    "is_alias_reconciled": false
+  },
+  "VCA Ground": {
+    "raw_venue_name": "VCA Ground",
+    "canonical_venue_name": "VCA Ground",
+    "canonical_venue_id": "4787d1ac",
+    "city": null,
+    "is_alias_reconciled": false
+  },
+  "VRA Cricket Ground": {
+    "raw_venue_name": "VRA Cricket Ground",
+    "canonical_venue_name": "VRA Cricket Ground",
+    "canonical_venue_id": "ebc86645",
+    "city": "Amstelveen",
+    "is_alias_reconciled": false
+  },
+  "VRA Ground": {
+    "raw_venue_name": "VRA Ground",
+    "canonical_venue_name": "VRA Ground",
+    "canonical_venue_id": "57eb29b5",
+    "city": "Amstelveen",
+    "is_alias_reconciled": false
+  },
+  "VRA Ground, Amstelveen": {
+    "raw_venue_name": "VRA Ground, Amstelveen",
+    "canonical_venue_name": "VRA Ground, Amstelveen",
+    "canonical_venue_id": "4548ace1",
+    "city": "Amstelveen",
+    "is_alias_reconciled": false
+  },
+  "Vassil Levski National Sports Academy, Sofia": {
+    "raw_venue_name": "Vassil Levski National Sports Academy, Sofia",
+    "canonical_venue_name": "Vassil Levski National Sports Academy, Sofia",
+    "canonical_venue_id": "b2720e14",
+    "city": "Sofia",
+    "is_alias_reconciled": false
+  },
+  "Velden Cricket Ground, Latschach": {
+    "raw_venue_name": "Velden Cricket Ground, Latschach",
+    "canonical_venue_name": "Velden Cricket Ground, Latschach",
+    "canonical_venue_id": "cda2824a",
+    "city": "Latschach",
+    "is_alias_reconciled": false
+  },
+  "Vidarbha C.A. Ground": {
+    "raw_venue_name": "Vidarbha C.A. Ground",
+    "canonical_venue_name": "Vidarbha C.A. Ground",
+    "canonical_venue_id": "e15f1ec8",
+    "city": "Nagpur",
+    "is_alias_reconciled": false
+  },
+  "Vidarbha Cricket Association Ground": {
+    "raw_venue_name": "Vidarbha Cricket Association Ground",
+    "canonical_venue_name": "Vidarbha Cricket Association Ground",
+    "canonical_venue_id": "7f67cf3b",
+    "city": "Nagpur",
+    "is_alias_reconciled": false
+  },
+  "Vidarbha Cricket Association Stadium, Jamtha": {
+    "raw_venue_name": "Vidarbha Cricket Association Stadium, Jamtha",
+    "canonical_venue_name": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
+    "canonical_venue_id": "a0fc5764",
+    "city": "Nagpur",
+    "is_alias_reconciled": true
+  },
+  "Vidarbha Cricket Association Stadium, Jamtha, Nagpur": {
+    "raw_venue_name": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
+    "canonical_venue_name": "Vidarbha Cricket Association Stadium, Jamtha, Nagpur",
+    "canonical_venue_id": "a0fc5764",
+    "city": "Nagpur",
+    "is_alias_reconciled": false
+  },
+  "W.A.C.A. Ground": {
+    "raw_venue_name": "W.A.C.A. Ground",
+    "canonical_venue_name": "W.A.C.A. Ground, Perth",
+    "canonical_venue_id": "9f80c1dd",
+    "city": "Perth",
+    "is_alias_reconciled": true
+  },
+  "Wanderers": {
+    "raw_venue_name": "Wanderers",
+    "canonical_venue_name": "Wanderers",
+    "canonical_venue_id": "fbbe6b3e",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "Wanderers Cricket Ground": {
+    "raw_venue_name": "Wanderers Cricket Ground",
+    "canonical_venue_name": "Wanderers Cricket Ground",
+    "canonical_venue_id": "aa3cdd41",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "Wanderers Cricket Ground, Windhoek": {
+    "raw_venue_name": "Wanderers Cricket Ground, Windhoek",
+    "canonical_venue_name": "Wanderers Cricket Ground, Windhoek",
+    "canonical_venue_id": "8e7cb417",
+    "city": "Windhoek",
+    "is_alias_reconciled": false
+  },
+  "Wanderers Stadium, Johannesburg": {
+    "raw_venue_name": "Wanderers Stadium, Johannesburg",
+    "canonical_venue_name": "Wanderers Stadium, Johannesburg",
+    "canonical_venue_id": "fcc90eb2",
+    "city": "Johannesburg",
+    "is_alias_reconciled": false
+  },
+  "Wankhede Stadium": {
+    "raw_venue_name": "Wankhede Stadium",
+    "canonical_venue_name": "Wankhede Stadium, Mumbai",
+    "canonical_venue_id": "9e236baa",
+    "city": "Mumbai",
+    "is_alias_reconciled": true
+  },
+  "Wankhede Stadium, Mumbai": {
+    "raw_venue_name": "Wankhede Stadium, Mumbai",
+    "canonical_venue_name": "Wankhede Stadium, Mumbai",
+    "canonical_venue_id": "9e236baa",
+    "city": "Mumbai",
+    "is_alias_reconciled": false
+  },
+  "Warner Park, Basseterre": {
+    "raw_venue_name": "Warner Park, Basseterre",
+    "canonical_venue_name": "Warner Park, Basseterre",
+    "canonical_venue_id": "b7e61b10",
+    "city": "St Kitts",
+    "is_alias_reconciled": false
+  },
+  "Warner Park, Basseterre, St Kitts": {
+    "raw_venue_name": "Warner Park, Basseterre, St Kitts",
+    "canonical_venue_name": "Warner Park, Basseterre",
+    "canonical_venue_id": "b7e61b10",
+    "city": "Basseterre",
+    "is_alias_reconciled": true
+  },
+  "Warner Park, St Kitts": {
+    "raw_venue_name": "Warner Park, St Kitts",
+    "canonical_venue_name": "Warner Park, St Kitts",
+    "canonical_venue_id": "ada144d6",
+    "city": "Basseterre",
+    "is_alias_reconciled": false
+  },
+  "West End Park International Cricket Stadium, Doha": {
+    "raw_venue_name": "West End Park International Cricket Stadium, Doha",
+    "canonical_venue_name": "West End Park International Cricket Stadium, Doha",
+    "canonical_venue_id": "1f4b3376",
+    "city": "Doha",
+    "is_alias_reconciled": false
+  },
+  "Western Australia Cricket Association Ground": {
+    "raw_venue_name": "Western Australia Cricket Association Ground",
+    "canonical_venue_name": "Western Australia Cricket Association Ground",
+    "canonical_venue_id": "3ccd0558",
+    "city": "Perth",
+    "is_alias_reconciled": false
+  },
+  "Western Australia Cricket Association Ground, Perth": {
+    "raw_venue_name": "Western Australia Cricket Association Ground, Perth",
+    "canonical_venue_name": "Western Australia Cricket Association Ground, Perth",
+    "canonical_venue_id": "bd82dce8",
+    "city": "Perth",
+    "is_alias_reconciled": false
+  },
+  "Westpac Park, Hamilton": {
+    "raw_venue_name": "Westpac Park, Hamilton",
+    "canonical_venue_name": "Westpac Park, Hamilton",
+    "canonical_venue_id": "57be62c7",
+    "city": "Hamilton",
+    "is_alias_reconciled": false
+  },
+  "Westpac Stadium": {
+    "raw_venue_name": "Westpac Stadium",
+    "canonical_venue_name": "Westpac Stadium",
+    "canonical_venue_id": "9200a1f4",
+    "city": "Wellington",
+    "is_alias_reconciled": false
+  },
+  "Westpac Stadium, Wellington": {
+    "raw_venue_name": "Westpac Stadium, Wellington",
+    "canonical_venue_name": "Westpac Stadium, Wellington",
+    "canonical_venue_id": "bdd66253",
+    "city": "Wellington",
+    "is_alias_reconciled": false
+  },
+  "White Hill Field, Sandys Parish": {
+    "raw_venue_name": "White Hill Field, Sandys Parish",
+    "canonical_venue_name": "White Hill Field, Sandys Parish",
+    "canonical_venue_id": "2b8d2319",
+    "city": "Hamilton",
+    "is_alias_reconciled": false
+  },
+  "Willowmoore Park": {
+    "raw_venue_name": "Willowmoore Park",
+    "canonical_venue_name": "Willowmoore Park",
+    "canonical_venue_id": "2f0ff7ca",
+    "city": "Benoni",
+    "is_alias_reconciled": false
+  },
+  "Willowmoore Park, Benoni": {
+    "raw_venue_name": "Willowmoore Park, Benoni",
+    "canonical_venue_name": "Willowmoore Park, Benoni",
+    "canonical_venue_id": "c3e37c1f",
+    "city": "Benoni",
+    "is_alias_reconciled": false
+  },
+  "Windsor Park, Roseau": {
+    "raw_venue_name": "Windsor Park, Roseau",
+    "canonical_venue_name": "Windsor Park, Roseau",
+    "canonical_venue_id": "4414dcff",
+    "city": "Dominica",
+    "is_alias_reconciled": false
+  },
+  "Windsor Park, Roseau, Dominica": {
+    "raw_venue_name": "Windsor Park, Roseau, Dominica",
+    "canonical_venue_name": "Windsor Park, Roseau, Dominica",
+    "canonical_venue_id": "82581ecc",
+    "city": "Roseau",
+    "is_alias_reconciled": false
+  },
+  "YSD-UKM Cricket Oval, Bangi": {
+    "raw_venue_name": "YSD-UKM Cricket Oval, Bangi",
+    "canonical_venue_name": "YSD-UKM Cricket Oval, Bangi",
+    "canonical_venue_id": "e74170c2",
+    "city": "Bangi",
+    "is_alias_reconciled": false
+  },
+  "Yeonhui Cricket Ground, Incheon": {
+    "raw_venue_name": "Yeonhui Cricket Ground, Incheon",
+    "canonical_venue_name": "Yeonhui Cricket Ground, Incheon",
+    "canonical_venue_id": "7abed07e",
+    "city": "Incheon",
+    "is_alias_reconciled": false
+  },
+  "Zahur Ahmed Chowdhury Stadium": {
+    "raw_venue_name": "Zahur Ahmed Chowdhury Stadium",
+    "canonical_venue_name": "Zahur Ahmed Chowdhury Stadium",
+    "canonical_venue_id": "b85e7244",
+    "city": "Chittagong",
+    "is_alias_reconciled": false
+  },
+  "Zahur Ahmed Chowdhury Stadium, Chattogram": {
+    "raw_venue_name": "Zahur Ahmed Chowdhury Stadium, Chattogram",
+    "canonical_venue_name": "Zahur Ahmed Chowdhury Stadium, Chattogram",
+    "canonical_venue_id": "5a4a7798",
+    "city": "Chattogram",
+    "is_alias_reconciled": false
+  },
+  "Zayed Cricket Stadium, Abu Dhabi": {
+    "raw_venue_name": "Zayed Cricket Stadium, Abu Dhabi",
+    "canonical_venue_name": "Zayed Cricket Stadium, Abu Dhabi",
+    "canonical_venue_id": "552fafc5",
+    "city": "Abu Dhabi",
+    "is_alias_reconciled": false
+  },
+  "Zhejiang University of Technology Cricket Field": {
+    "raw_venue_name": "Zhejiang University of Technology Cricket Field",
+    "canonical_venue_name": "Zhejiang University of Technology Cricket Field",
+    "canonical_venue_id": "1f57dd77",
+    "city": "Hangzhou",
+    "is_alias_reconciled": false
+  },
+  "Zohur Ahmed Chowdhury Stadium": {
+    "raw_venue_name": "Zohur Ahmed Chowdhury Stadium",
+    "canonical_venue_name": "Zohur Ahmed Chowdhury Stadium",
+    "canonical_venue_id": "3922af23",
+    "city": "Chittagong",
+    "is_alias_reconciled": false
+  }
+}

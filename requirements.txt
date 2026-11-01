@@ -1,0 +1,31 @@
+# CricEngine AI - Phase 1 Core Dependencies
+# Python >= 3.12 compatible
+
+# Embedded Database & Analytics Engine
+duckdb==2.0.0
+
+# Columnar Storage & Parquet Interoperability
+pyarrow==26.0.0
+
+# Tabular Data Manipulation
+pandas==3.1.0
+numpy==2.5.4
+
+# HTTP Client for Cricsheet Data Acquisition
+requests==2.34.2
+certifi==2026.10.23
+charset-normalizer==3.5.2
+idna==3.20
+urllib3==2.8.0
+
+# Testing & Quality Validation
+pytest==9.2.0
+iniconfig==2.3.1
+packaging==26.3
+pluggy==1.7.0
+Pygments==2.21.0
+
+# Supporting utilities
+python-dateutil==3.0.0
+six==1.17.0
+tzdata==2026.6

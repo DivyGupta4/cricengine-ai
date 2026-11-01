@@ -1,0 +1,3 @@
+"""
+CricEngine AI Configuration Package
+"""

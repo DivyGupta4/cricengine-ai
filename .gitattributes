@@ -1,0 +1,2 @@
+*.duckdb filter=lfs diff=lfs merge=lfs -text
+data/datalake/curated/cricengine.duckdb filter=lfs diff=lfs merge=lfs -text
