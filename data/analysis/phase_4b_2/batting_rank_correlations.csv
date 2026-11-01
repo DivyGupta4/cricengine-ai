@@ -1,0 +1,7 @@
+Predictor,Target,Spearman Rho,Clustered 95% CI,Kendall Tau
+CA-HBSS pre_r_bat,Match Runs Scored,0.253,"(0.224, 0.285)",0.15
+CA-HBSS pre_r_bat,Match Strike Rate,-0.046,"(-0.083, -0.012)",-0.021
+BM-1 rolling_batting_sr,Match Runs Scored,-0.027,"(-0.061, 0.007)",-0.017
+BM-1 rolling_batting_sr,Match Strike Rate,0.364,"(0.327, 0.392)",0.249
+BM-2 decayed_batting_sr,Match Runs Scored,-0.022,"(-0.064, 0.021)",-0.03
+BM-2 decayed_batting_sr,Match Strike Rate,0.375,"(0.34, 0.402)",0.247

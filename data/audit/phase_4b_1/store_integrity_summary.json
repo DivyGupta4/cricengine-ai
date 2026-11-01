@@ -1,0 +1,616 @@
+{
+  "manifest": {
+    "rating_engine_version": "4.0.0-phase4b",
+    "created_at_utc": "2026-11-01T19:56:20.556917+00:00",
+    "status": "MATERIALIZED_AND_VERIFIED",
+    "total_files": 145,
+    "total_bytes": 12469924,
+    "input_provenance": {
+      "duckdb_curated_path": "/Users/divygupta/Desktop/DL_DATABASE/data/datalake/curated/cricengine.duckdb",
+      "feature_store_v3b_dir": "/Users/divygupta/Desktop/DL_DATABASE/data/datalake/feature_store_v3b",
+      "feature_store_version": "3.1.0-phase3b"
+    },
+    "run_statistics": {
+      "total_matches_processed": 9085,
+      "total_participations_evaluated": 200709,
+      "active_player_states_by_format": {
+        "TEST": 1070,
+        "ODI": 2015,
+        "T20": 6321
+      },
+      "history_checkpoints_materialized": 73039,
+      "pre_match_snapshots_materialized": 19642,
+      "elapsed_seconds": 21.51
+    },
+    "file_checksums": {
+      "player_rating_current/match_format=ODI/current_ratings.parquet": {
+        "sha256": "7cdf574aafc833f0b9c086c1b002154345cb09ea29f5fa9b17a8759247a6ff74",
+        "bytes": 270096
+      },
+      "player_rating_current/match_format=T20/current_ratings.parquet": {
+        "sha256": "5b6440ce895d0139f00095e37bbe46f7ec8412ce31dd6e2dac2b908d597ca064",
+        "bytes": 624443
+      },
+      "player_rating_current/match_format=TEST/current_ratings.parquet": {
+        "sha256": "bacb42d4734e48c636293ada32c6cdf3c44ab27d4a8a0e7ba3267b607c5e7114",
+        "bytes": 168184
+      },
+      "player_rating_history/match_format=ODI/year=2003/history.parquet": {
+        "sha256": "f38b0f0e12dabca5311096f8733f82ad4308f21e013f363a98e63cb21076e995",
+        "bytes": 146066
+      },
+      "player_rating_history/match_format=ODI/year=2004/history.parquet": {
+        "sha256": "8451c13e8d5fee8f07d70281def13a63251383b5282a50fb04ebaa5032d9add7",
+        "bytes": 107821
+      },
+      "player_rating_history/match_format=ODI/year=2005/history.parquet": {
+        "sha256": "4a7dca27d4d11fb0465d1ba9a009b11a6ce01d4283adc9a996e3378faee6da01",
+        "bytes": 95244
+      },
+      "player_rating_history/match_format=ODI/year=2002/history.parquet": {
+        "sha256": "b6f5d18a87340fccccf3ad807748ee3e19731b7c5ba98bcc24dc484e3119d9f2",
+        "bytes": 26834
+      },
+      "player_rating_history/match_format=ODI/year=2020/history.parquet": {
+        "sha256": "09f6120b5394302329d411593e22f54da8704b07dd4950f4328e429d4caa18ce",
+        "bytes": 72945
+      },
+      "player_rating_history/match_format=ODI/year=2018/history.parquet": {
+        "sha256": "0f4090ba928b4a84766a9f83bb91796ae6c8a63ecacf918a472d393785ec2f74",
+        "bytes": 130587
+      },
+      "player_rating_history/match_format=ODI/year=2011/history.parquet": {
+        "sha256": "4d30c1f05a3b3260546cbe61f57db5deb6309d05155119326565661e9d37a469",
+        "bytes": 156789
+      },
+      "player_rating_history/match_format=ODI/year=2016/history.parquet": {
+        "sha256": "a9ea4101f1503b25bbe8dfeb244a435c39b797f8e814f97d8163ab31214c0408",
+        "bytes": 112654
+      },
+      "player_rating_history/match_format=ODI/year=2017/history.parquet": {
+        "sha256": "08f334d74ad2939757b944beace145eec09aa21e4bbae67a77fd0da79d5adbac",
+        "bytes": 129392
+      },
+      "player_rating_history/match_format=ODI/year=2010/history.parquet": {
+        "sha256": "ff20aa11b4a985a5ab132f42adb638bf40b0d02eb60782393b740d7f0c369e06",
+        "bytes": 130147
+      },
+      "player_rating_history/match_format=ODI/year=2026/history.parquet": {
+        "sha256": "258fd60454ca6d637b2b107f8845fc5b27d708be3cfd87667e1c8f8a4e110f82",
+        "bytes": 127811
+      },
+      "player_rating_history/match_format=ODI/year=2019/history.parquet": {
+        "sha256": "df9e30d1e8d21030fe9ea1323a6d7703829eeeb2023e93056e0ddc7dac324d05",
+        "bytes": 149112
+      },
+      "player_rating_history/match_format=ODI/year=2021/history.parquet": {
+        "sha256": "7b685d0dc07089f1b3f4fd22ed993240de4321cf6b7e27e981091458db69d169",
+        "bytes": 95764
+      },
+      "player_rating_history/match_format=ODI/year=2007/history.parquet": {
+        "sha256": "c7d8228e8015c9b9c35a6d2295fe678d6e74d75eb0ddeb8c41c612a3efc4791b",
+        "bytes": 166938
+      },
+      "player_rating_history/match_format=ODI/year=2009/history.parquet": {
+        "sha256": "9ed4015c28a8e656d216aec99a989ce03be1df834b20f293e677ca9ba17b1b3f",
+        "bytes": 138779
+      },
+      "player_rating_history/match_format=ODI/year=2008/history.parquet": {
+        "sha256": "6c75678aefd31366fec245188338cf2c386347463840ad9495a108d8d2acbdb7",
+        "bytes": 125188
+      },
+      "player_rating_history/match_format=ODI/year=2006/history.parquet": {
+        "sha256": "79b84445f9ccb7869ec3f0c7f119974dc3c2070854de8b783e658f0770afc84d",
+        "bytes": 145949
+      },
+      "player_rating_history/match_format=ODI/year=2024/history.parquet": {
+        "sha256": "70e32614d7f6382f1112dd5aa6533a0b4c8d285305e5fa1cd0c8e4495c209865",
+        "bytes": 117379
+      },
+      "player_rating_history/match_format=ODI/year=2023/history.parquet": {
+        "sha256": "a28495ff7e2897081ede9fd921645f3672c34c13392de112fb921621cb78ffb2",
+        "bytes": 204201
+      },
+      "player_rating_history/match_format=ODI/year=2015/history.parquet": {
+        "sha256": "9808284dc9cbe9536e919f6fa54a16ab5f9469d4d3da2662da137d41c39dad5e",
+        "bytes": 147087
+      },
+      "player_rating_history/match_format=ODI/year=2012/history.parquet": {
+        "sha256": "d240cdc5da412947d434aff0015b7ba783e9aa086e3e53ee834f6a131f111bc4",
+        "bytes": 107803
+      },
+      "player_rating_history/match_format=ODI/year=2013/history.parquet": {
+        "sha256": "006ad93ecc0ed7356a91ba18c87604c493357f40ad95fdf6331c47f7b7065c05",
+        "bytes": 144692
+      },
+      "player_rating_history/match_format=ODI/year=2014/history.parquet": {
+        "sha256": "daa96d41ae7c127f1846fb190362ae598479f5a2f88a3e8ad353b1efb58eadc5",
+        "bytes": 130459
+      },
+      "player_rating_history/match_format=ODI/year=2022/history.parquet": {
+        "sha256": "d6d19f4a993d126cd348a6865d4de47638dd06dbdb92c5a560bbcd0beff86688",
+        "bytes": 169927
+      },
+      "player_rating_history/match_format=ODI/year=2025/history.parquet": {
+        "sha256": "4d4e1b1725eb846c9df6223e36e044b8b0bc37999754694bd691e1493ef03c9c",
+        "bytes": 133844
+      },
+      "player_rating_history/match_format=T20/year=2005/history.parquet": {
+        "sha256": "a8252dcf570d87eb9abc22c945a03889c9f723d626ce5579f0b70df9e2884f06",
+        "bytes": 27169
+      },
+      "player_rating_history/match_format=T20/year=2020/history.parquet": {
+        "sha256": "ae6ef1a4d2ba28a7b227cb3798f0a957da32b6de80824634c65d44f70955a038",
+        "bytes": 154562
+      },
+      "player_rating_history/match_format=T20/year=2018/history.parquet": {
+        "sha256": "b834a61a7b1a35dab2dda7b3accff00c29aa05d64f5a6bcb80eb6a906ccfdc2f",
+        "bytes": 214531
+      },
+      "player_rating_history/match_format=T20/year=2011/history.parquet": {
+        "sha256": "e22ee0c751a7dea34ad076ad2d7cafa4f6e156accc147ff0990c53f1e8ebf929",
+        "bytes": 115501
+      },
+      "player_rating_history/match_format=T20/year=2016/history.parquet": {
+        "sha256": "cad94371e64697ccc22f4a9be19833282b6c2f5e334ad11911598c1b12fcb0a3",
+        "bytes": 228212
+      },
+      "player_rating_history/match_format=T20/year=2017/history.parquet": {
+        "sha256": "3e1148017742f241bc13a8e4e13fbd80d6af63db855f1a806443498aa90ac670",
+        "bytes": 131480
+      },
+      "player_rating_history/match_format=T20/year=2010/history.parquet": {
+        "sha256": "b40f8282eb7fddab2c5b125a88a74304b61d8bb7c84280c1664fd98b60e16ca0",
+        "bytes": 137845
+      },
+      "player_rating_history/match_format=T20/year=2026/history.parquet": {
+        "sha256": "3f2de080fb43821dcad7dd5867a995c229dd42c6f5cd96edc545751e8ca3cc13",
+        "bytes": 497941
+      },
+      "player_rating_history/match_format=T20/year=2019/history.parquet": {
+        "sha256": "53a198716f33f82f79e62ace7ed776fed08ef5ff9bc9d39c7f4fcb39b4830afd",
+        "bytes": 443645
+      },
+      "player_rating_history/match_format=T20/year=2021/history.parquet": {
+        "sha256": "21b90340dbc09c96098a9f440274329e2a6e6151afbd4a761e443f77b4bc2000",
+        "bytes": 442478
+      },
+      "player_rating_history/match_format=T20/year=2007/history.parquet": {
+        "sha256": "3bfe21458a3fbd413028a6f206c92ca1557ab5893519c29b68d038fbdfdf33ba",
+        "bytes": 63334
+      },
+      "player_rating_history/match_format=T20/year=2009/history.parquet": {
+        "sha256": "b3d73661da68297c93776957008d9afbcc059bdb589fbf9b8c950154be502f0c",
+        "bytes": 128248
+      },
+      "player_rating_history/match_format=T20/year=2008/history.parquet": {
+        "sha256": "0e584223507dbf51682556d7839c11acddf24bd6344e5bff9e5a7aaf618f3c78",
+        "bytes": 101412
+      },
+      "player_rating_history/match_format=T20/year=2006/history.parquet": {
+        "sha256": "0dcdcf5be8614a0ca1f764bdb026a06cc8cf192087867720194fe25cac6a9405",
+        "bytes": 34572
+      },
+      "player_rating_history/match_format=T20/year=2024/history.parquet": {
+        "sha256": "44c82a1238e7de4a2518d40b90c36d5e1b726eb120e873ce444c850654eacca8",
+        "bytes": 548301
+      },
+      "player_rating_history/match_format=T20/year=2023/history.parquet": {
+        "sha256": "27d332f2fde66844c27fac7592f0cef15d3dce3061d41b0af3adea9e0d9103c1",
+        "bytes": 400432
+      },
+      "player_rating_history/match_format=T20/year=2015/history.parquet": {
+        "sha256": "b4d756db4a7368a1bf05daf15b9efff3d55f4abe161723636e11b58678f1b184",
+        "bytes": 124208
+      },
+      "player_rating_history/match_format=T20/year=2012/history.parquet": {
+        "sha256": "d3bd595ae27c6d5cbc3152c687c53671b204a5e632cdc1589ba8a08ba62d44f8",
+        "bytes": 158296
+      },
+      "player_rating_history/match_format=T20/year=2013/history.parquet": {
+        "sha256": "fba1f9a969cb51e3f23969a03a66fc72b70c760428fad71142d0450bb4732805",
+        "bytes": 137371
+      },
+      "player_rating_history/match_format=T20/year=2014/history.parquet": {
+        "sha256": "38532434e8f7b5508d87365eab83a1c899dcac53dd48f9491306cb25816436d0",
+        "bytes": 137211
+      },
+      "player_rating_history/match_format=T20/year=2022/history.parquet": {
+        "sha256": "a440d0f3f3deb574f62fc9844cc12ceb6016bace0b4459e50d0b9cd2a0ef4946",
+        "bytes": 460291
+      },
+      "player_rating_history/match_format=T20/year=2025/history.parquet": {
+        "sha256": "b7770673859efd3f8f12c5dca25eea0d6c2230500bebf00f3c6a7ea743cdc35d",
+        "bytes": 488494
+      },
+      "player_rating_history/match_format=TEST/year=2003/history.parquet": {
+        "sha256": "36549d74189de7d2cfcc49228640926469298278fffa78811274d19c16a38faf",
+        "bytes": 53109
+      },
+      "player_rating_history/match_format=TEST/year=2004/history.parquet": {
+        "sha256": "98f7a6b037d02c7f4b07495a3506754f3a63831ff6e0525bebc8f3033c7c2a67",
+        "bytes": 44028
+      },
+      "player_rating_history/match_format=TEST/year=2005/history.parquet": {
+        "sha256": "f536484008d6b7e309ba777f3a5708c248be1a19a3acebc1defec23dea7f0a5e",
+        "bytes": 52900
+      },
+      "player_rating_history/match_format=TEST/year=2002/history.parquet": {
+        "sha256": "2ae9cd90c8f417feb9cb4e16e86bee5fd8b5b57060ec53a50790ec5b851c39a2",
+        "bytes": 25902
+      },
+      "player_rating_history/match_format=TEST/year=2020/history.parquet": {
+        "sha256": "9c7b4b5be0a94616eb92633fcecfa9885324782020a0e19cee9cf7a1e5ff96fa",
+        "bytes": 50866
+      },
+      "player_rating_history/match_format=TEST/year=2018/history.parquet": {
+        "sha256": "a4d8c3cd5af312f234b37cea653b7cc6b69caec02ae451a289a70a1fe3f3eb35",
+        "bytes": 77011
+      },
+      "player_rating_history/match_format=TEST/year=2011/history.parquet": {
+        "sha256": "450c3c9f31324ff513ae84bc6109bf94c4de5493172a109f5ef5527fea4c27ff",
+        "bytes": 69972
+      },
+      "player_rating_history/match_format=TEST/year=2016/history.parquet": {
+        "sha256": "9c139349de7250ecb834c158331ee1f31fc9772bf121ecd416caf3203a083a6f",
+        "bytes": 75352
+      },
+      "player_rating_history/match_format=TEST/year=2017/history.parquet": {
+        "sha256": "8e4bf8fea3c9a942905a9dee489fb4a2a595cbeb0999a7dad8051b3c3a0ca353",
+        "bytes": 76460
+      },
+      "player_rating_history/match_format=TEST/year=2010/history.parquet": {
+        "sha256": "119a6620dc1cce108fd431f7840782260a6d3c99eb8c345fc0c132a4601223b4",
+        "bytes": 73089
+      },
+      "player_rating_history/match_format=TEST/year=2026/history.parquet": {
+        "sha256": "62919f9970050ee49e7a7fed4f4b0261563bf740aeb63be427a47c438fa09f2c",
+        "bytes": 50513
+      },
+      "player_rating_history/match_format=TEST/year=2019/history.parquet": {
+        "sha256": "97b6908ad64a809edf87ac2c4a18a225704cfa4a8f44b4fbd5f3da353075522e",
+        "bytes": 64128
+      },
+      "player_rating_history/match_format=TEST/year=2021/history.parquet": {
+        "sha256": "a47c1e07ee3216f90ba1d3f2e529e88e0f9ec058ccb35be363d98ff0afde6dad",
+        "bytes": 71910
+      },
+      "player_rating_history/match_format=TEST/year=2007/history.parquet": {
+        "sha256": "9d7a9aab6ddb453d680356088a8ee78a04eb43efa65a0e952754aa83f9834e0a",
+        "bytes": 58106
+      },
+      "player_rating_history/match_format=TEST/year=2009/history.parquet": {
+        "sha256": "28ffc4542cd95e7fadb900c921d311fe17c87debbc983cdd4f12e92c7c87b0fd",
+        "bytes": 70772
+      },
+      "player_rating_history/match_format=TEST/year=2008/history.parquet": {
+        "sha256": "c82a88daba39e7efd836a017aee862cdf4d6b2062695e8d190ed01127841e619",
+        "bytes": 71303
+      },
+      "player_rating_history/match_format=TEST/year=2001/history.parquet": {
+        "sha256": "4924a07b88a55b0b764a5e76de35f6cf454fac6b8345bd08d19b137cccd4012c",
+        "bytes": 24344
+      },
+      "player_rating_history/match_format=TEST/year=2006/history.parquet": {
+        "sha256": "82455b96aa88ce263b2533af365d4f79c962c7255c6a17ec417ca4b1c9a63b22",
+        "bytes": 67599
+      },
+      "player_rating_history/match_format=TEST/year=2024/history.parquet": {
+        "sha256": "a95b0d492c63b1c77f8da2b46e025b964d1ef143f4beaedddaaad2bfdb061167",
+        "bytes": 77259
+      },
+      "player_rating_history/match_format=TEST/year=2023/history.parquet": {
+        "sha256": "dcfd93fdd345746dfb159dcffa303cd84ca1f9f99ffec83ad9d8879497168b73",
+        "bytes": 63291
+      },
+      "player_rating_history/match_format=TEST/year=2015/history.parquet": {
+        "sha256": "d63a788fb2d55556935b29a85a47414594b45213428a3c172a4adc0e2de9cd1b",
+        "bytes": 73668
+      },
+      "player_rating_history/match_format=TEST/year=2012/history.parquet": {
+        "sha256": "02e13d6dbe6ba8efe2437632755a8a49de53d66d29fae1cbd6cdd088be807637",
+        "bytes": 70940
+      },
+      "player_rating_history/match_format=TEST/year=2013/history.parquet": {
+        "sha256": "cde047ac5017ed3443539737b856ad3106e5ac122772a31a6df2065f88511b35",
+        "bytes": 73466
+      },
+      "player_rating_history/match_format=TEST/year=2014/history.parquet": {
+        "sha256": "4ce26daffa0c99535d917c092ccb40628859c95b82946154a7a6da992f5edd04",
+        "bytes": 70962
+      },
+      "player_rating_history/match_format=TEST/year=2022/history.parquet": {
+        "sha256": "3badcf5f53a35be1186cb3083bb51901590d522d87a214dbdf8174cb5976ce56",
+        "bytes": 73977
+      },
+      "player_rating_history/match_format=TEST/year=2025/history.parquet": {
+        "sha256": "770d0533a77453e7bcfe916196928472cd5a944e70d6f3b3c8d30e4741ffcb32",
+        "bytes": 69539
+      },
+      "pre_match_snapshots/match_format=ODI/year=2003/pre_match.parquet": {
+        "sha256": "9924960a74834e29252e3ce27ad35425a866c6e618e9040e571afff3d2289f6c",
+        "bytes": 18390
+      },
+      "pre_match_snapshots/match_format=ODI/year=2004/pre_match.parquet": {
+        "sha256": "3a18a67c251749b2e2cfa4a654d56713a7fbe8c55daba92f2ca4e945d3c42d02",
+        "bytes": 15088
+      },
+      "pre_match_snapshots/match_format=ODI/year=2005/pre_match.parquet": {
+        "sha256": "a9f53839088da015a7a19ebdb912ae1df4ae31877ad9a06607b5bd888b750a6b",
+        "bytes": 15309
+      },
+      "pre_match_snapshots/match_format=ODI/year=2020/pre_match.parquet": {
+        "sha256": "db242ac0ac625e2221c5eeaac22845f73a6a32ba521eab58c516b3f55978d15e",
+        "bytes": 10292
+      },
+      "pre_match_snapshots/match_format=ODI/year=2018/pre_match.parquet": {
+        "sha256": "e1f6ef60921d2ae27f5be28cb0a751ea959f3eed7bbb1dc8a10e1bc9893a1a98",
+        "bytes": 18839
+      },
+      "pre_match_snapshots/match_format=ODI/year=2011/pre_match.parquet": {
+        "sha256": "f837b3bc9284b6a3c0b401967673100b8f61deb128fadd2624a64c28ec37e630",
+        "bytes": 20233
+      },
+      "pre_match_snapshots/match_format=ODI/year=2016/pre_match.parquet": {
+        "sha256": "18a7efaab9a96d8c2f0fac8b1b3dd5cd889c6d19107d9bb62cf4dee4fd15a473",
+        "bytes": 20229
+      },
+      "pre_match_snapshots/match_format=ODI/year=2017/pre_match.parquet": {
+        "sha256": "78049927c5b13936d37280dc9b66d333109d3aa1284fa4647d146d2d4c0ef681",
+        "bytes": 20079
+      },
+      "pre_match_snapshots/match_format=ODI/year=2010/pre_match.parquet": {
+        "sha256": "2659d2c957db54645ef49113563d48739513c93cdadfa84baa4f6dddeebf9c2f",
+        "bytes": 15130
+      },
+      "pre_match_snapshots/match_format=ODI/year=2026/pre_match.parquet": {
+        "sha256": "f184c5108f5dd30305040dc441bef1075eb477927abfb9e61abc578f88e452d2",
+        "bytes": 19229
+      },
+      "pre_match_snapshots/match_format=ODI/year=2019/pre_match.parquet": {
+        "sha256": "b1a2d0e8b02722ecaf7dd2b521429151a17f604a9e5284c51b57e688af68c437",
+        "bytes": 18979
+      },
+      "pre_match_snapshots/match_format=ODI/year=2021/pre_match.parquet": {
+        "sha256": "4dd62846f53a21e0c170e17285f2729597aebfbb6cc61c17eac73e469b427aca",
+        "bytes": 14331
+      },
+      "pre_match_snapshots/match_format=ODI/year=2007/pre_match.parquet": {
+        "sha256": "b925547e0a1b51714a4cdacc6af6e603242885a91cc9f51a4bd832d3d1972a80",
+        "bytes": 21928
+      },
+      "pre_match_snapshots/match_format=ODI/year=2009/pre_match.parquet": {
+        "sha256": "d434888b959b1c17951681690b7823a11da54a77164844f2342ca18c7fa8b282",
+        "bytes": 18627
+      },
+      "pre_match_snapshots/match_format=ODI/year=2008/pre_match.parquet": {
+        "sha256": "41c2c4a730bab7233b1888d27483ffe743f9b5ccb1aabe200b0f2339d6c00bd9",
+        "bytes": 19246
+      },
+      "pre_match_snapshots/match_format=ODI/year=2006/pre_match.parquet": {
+        "sha256": "f29eb1b780f34d7398aefd37c6c809952684a1d1151a06bf6fc201ee467dcf98",
+        "bytes": 18157
+      },
+      "pre_match_snapshots/match_format=ODI/year=2024/pre_match.parquet": {
+        "sha256": "43606cec1dce684b9df36025324ed914778b0c254ce5eb5cf430f3362714333c",
+        "bytes": 21434
+      },
+      "pre_match_snapshots/match_format=ODI/year=2023/pre_match.parquet": {
+        "sha256": "022f1d10f99a17e67d3839c422a6b041262b844a20aa69442aff608dde4af8af",
+        "bytes": 21924
+      },
+      "pre_match_snapshots/match_format=ODI/year=2015/pre_match.parquet": {
+        "sha256": "a089a48628ab4a423fd810835c1d477325444f75e7cb0064b1436eb42a926e55",
+        "bytes": 20309
+      },
+      "pre_match_snapshots/match_format=ODI/year=2012/pre_match.parquet": {
+        "sha256": "1a122fe875560af37ede5a4ac478b7c382c9592f27f2a93b6a0c61032a068a2c",
+        "bytes": 18462
+      },
+      "pre_match_snapshots/match_format=ODI/year=2013/pre_match.parquet": {
+        "sha256": "207bf260b0225906970dc1f647c9b2e435e01a933eb7df298bdfdd8634b2daac",
+        "bytes": 21749
+      },
+      "pre_match_snapshots/match_format=ODI/year=2014/pre_match.parquet": {
+        "sha256": "0391766e5fb6e41309b9d891c7cf8fe4c22fb4f19098b43a1d957011542a16b7",
+        "bytes": 15819
+      },
+      "pre_match_snapshots/match_format=ODI/year=2022/pre_match.parquet": {
+        "sha256": "0bf2e64beacd04a052d59cda0a083e47619ac46fe22120480307378331d945f2",
+        "bytes": 22690
+      },
+      "pre_match_snapshots/match_format=ODI/year=2025/pre_match.parquet": {
+        "sha256": "5460b8431615550abac09fb5afe246987860375aa6580404cc74ec797ed33656",
+        "bytes": 15358
+      },
+      "pre_match_snapshots/match_format=T20/year=2005/pre_match.parquet": {
+        "sha256": "4add8d2276dfef865270ed7a08aee43bb088c926de2d4763a25e5d3ee01de0d6",
+        "bytes": 8201
+      },
+      "pre_match_snapshots/match_format=T20/year=2020/pre_match.parquet": {
+        "sha256": "6cdc048158d049ff4b88f63b56d0628cada943edbd14ed3a023a2bc65a13acca",
+        "bytes": 21645
+      },
+      "pre_match_snapshots/match_format=T20/year=2018/pre_match.parquet": {
+        "sha256": "a36625d9dc91a4c5560d031184651ef7cbad772908f44cef2fb2b06182df90fb",
+        "bytes": 27666
+      },
+      "pre_match_snapshots/match_format=T20/year=2011/pre_match.parquet": {
+        "sha256": "ea2c280f2d6acde9a8f93734b3b2d8f952b7e993116417873f23ea259d45c9ed",
+        "bytes": 14760
+      },
+      "pre_match_snapshots/match_format=T20/year=2016/pre_match.parquet": {
+        "sha256": "dc8b0188c8aec736093ecae9d9cdfc40520cf73bf86d6efb8fbf68c5d3a262a7",
+        "bytes": 17343
+      },
+      "pre_match_snapshots/match_format=T20/year=2017/pre_match.parquet": {
+        "sha256": "435b1b175e32d9e137bbe95b4b7145a2c712bad90db37ab260f6a1252e455744",
+        "bytes": 18556
+      },
+      "pre_match_snapshots/match_format=T20/year=2010/pre_match.parquet": {
+        "sha256": "f21c07284a4a5aa67a1f7fe4307ab9a2fe4afd6192d7097dbedf6aa7e73a3b12",
+        "bytes": 18236
+      },
+      "pre_match_snapshots/match_format=T20/year=2026/pre_match.parquet": {
+        "sha256": "0a35638b6f5d94275d5d414cbc8b4849203fe32b119e56d51fd210a9527f3ef6",
+        "bytes": 62763
+      },
+      "pre_match_snapshots/match_format=T20/year=2019/pre_match.parquet": {
+        "sha256": "0388a7a0107b7d7a08164f11e6be284ebc30e35379da9111da26b38dccf24fad",
+        "bytes": 59240
+      },
+      "pre_match_snapshots/match_format=T20/year=2021/pre_match.parquet": {
+        "sha256": "a2c0c0d2fbc66efce75b43e5c5afb67cefdd41735bb3602b03f8f7c555f21f98",
+        "bytes": 47894
+      },
+      "pre_match_snapshots/match_format=T20/year=2007/pre_match.parquet": {
+        "sha256": "86aa75fd11d58a035d6e456da280ff426b3499caa6fd9666f35da14007c685c5",
+        "bytes": 12931
+      },
+      "pre_match_snapshots/match_format=T20/year=2009/pre_match.parquet": {
+        "sha256": "09f3d7f93f7fd050687637095d24e870e2f3ee84dd42bdfce61ef9213ed22b43",
+        "bytes": 18323
+      },
+      "pre_match_snapshots/match_format=T20/year=2008/pre_match.parquet": {
+        "sha256": "2718956835c88a1a01d5ca77c1fe88ddcf022d0a14cd87d3433baadf31f10670",
+        "bytes": 17489
+      },
+      "pre_match_snapshots/match_format=T20/year=2024/pre_match.parquet": {
+        "sha256": "229b9064bcdbf002747fa865160d19907cecc996db71ba5d8115cc305b0714e8",
+        "bytes": 65223
+      },
+      "pre_match_snapshots/match_format=T20/year=2023/pre_match.parquet": {
+        "sha256": "81587a2cd0af099f9f79c681508d82a2d72de118887b83adfb7a85188cadc06d",
+        "bytes": 45324
+      },
+      "pre_match_snapshots/match_format=T20/year=2015/pre_match.parquet": {
+        "sha256": "53b2557b134d19e7bff5aeb3cb8e1ed8f0c71689f7e256720f66e9a1c1ef9683",
+        "bytes": 20682
+      },
+      "pre_match_snapshots/match_format=T20/year=2012/pre_match.parquet": {
+        "sha256": "887c1d2237700e5ade5a7ef271f08162abcefd72d3a9bee08acc4e1568fee47e",
+        "bytes": 21595
+      },
+      "pre_match_snapshots/match_format=T20/year=2013/pre_match.parquet": {
+        "sha256": "661c15bc04ead8caafde3b57c2ce649a03430402c8035caa22c8b49f0e514db6",
+        "bytes": 19237
+      },
+      "pre_match_snapshots/match_format=T20/year=2014/pre_match.parquet": {
+        "sha256": "bc58d1899f9f7380c279199217e57f9f86fc2e1608b63a9efbdf67f31c3e5617",
+        "bytes": 16599
+      },
+      "pre_match_snapshots/match_format=T20/year=2022/pre_match.parquet": {
+        "sha256": "f02eb1c446ea768e31fd4ef5550fc493eb13a98da01dab3fae5bddf3424f4768",
+        "bytes": 59381
+      },
+      "pre_match_snapshots/match_format=T20/year=2025/pre_match.parquet": {
+        "sha256": "e470c61769f91bc290ce3c0d47155aa46bb5a2db77ef7208ac09f54e5b7caf48",
+        "bytes": 52991
+      },
+      "pre_match_snapshots/match_format=TEST/year=2003/pre_match.parquet": {
+        "sha256": "07b94d70ff1fe98503eb97011a686fe8858e577653366494b7912589dba5e7cc",
+        "bytes": 9707
+      },
+      "pre_match_snapshots/match_format=TEST/year=2004/pre_match.parquet": {
+        "sha256": "59aef5fe61a42a1ce062a3a7a1bee1b70552168fd4a53afc475616f67b26a717",
+        "bytes": 9999
+      },
+      "pre_match_snapshots/match_format=TEST/year=2005/pre_match.parquet": {
+        "sha256": "cd76d66788e71630bdad9672c735d817c3de726ccf55f5c1ce03c4d46dee57ae",
+        "bytes": 9059
+      },
+      "pre_match_snapshots/match_format=TEST/year=2020/pre_match.parquet": {
+        "sha256": "2e12da7d3d4ab944b235cebdbede2cb916dbfaeab3c10be35a0855c9198fef07",
+        "bytes": 9107
+      },
+      "pre_match_snapshots/match_format=TEST/year=2018/pre_match.parquet": {
+        "sha256": "01c25e77803ec84e4bf105d1803ae68939f0ae1344ec12b4d40f89f59754de54",
+        "bytes": 13115
+      },
+      "pre_match_snapshots/match_format=TEST/year=2011/pre_match.parquet": {
+        "sha256": "5e0104fa5b842e06cc63f3e41f6e3bb2605927db0cf95f2837b7cefec76c9527",
+        "bytes": 13980
+      },
+      "pre_match_snapshots/match_format=TEST/year=2016/pre_match.parquet": {
+        "sha256": "1d4dda172d61dda50786cc49ed44abfcd6d0d8f03ebc5ed5ec11df7ffc94dc4a",
+        "bytes": 13006
+      },
+      "pre_match_snapshots/match_format=TEST/year=2017/pre_match.parquet": {
+        "sha256": "05d84520aaef87e3da06a2c8a7e291f80e297d50088c1679b1c073585b9512d1",
+        "bytes": 9167
+      },
+      "pre_match_snapshots/match_format=TEST/year=2010/pre_match.parquet": {
+        "sha256": "344ddc119811ea06d06ef0c4a38f97ad8b8f232823b43f913493d95e3eae44da",
+        "bytes": 14003
+      },
+      "pre_match_snapshots/match_format=TEST/year=2026/pre_match.parquet": {
+        "sha256": "f6d15dd21ff47e4eafc4290c95e643301080b701ebf266bde66fdccd16350fde",
+        "bytes": 9106
+      },
+      "pre_match_snapshots/match_format=TEST/year=2019/pre_match.parquet": {
+        "sha256": "df9e3286cdcfd7d0929f32eb919e8ebe35bc9dd7bea15e7013cd609a5acb482d",
+        "bytes": 13046
+      },
+      "pre_match_snapshots/match_format=TEST/year=2021/pre_match.parquet": {
+        "sha256": "2406dc7a2463bd130636e93ee3069811c0cb7aa4e0963c9b10e84ca66962d613",
+        "bytes": 12312
+      },
+      "pre_match_snapshots/match_format=TEST/year=2007/pre_match.parquet": {
+        "sha256": "57f5bfdcb9b46b4eec34b193bc03e1fc853cc7489056e71309718a4b594c428e",
+        "bytes": 11459
+      },
+      "pre_match_snapshots/match_format=TEST/year=2009/pre_match.parquet": {
+        "sha256": "e28a58fc7fb9085e68a594cfa09238e002c0c34fb6bb19e52998619f4d49efa3",
+        "bytes": 13185
+      },
+      "pre_match_snapshots/match_format=TEST/year=2008/pre_match.parquet": {
+        "sha256": "167063544322441cbb9894ac1d6073f5a067fcfabedc34ad6677d38bbfdd422b",
+        "bytes": 9077
+      },
+      "pre_match_snapshots/match_format=TEST/year=2006/pre_match.parquet": {
+        "sha256": "5a0d9db7340bb08159c1f029e03f664874def0e1fdb1cce0c5083af59c18baed",
+        "bytes": 13073
+      },
+      "pre_match_snapshots/match_format=TEST/year=2024/pre_match.parquet": {
+        "sha256": "4ebfe6b5c712ac814ada883f1d59c9990388149ecc7013acb1da772a9443c197",
+        "bytes": 10143
+      },
+      "pre_match_snapshots/match_format=TEST/year=2023/pre_match.parquet": {
+        "sha256": "07e776f490d9a84f547446aa0fa23d0d8bdc897415f834111059ea41509bfdee",
+        "bytes": 15983
+      },
+      "pre_match_snapshots/match_format=TEST/year=2015/pre_match.parquet": {
+        "sha256": "770b92f02a7c5b5e1fb90003bd6424395946f34180736a102b5e07f973cc8e26",
+        "bytes": 10286
+      },
+      "pre_match_snapshots/match_format=TEST/year=2012/pre_match.parquet": {
+        "sha256": "1d95d63abbaa7e7293c1d760fa2d62ca9b4722c33892f828f75dc29aad196595",
+        "bytes": 12393
+      },
+      "pre_match_snapshots/match_format=TEST/year=2013/pre_match.parquet": {
+        "sha256": "fc92ad364deaefb92cd72d5d26ef3e965c3ba7d528d8416132ae72b670ef1e38",
+        "bytes": 10053
+      },
+      "pre_match_snapshots/match_format=TEST/year=2014/pre_match.parquet": {
+        "sha256": "5fd7c5c046b62882a1129b78a76186025f5638878b47a3c019203a8ec1becf9e",
+        "bytes": 14377
+      },
+      "pre_match_snapshots/match_format=TEST/year=2022/pre_match.parquet": {
+        "sha256": "4062faab8daac81f08ebf840e9c1c281ac488066661e114215601c1275af6c69",
+        "bytes": 11275
+      },
+      "pre_match_snapshots/match_format=TEST/year=2025/pre_match.parquet": {
+        "sha256": "0144bc71aa6c25f323d93346795054ef67bc54e4075551050cd7e317d7e3beee",
+        "bytes": 12968
+      }
+    }
+  },
+  "total_files": 147,
+  "total_bytes": 12498256,
+  "current_count": 9406,
+  "unique_players": 6974,
+  "checkpoint_count": 73039,
+  "snapshot_count": 19642,
+  "snapshot_holdout": 6634,
+  "snapshot_non_holdout": 13008
+}

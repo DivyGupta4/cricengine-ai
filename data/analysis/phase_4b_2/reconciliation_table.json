@@ -1,0 +1,98 @@
+[
+  {
+    "Population": "Canonical Matches Processed (All-Time)",
+    "Unique Matches": 9085,
+    "Unique Players": 6974,
+    "Unique Player-Match Pairs": 200709,
+    "Observation Rows": 200709,
+    "Notes": "All historical matches across T20, ODI, Test (2001-2026)"
+  },
+  {
+    "Population": "Pre-Match Snapshots Materialized (All-Time)",
+    "Unique Matches": 900,
+    "Unique Players": 4336,
+    "Unique Player-Match Pairs": 19642,
+    "Observation Rows": 19642,
+    "Notes": "Materialized via 10% batch sampling (batch_idx % 10 == 0)"
+  },
+  {
+    "Population": "Feature Store Holdout Participations (2020-2024)",
+    "Unique Matches": 3102,
+    "Unique Players": 4247,
+    "Unique Player-Match Pairs": 68689,
+    "Observation Rows": 68689,
+    "Notes": "Complete player-match census in holdout period"
+  },
+  {
+    "Population": "Pre-Match Snapshots in Holdout (2020-2024)",
+    "Unique Matches": 305,
+    "Unique Players": 2329,
+    "Unique Player-Match Pairs": 6634,
+    "Observation Rows": 6634,
+    "Notes": "Exact sampled snapshot cohort in holdout period"
+  },
+  {
+    "Population": "True 1-to-1 Holdout Evaluated Player-Matches",
+    "Unique Matches": 305,
+    "Unique Players": 2329,
+    "Unique Player-Match Pairs": 6634,
+    "Observation Rows": 6634,
+    "Notes": "True ground-truth sample (1 row per player-match)"
+  },
+  {
+    "Population": "True Holdout Batting Innings (balls_faced > 0)",
+    "Unique Matches": 305,
+    "Unique Players": 1911,
+    "Unique Player-Match Pairs": 4951,
+    "Observation Rows": 4951,
+    "Notes": "Active batting observations (DNB excluded)"
+  },
+  {
+    "Population": "True Holdout Batting DNB (balls_faced == 0)",
+    "Unique Matches": 284,
+    "Unique Players": 912,
+    "Unique Player-Match Pairs": 1683,
+    "Observation Rows": 1683,
+    "Notes": "Did not bat or faced 0 balls"
+  },
+  {
+    "Population": "True Holdout Bowling Spells (legal_balls > 0)",
+    "Unique Matches": 304,
+    "Unique Players": 1414,
+    "Unique Player-Match Pairs": 3599,
+    "Observation Rows": 3599,
+    "Notes": "Active bowling observations (Did not bowl excluded)"
+  },
+  {
+    "Population": "True Holdout Bowling DNB (legal_balls == 0)",
+    "Unique Matches": 305,
+    "Unique Players": 1178,
+    "Unique Player-Match Pairs": 3035,
+    "Observation Rows": 3035,
+    "Notes": "Did not bowl"
+  },
+  {
+    "Population": "Phase 4B.1 Reported Holdout Evaluation (Cartesian 9x)",
+    "Unique Matches": 305,
+    "Unique Players": 2329,
+    "Unique Player-Match Pairs": 6634,
+    "Observation Rows": 59706,
+    "Notes": "Cartesian explosion: 6,634 x 3 (rm windows) x 3 (rt windows)"
+  },
+  {
+    "Population": "Phase 4B.1 Reported Batting Evaluation (Cartesian 9x)",
+    "Unique Matches": 305,
+    "Unique Players": 1911,
+    "Unique Player-Match Pairs": 4951,
+    "Observation Rows": 44559,
+    "Notes": "Cartesian explosion: 4,951 x 9 = 44,559"
+  },
+  {
+    "Population": "Phase 4B.1 Reported Bowling Evaluation (Cartesian 9x)",
+    "Unique Matches": 304,
+    "Unique Players": 1414,
+    "Unique Player-Match Pairs": 3599,
+    "Observation Rows": 32391,
+    "Notes": "Cartesian explosion: 3,599 x 9 = 32,391"
+  }
+]

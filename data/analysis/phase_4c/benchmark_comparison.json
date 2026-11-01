@@ -1,0 +1,98 @@
+[
+  {
+    "discipline":"Batting",
+    "model":"BM-0 (Format Global Mean)",
+    "n_samples":7301,
+    "mae":17.77,
+    "rmse":24.89,
+    "pearson_r":0.0,
+    "spearman_rho":0.0,
+    "kendall_tau":0.0,
+    "winkler_90":142.48,
+    "crps":12.99
+  },
+  {
+    "discipline":"Batting",
+    "model":"BM-1 (10-Match Rolling Average)",
+    "n_samples":7301,
+    "mae":17.8,
+    "rmse":24.99,
+    "pearson_r":0.0695,
+    "spearman_rho":0.0498,
+    "kendall_tau":0.022,
+    "winkler_90":144.04,
+    "crps":13.29
+  },
+  {
+    "discipline":"Batting",
+    "model":"BM-2 (365-Day EWMA Decay)",
+    "n_samples":7301,
+    "mae":16.67,
+    "rmse":23.55,
+    "pearson_r":0.4063,
+    "spearman_rho":0.4193,
+    "kendall_tau":0.3053,
+    "winkler_90":107.9,
+    "crps":11.45
+  },
+  {
+    "discipline":"Batting",
+    "model":"BM-3 (Exposure-Adjusted Rolling Rate)",
+    "n_samples":7301,
+    "mae":16.65,
+    "rmse":23.73,
+    "pearson_r":0.3959,
+    "spearman_rho":0.4136,
+    "kendall_tau":0.304,
+    "winkler_90":110.43,
+    "crps":11.59
+  },
+  {
+    "discipline":"Batting",
+    "model":"Model 4C (CA-HBSS Calibrated Two-Stage)",
+    "n_samples":7301,
+    "mae":16.7,
+    "rmse":23.42,
+    "pearson_r":0.4266,
+    "spearman_rho":0.4283,
+    "kendall_tau":0.3097,
+    "winkler_90":104.56,
+    "crps":11.58
+  },
+  {
+    "discipline":"Bowling Wickets",
+    "model":"BM-0 (Format Global Mean)",
+    "n_samples":5246,
+    "mae":0.94,
+    "rmse":1.28,
+    "pearson_r":0.0,
+    "spearman_rho":0.0,
+    "kendall_tau":0.0,
+    "winkler_90":4.72,
+    "crps":0.64
+  },
+  {
+    "discipline":"Bowling Wickets",
+    "model":"BM-1 (10-Match Rolling Wickets)",
+    "n_samples":5246,
+    "mae":0.96,
+    "rmse":1.37,
+    "pearson_r":0.303,
+    "spearman_rho":0.1916,
+    "kendall_tau":0.1191,
+    "winkler_90":7.39,
+    "crps":0.8
+  },
+  {
+    "discipline":"Bowling Wickets",
+    "model":"Model 4C (CA-HBSS Calibrated Hazard)",
+    "n_samples":5246,
+    "mae":1.04,
+    "rmse":1.51,
+    "pearson_r":0.1671,
+    "spearman_rho":0.0921,
+    "kendall_tau":0.0512,
+    "winkler_90":13.07,
+    "crps":0.92
+  }
+]

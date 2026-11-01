@@ -1,0 +1,22 @@
+Tier,Discipline,Model,n,mae,rmse,bias,mean_pred,mean_actual,crps
+Debutant (<5),Wickets,BM-0: Population Average,668,0.874,1.227,-0.191,0.908,1.099,0.652
+Debutant (<5),Wickets,BM-1: Rolling Baseline,668,0.874,1.227,-0.191,0.908,1.099,0.652
+Debutant (<5),Wickets,CA-HBSS Rating Engine,668,1.04,1.883,0.118,1.216,1.099,0.722
+Debutant (<5),Runs Conceded,BM-0: Population Average,668,8.303,11.074,1.69,28.501,26.811,6.023
+Debutant (<5),Runs Conceded,BM-1: Rolling Average (Fallback),668,8.315,11.271,0.999,27.81,26.811,6.069
+Debutant (<5),Runs Conceded,BM-2: Recency EWMA (Fallback),668,8.343,11.246,0.828,27.639,26.811,6.083
+Debutant (<5),Runs Conceded,CA-HBSS Rating Engine,668,8.837,13.193,-1.685,25.126,26.811,6.696
+Moderate (5-9),Wickets,BM-0: Population Average,497,0.85,1.205,-0.223,0.914,1.137,0.634
+Moderate (5-9),Wickets,BM-1: Rolling Baseline,497,0.85,1.205,-0.223,0.914,1.137,0.634
+Moderate (5-9),Wickets,CA-HBSS Rating Engine,497,1.235,2.502,0.639,1.775,1.137,0.845
+Moderate (5-9),Runs Conceded,BM-0: Population Average,497,7.955,11.01,1.666,29.213,27.547,5.842
+Moderate (5-9),Runs Conceded,BM-1: Rolling Average (Fallback),497,7.932,10.894,-0.354,27.194,27.547,5.824
+Moderate (5-9),Runs Conceded,BM-2: Recency EWMA (Fallback),497,8.018,10.99,-0.166,27.381,27.547,5.888
+Moderate (5-9),Runs Conceded,CA-HBSS Rating Engine,497,10.687,16.167,-7.56,19.988,27.547,8.17
+Established (>=10),Wickets,BM-0: Population Average,2434,0.836,1.158,-0.116,0.982,1.097,0.615
+Established (>=10),Wickets,BM-1: Rolling Baseline,2434,0.836,1.158,-0.116,0.982,1.097,0.615
+Established (>=10),Wickets,CA-HBSS Rating Engine,2434,1.592,2.79,1.327,2.425,1.097,1.06
+Established (>=10),Runs Conceded,BM-0: Population Average,2434,8.51,11.661,0.694,30.843,30.149,6.235
+Established (>=10),Runs Conceded,BM-1: Rolling Average (Fallback),2434,8.279,11.367,-1.123,29.026,30.149,6.074
+Established (>=10),Runs Conceded,BM-2: Recency EWMA (Fallback),2434,8.326,11.496,-1.187,28.963,30.149,6.13
+Established (>=10),Runs Conceded,CA-HBSS Rating Engine,2434,14.144,19.491,-13.29,16.859,30.149,10.377

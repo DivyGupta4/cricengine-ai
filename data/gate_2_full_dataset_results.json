@@ -1,0 +1,151 @@
+{
+  "execution_timestamp": "2026-10-30T00:00:00Z",
+  "total_matches_evaluated": 9088,
+  "run1_elapsed_seconds": 47.07078504562378,
+  "run2_elapsed_seconds": 37.80476117134094,
+  "outcomes_run1": {
+    "SUCCESS": 7928,
+    "WARNING": 1157,
+    "QUARANTINED": 3
+  },
+  "source_specific_issues": [
+    {
+      "match_id": "1457218",
+      "comp": "t20s_male",
+      "outcome": "QUARANTINED",
+      "errors": [
+        "Innings 2 Critical: OUTCOME_RUNS_MARGIN_MISMATCH_EXPECTED_65_GOT_63"
+      ]
+    },
+    {
+      "match_id": "1491604",
+      "comp": "t20s_male",
+      "outcome": "QUARANTINED",
+      "errors": [
+        "Innings 2 Critical: OUTCOME_WICKETS_MARGIN_MISMATCH_EXPECTED_6_GOT_8"
+      ]
+    },
+    {
+      "match_id": "1495657",
+      "comp": "t20s_male",
+      "outcome": "QUARANTINED",
+      "errors": [
+        "Innings 2 Critical: OUTCOME_RUNS_MARGIN_MISMATCH_EXPECTED_45_GOT_46"
+      ]
+    }
+  ],
+  "run1_metrics": {
+    "dim_player_master": {
+      "count": 7014,
+      "hash": "c88907aae31ef95af383d942b8137c2830c1b0cb3247ad1fa7dd2956918e6de8"
+    },
+    "player_source_identity": {
+      "count": 7029,
+      "hash": "acd196c2df1c0e2d83a9dead867e23a72399e507bfb7f2290bf2e5bf5f463ca1"
+    },
+    "dim_match": {
+      "count": 9088,
+      "hash": "bb4bc581bde7cae4736f99e30dd016f795437d738b069e5859c1c69d22081755"
+    },
+    "dim_match_context": {
+      "count": 9088,
+      "hash": "6da0b388182d906767197f4992b4abe49ea86d356f6fd0a580842ff81fd8f9a7"
+    },
+    "fact_match_official": {
+      "count": 37471,
+      "hash": "f6aa094244d77c5cc72f531d70f76ff0e35efa25f3b3f2e363b4522a3a0d66bb"
+    },
+    "fact_innings": {
+      "count": 19703,
+      "hash": "f3ad2d43ccb123af10410b15a2f5b60a447cb6921b46b026fecb63e538054203"
+    },
+    "fact_match_participation": {
+      "count": 200775,
+      "hash": "70ed4fa9ebdebe5eb841e42f80d91439d20b0d4ad72edbc9b67e9d2305d4b273"
+    },
+    "fact_match_replacement": {
+      "count": 825,
+      "hash": "57395b0a74c7775c275aa5da3f9810fa3cefd79df794d2b8ce24f4f5ab8445a2"
+    },
+    "fact_ball_by_ball": {
+      "count": 4384455,
+      "hash": "4ccb9f44e6ad9555b54ec74db50f7288c41e8063f8fddd9891fce252e9baa896"
+    },
+    "fact_delivery_dismissal": {
+      "count": 136731,
+      "hash": "0aef11298dc225b07aa50380bcc3ad1da4991c8751f6b80b27f726638f149741"
+    },
+    "fact_dismissal_fielder": {
+      "count": 94952,
+      "hash": "6b7f2876d11e8b5167171ea07f3e9559ad03366362400977d9291f94aa3c4038"
+    }
+  },
+  "run2_metrics": {
+    "dim_player_master": {
+      "count": 7014,
+      "hash": "c88907aae31ef95af383d942b8137c2830c1b0cb3247ad1fa7dd2956918e6de8"
+    },
+    "player_source_identity": {
+      "count": 7029,
+      "hash": "acd196c2df1c0e2d83a9dead867e23a72399e507bfb7f2290bf2e5bf5f463ca1"
+    },
+    "dim_match": {
+      "count": 9088,
+      "hash": "bb4bc581bde7cae4736f99e30dd016f795437d738b069e5859c1c69d22081755"
+    },
+    "dim_match_context": {
+      "count": 9088,
+      "hash": "6da0b388182d906767197f4992b4abe49ea86d356f6fd0a580842ff81fd8f9a7"
+    },
+    "fact_match_official": {
+      "count": 37471,
+      "hash": "f6aa094244d77c5cc72f531d70f76ff0e35efa25f3b3f2e363b4522a3a0d66bb"
+    },
+    "fact_innings": {
+      "count": 19703,
+      "hash": "f3ad2d43ccb123af10410b15a2f5b60a447cb6921b46b026fecb63e538054203"
+    },
+    "fact_match_participation": {
+      "count": 200775,
+      "hash": "70ed4fa9ebdebe5eb841e42f80d91439d20b0d4ad72edbc9b67e9d2305d4b273"
+    },
+    "fact_match_replacement": {
+      "count": 825,
+      "hash": "57395b0a74c7775c275aa5da3f9810fa3cefd79df794d2b8ce24f4f5ab8445a2"
+    },
+    "fact_ball_by_ball": {
+      "count": 4384455,
+      "hash": "4ccb9f44e6ad9555b54ec74db50f7288c41e8063f8fddd9891fce252e9baa896"
+    },
+    "fact_delivery_dismissal": {
+      "count": 136731,
+      "hash": "0aef11298dc225b07aa50380bcc3ad1da4991c8751f6b80b27f726638f149741"
+    },
+    "fact_dismissal_fielder": {
+      "count": 94952,
+      "hash": "6b7f2876d11e8b5167171ea07f3e9559ad03366362400977d9291f94aa3c4038"
+    }
+  },
+  "idempotency_passed": true,
+  "referential_integrity_orphans": {
+    "fact_innings -> dim_match": 0,
+    "dim_match_context -> dim_match": 0,
+    "fact_match_official -> dim_match": 0,
+    "fact_match_participation -> dim_match": 0,
+    "fact_match_participation -> dim_player_master": 0,
+    "fact_ball_by_ball -> dim_match": 0,
+    "fact_ball_by_ball -> fact_innings": 0,
+    "fact_ball_by_ball -> dim_player_master (batter)": 0,
+    "fact_ball_by_ball -> dim_player_master (bowler)": 0,
+    "fact_ball_by_ball -> dim_player_master (non_striker)": 0,
+    "fact_delivery_dismissal -> fact_ball_by_ball": 0,
+    "fact_delivery_dismissal -> dim_player_master (player_out)": 0,
+    "fact_dismissal_fielder -> fact_delivery_dismissal": 0,
+    "fact_match_replacement -> dim_match": 0,
+    "player_source_identity -> dim_player_master": 0
+  },
+  "referential_integrity_passed": true,
+  "rollback_passed": true,
+  "archive_hash_intact": true,
+  "production_db_untouched": true
+}

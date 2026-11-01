@@ -1,0 +1,156 @@
+{
+  "execution_timestamp": "2026-10-29T22:19:05Z",
+  "elapsed_seconds": 2.98,
+  "total_files_discovered": 9098,
+  "total_match_jsons": 9088,
+  "distinct_match_ids": 9088,
+  "duplicate_match_ids_count": 0,
+  "overall_outcomes": {
+    "SUCCESS": 7931,
+    "WARNING": 1157,
+    "AUXILIARY_FILE": 10
+  },
+  "per_competition": {
+    "tests_male": {
+      "label": "Men's Tests",
+      "total_files": 899,
+      "match_json_count": 897,
+      "auxiliary_count": 2,
+      "success_count": 799,
+      "warning_count": 98,
+      "failed_count": 0,
+      "quarantined_count": 0,
+      "stats": {
+        "innings_count": 3333,
+        "deliveries_count": 1726524,
+        "legal_deliveries_count": 1711689,
+        "wickets_count": 28880,
+        "multi_wicket_deliveries": 1,
+        "multi_fielder_dismissals": 268,
+        "replacements_count": 24,
+        "officials_count": 4403,
+        "players_count": 19758,
+        "super_over_count": 0,
+        "pre_penalty_runs": 15,
+        "post_penalty_runs": 10
+      }
+    },
+    "odis_male": {
+      "label": "Men's ODIs",
+      "total_files": 2609,
+      "match_json_count": 2607,
+      "auxiliary_count": 2,
+      "success_count": 2326,
+      "warning_count": 281,
+      "failed_count": 0,
+      "quarantined_count": 0,
+      "stats": {
+        "innings_count": 5157,
+        "deliveries_count": 1383403,
+        "legal_deliveries_count": 1346173,
+        "wickets_count": 37884,
+        "multi_wicket_deliveries": 2,
+        "multi_fielder_dismissals": 1135,
+        "replacements_count": 110,
+        "officials_count": 12275,
+        "players_count": 57464,
+        "super_over_count": 12,
+        "pre_penalty_runs": 10,
+        "post_penalty_runs": 5
+      }
+    },
+    "t20s_male": {
+      "label": "Men's T20Is",
+      "total_files": 3648,
+      "match_json_count": 3646,
+      "auxiliary_count": 2,
+      "success_count": 3523,
+      "warning_count": 123,
+      "failed_count": 0,
+      "quarantined_count": 0,
+      "stats": {
+        "innings_count": 7303,
+        "deliveries_count": 819957,
+        "legal_deliveries_count": 784457,
+        "wickets_count": 46937,
+        "multi_wicket_deliveries": 5,
+        "multi_fielder_dismissals": 1910,
+        "replacements_count": 15,
+        "officials_count": 14288,
+        "players_count": 80222,
+        "super_over_count": 70,
+        "pre_penalty_runs": 0,
+        "post_penalty_runs": 5
+      }
+    },
+    "ipl_male": {
+      "label": "Indian Premier League",
+      "total_files": 1245,
+      "match_json_count": 1243,
+      "auxiliary_count": 2,
+      "success_count": 1192,
+      "warning_count": 51,
+      "failed_count": 0,
+      "quarantined_count": 0,
+      "stats": {
+        "innings_count": 2514,
+        "deliveries_count": 295732,
+        "legal_deliveries_count": 284630,
+        "wickets_count": 14705,
+        "multi_wicket_deliveries": 0,
+        "multi_fielder_dismissals": 532,
+        "replacements_count": 563,
+        "officials_count": 6187,
+        "players_count": 27909,
+        "super_over_count": 34,
+        "pre_penalty_runs": 0,
+        "post_penalty_runs": 0
+      }
+    },
+    "sma_male": {
+      "label": "Syed Mushtaq Ali Trophy",
+      "total_files": 697,
+      "match_json_count": 695,
+      "auxiliary_count": 2,
+      "success_count": 91,
+      "warning_count": 604,
+      "failed_count": 0,
+      "quarantined_count": 0,
+      "stats": {
+        "innings_count": 1396,
+        "deliveries_count": 158839,
+        "legal_deliveries_count": 154382,
+        "wickets_count": 8325,
+        "multi_wicket_deliveries": 1,
+        "multi_fielder_dismissals": 53,
+        "replacements_count": 113,
+        "officials_count": 318,
+        "players_count": 15424,
+        "super_over_count": 10,
+        "pre_penalty_runs": 0,
+        "post_penalty_runs": 0
+      }
+    }
+  },
+  "total_stats": {
+    "innings_count": 19703,
+    "deliveries_count": 4384455,
+    "legal_deliveries_count": 4281331,
+    "wickets_count": 136731,
+    "multi_wicket_deliveries": 9,
+    "multi_fielder_dismissals": 3898,
+    "replacements_count": 825,
+    "officials_count": 37471,
+    "players_count": 200777,
+    "super_over_count": 126,
+    "pre_penalty_runs": 25,
+    "post_penalty_runs": 20
+  },
+  "critical_errors_sample": [],
+  "warnings_sample": [
+    [
+      "Invariant M4.2 Warning",
+      1157
+    ]
+  ]
+}

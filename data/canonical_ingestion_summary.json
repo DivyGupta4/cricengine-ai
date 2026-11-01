@@ -1,0 +1,69 @@
+{
+  "database_location": "/Users/divygupta/Desktop/DL_DATABASE/data/datalake/curated/cricengine.duckdb",
+  "database_size_bytes": 401616896,
+  "database_size_mb": 383.01171875,
+  "total_source_matches_evaluated": 9088,
+  "matches_successfully_ingested": 7928,
+  "matches_ingested_with_warnings": 1157,
+  "matches_quarantined": 3,
+  "unexpected_failures": 0,
+  "table_row_counts": {
+    "dim_player_master": 7014,
+    "player_source_identity": 7029,
+    "dim_match": 9085,
+    "dim_match_context": 9085,
+    "fact_match_official": 37467,
+    "fact_innings": 19697,
+    "fact_match_participation": 200709,
+    "fact_match_replacement": 825,
+    "fact_ball_by_ball": 4383700,
+    "fact_delivery_dismissal": 136691,
+    "fact_dismissal_fielder": 94926,
+    "fact_pairwise_synergy_matrix": 0,
+    "data_source_manifest": 5,
+    "data_quality_results": 1160
+  },
+  "referential_integrity": {
+    "fact_innings -> dim_match": 0,
+    "dim_match_context -> dim_match": 0,
+    "fact_match_official -> dim_match": 0,
+    "fact_match_participation -> dim_match": 0,
+    "fact_match_participation -> dim_player_master": 0,
+    "fact_ball_by_ball -> dim_match": 0,
+    "fact_ball_by_ball -> fact_innings": 0,
+    "fact_ball_by_ball -> dim_player_master (batter)": 0,
+    "fact_ball_by_ball -> dim_player_master (bowler)": 0,
+    "fact_ball_by_ball -> dim_player_master (non_striker)": 0,
+    "fact_delivery_dismissal -> fact_ball_by_ball": 0,
+    "fact_delivery_dismissal -> dim_player_master (player_out)": 0,
+    "fact_dismissal_fielder -> fact_delivery_dismissal": 0,
+    "fact_match_replacement -> dim_match": 0,
+    "player_source_identity -> dim_player_master": 0
+  },
+  "all_referential_passed": true,
+  "archives_intact": true,
+  "quarantined_matches_details": [
+    {
+      "match_id": "1457218",
+      "comp": "t20s_male",
+      "errors": [
+        "Innings 2 Critical: OUTCOME_RUNS_MARGIN_MISMATCH_EXPECTED_65_GOT_63"
+      ]
+    },
+    {
+      "match_id": "1491604",
+      "comp": "t20s_male",
+      "errors": [
+        "Innings 2 Critical: OUTCOME_WICKETS_MARGIN_MISMATCH_EXPECTED_6_GOT_8"
+      ]
+    },
+    {
+      "match_id": "1495657",
+      "comp": "t20s_male",
+      "errors": [
+        "Innings 2 Critical: OUTCOME_RUNS_MARGIN_MISMATCH_EXPECTED_45_GOT_46"
+      ]
+    }
+  ],
+  "elapsed_seconds": 46.82055401802063
+}

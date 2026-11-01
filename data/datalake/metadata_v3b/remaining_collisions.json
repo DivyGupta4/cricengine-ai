@@ -1,0 +1,18 @@
+{
+  "report": "CricEngine AI \u2014 Phase 3B Remaining Collisions Summary",
+  "timestamp": "2026-11-01T14:06:59.445414+00:00",
+  "total_source_identity_records": 7029,
+  "total_colliding_display_names": 71,
+  "total_affected_candidate_mappings": 152,
+  "standalone_status_distribution": {
+    "VERIFIED": 6876,
+    "AMBIGUOUS": 152,
+    "PROBABLE": 1
+  },
+  "contextual_status_distribution": {
+    "VERIFIED": 7028,
+    "PROBABLE": 1
+  },
+  "contextual_resolution_rate": "99.99%",
+  "unresolved_count": 0
+}

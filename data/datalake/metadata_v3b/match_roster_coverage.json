@@ -1,0 +1,51 @@
+{
+  "total_matches": 9085,
+  "classification_breakdown": {
+    "LEGITIMATELY_STANDARD_22": 4945,
+    "MISSING_SUBSTITUTE_OR_REPLACEMENT_INFO": 993,
+    "INACTIVE_STARTING_XI_PLAYERS": 2664,
+    "LEGITIMATELY_MORE_THAN_22": 105,
+    "SOURCE_METADATA_INCONSISTENCY": 2,
+    "IMPACT_PLAYER_ERA": 371,
+    "LEGITIMATELY_FEWER_THAN_22": 5
+  },
+  "format_breakdown": {
+    "ODI": {
+      "total": 2607,
+      "classifications": {
+        "LEGITIMATELY_STANDARD_22": 1656,
+        "INACTIVE_STARTING_XI_PLAYERS": 518,
+        "MISSING_SUBSTITUTE_OR_REPLACEMENT_INFO": 364,
+        "LEGITIMATELY_MORE_THAN_22": 69
+      }
+    },
+    "T20": {
+      "total": 5581,
+      "classifications": {
+        "LEGITIMATELY_STANDARD_22": 2672,
+        "INACTIVE_STARTING_XI_PLAYERS": 2123,
+        "MISSING_SUBSTITUTE_OR_REPLACEMENT_INFO": 394,
+        "IMPACT_PLAYER_ERA": 371,
+        "LEGITIMATELY_MORE_THAN_22": 14,
+        "LEGITIMATELY_FEWER_THAN_22": 5,
+        "SOURCE_METADATA_INCONSISTENCY": 2
+      }
+    },
+    "Test": {
+      "total": 897,
+      "classifications": {
+        "LEGITIMATELY_STANDARD_22": 617,
+        "MISSING_SUBSTITUTE_OR_REPLACEMENT_INFO": 235,
+        "INACTIVE_STARTING_XI_PLAYERS": 23,
+        "LEGITIMATELY_MORE_THAN_22": 22
+      }
+    }
+  },
+  "impact_player_era_matches": 371,
+  "super_sub_concussion_matches": 105,
+  "genuine_fewer_than_22_matches": 5,
+  "source_metadata_inconsistency_matches": 2,
+  "inactive_starting_xi_matches": 2664,
+  "standard_22_matches": 4945,
+  "missing_substitute_matches": 993
+}

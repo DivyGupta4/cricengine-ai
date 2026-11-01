@@ -1,0 +1,9 @@
+{
+  "pipeline": "build_feature_store_v3b.py",
+  "version": "3.1.0-phase3b",
+  "sources": [
+    "data/datalake/curated/cricengine.duckdb",
+    "data/datalake/enrichment_v3b/fact_match_participation_v3b.parquet",
+    "data/datalake/enrichment_v3b/dim_player_master_enriched.parquet"
+  ]
+}

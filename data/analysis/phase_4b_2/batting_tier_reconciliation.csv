@@ -1,0 +1,13 @@
+Tier,Model,n,mae,rmse,bias,mean_pred,mean_actual,crps
+Debutant (<5),BM-0: Population Average,840,6.485,9.73,3.043,18.248,15.205,5.027
+Debutant (<5),BM-1: Rolling Average (Fallback),840,6.02,9.36,1.932,17.137,15.205,4.759
+Debutant (<5),BM-2: Recency-Weighted EWMA (Fallback),840,6.21,9.648,1.797,17.001,15.205,4.924
+Debutant (<5),CA-HBSS Rating Engine,840,6.474,10.952,2.903,18.108,15.205,4.819
+Moderate (5-9),BM-0: Population Average,668,6.964,10.639,2.683,20.635,17.952,5.441
+Moderate (5-9),BM-1: Rolling Average (Fallback),668,6.111,9.444,-0.326,17.626,17.952,4.828
+Moderate (5-9),BM-2: Recency-Weighted EWMA (Fallback),668,6.236,9.572,0.001,17.953,17.952,4.909
+Moderate (5-9),CA-HBSS Rating Engine,668,7.349,13.541,2.526,20.478,17.952,5.336
+Established (>=10),BM-0: Population Average,3443,6.719,10.021,1.088,23.305,22.217,5.188
+Established (>=10),BM-1: Rolling Average (Fallback),3443,6.471,10.103,0.105,22.322,22.217,5.1
+Established (>=10),BM-2: Recency-Weighted EWMA (Fallback),3443,6.473,10.188,0.252,22.469,22.217,5.104
+Established (>=10),CA-HBSS Rating Engine,3443,8.84,18.497,2.63,24.847,22.217,6.341

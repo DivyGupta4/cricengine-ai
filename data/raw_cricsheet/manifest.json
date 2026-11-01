@@ -1,0 +1,110 @@
+{
+  "version": "1.0.0",
+  "last_updated": "2026-10-29T21:05:14.312087+00:00",
+  "datasets": {
+    "tests_male": {
+      "competition": "Test Matches",
+      "format": "Test",
+      "tier": 1,
+      "url": "https://cricsheet.org/downloads/tests_male_json.zip",
+      "archive_filename": "tests_male_json.zip",
+      "archive_sha256": "cb8593cdad57b6de11f18dca778dd8776d0b3aab4eb5dfe3880a68a0e1e213cb",
+      "archive_size_bytes": 16885868,
+      "retrieval_timestamp": "2026-10-29T21:04:41.905986+00:00",
+      "extract_subdir": "tests_male",
+      "extraction_status": "SUCCESS",
+      "extracted_file_count": 899,
+      "reported_match_count": 897,
+      "error": null
+    },
+    "odis_male": {
+      "competition": "One-Day Internationals",
+      "format": "ODI",
+      "tier": 1,
+      "url": "https://cricsheet.org/downloads/odis_male_json.zip",
+      "archive_filename": "odis_male_json.zip",
+      "archive_sha256": "8518aa42ff388c3f6fca06661bba839e8756680c3a35adbfa851f45364675224",
+      "archive_size_bytes": 17683020,
+      "retrieval_timestamp": "2026-10-29T21:04:53.363185+00:00",
+      "extract_subdir": "odis_male",
+      "extraction_status": "SUCCESS",
+      "extracted_file_count": 2609,
+      "reported_match_count": 2607,
+      "error": null
+    },
+    "t20s_male": {
+      "competition": "T20 Internationals",
+      "format": "T20I",
+      "tier": 1,
+      "url": "https://cricsheet.org/downloads/t20s_male_json.zip",
+      "archive_filename": "t20s_male_json.zip",
+      "archive_sha256": "691f1f42b86c93fbdbc53936ed69479f9306bf39c4c56b4c0729360051075c6d",
+      "archive_size_bytes": 14551021,
+      "retrieval_timestamp": "2026-10-29T21:05:01.790670+00:00",
+      "extract_subdir": "t20s_male",
+      "extraction_status": "SUCCESS",
+      "extracted_file_count": 3648,
+      "reported_match_count": 3646,
+      "error": null
+    },
+    "ipl_male": {
+      "competition": "Indian Premier League",
+      "format": "T20",
+      "tier": 2,
+      "url": "https://cricsheet.org/downloads/ipl_male_json.zip",
+      "archive_filename": "ipl_male_json.zip",
+      "archive_sha256": "6fe9142db9e139e4f77a5634ddc61c1c72a26a56bee2fe5affe5921867de04b3",
+      "archive_size_bytes": 5187774,
+      "retrieval_timestamp": "2026-10-29T21:05:05.772062+00:00",
+      "extract_subdir": "ipl_male",
+      "extraction_status": "SUCCESS",
+      "extracted_file_count": 1245,
+      "reported_match_count": 1095,
+      "error": null
+    },
+    "sma_male": {
+      "competition": "Syed Mushtaq Ali Trophy",
+      "format": "T20",
+      "tier": 3,
+      "url": "https://cricsheet.org/downloads/sma_male_json.zip",
+      "archive_filename": "sma_male_json.zip",
+      "archive_sha256": "14ebfdc1541d6211a8041249d5c8cc9b460fb729a27169959f0de68971444455",
+      "archive_size_bytes": 2702625,
+      "retrieval_timestamp": "2026-10-29T21:05:10.280803+00:00",
+      "extract_subdir": "sma_male",
+      "extraction_status": "SUCCESS",
+      "extracted_file_count": 697,
+      "reported_match_count": 695,
+      "error": null
+    }
+  },
+  "registers": {
+    "people": {
+      "filename": "people.csv",
+      "url": "https://cricsheet.org/register/people.csv",
+      "sha256": "ffacf43c141d729ff3a999d6fce9a2777bd462a1bb86c086467dda88946ae990",
+      "size_bytes": 1186551,
+      "retrieval_timestamp": "2026-10-29T21:05:12.464518+00:00",
+      "status": "SUCCESS",
+      "error": null
+    },
+    "names": {
+      "filename": "names.csv",
+      "url": "https://cricsheet.org/register/names.csv",
+      "sha256": "cde5292c15be1cf03e0b366875b5aa2e23c29283ca9d368bb0f768ea85761fb1",
+      "size_bytes": 162471,
+      "retrieval_timestamp": "2026-10-29T21:05:13.652676+00:00",
+      "status": "SUCCESS",
+      "error": null
+    },
+    "venues": {
+      "filename": "venues.csv",
+      "url": "https://cricsheet.org/register/venues.csv",
+      "sha256": "a80150a14b90d615b494c151037dbd148fc530e8e6b1eb1a0b6024ee4eb66ad6",
+      "size_bytes": 21321,
+      "retrieval_timestamp": "2026-10-29T21:05:14.309836+00:00",
+      "status": "SUCCESS",
+      "error": null
+    }
+  }
+}

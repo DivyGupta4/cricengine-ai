@@ -1,0 +1,590 @@
+{
+  "T20": {
+    "total": 6321,
+    "established": 2902,
+    "low_exposure": 3419,
+    "metrics": {
+      "r_bat": {
+        "all": {
+          "mean": 899.3,
+          "std": 102.6,
+          "p05": 712.5,
+          "median": 911.5,
+          "p95": 1033.4,
+          "min": 340.2,
+          "max": 1254.2
+        },
+        "established": {
+          "mean": 875.1,
+          "std": 112.8,
+          "median": 890.0
+        },
+        "low_exp": {
+          "mean": 919.9,
+          "std": 88.0,
+          "median": 926.8
+        }
+      },
+      "rd_bat": {
+        "all": {
+          "mean": 157.1,
+          "std": 68.0,
+          "p05": 85.6,
+          "median": 143.3,
+          "p95": 350.0,
+          "min": 62.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 130.9,
+          "std": 41.2,
+          "median": 123.0
+        },
+        "low_exp": {
+          "mean": 179.3,
+          "std": 77.7,
+          "median": 154.4
+        }
+      },
+      "r_bowl": {
+        "all": {
+          "mean": 1177.0,
+          "std": 220.1,
+          "p05": 950.8,
+          "median": 1069.3,
+          "p95": 1571.3,
+          "min": 753.7,
+          "max": 1760.7
+        },
+        "established": {
+          "mean": 1300.5,
+          "std": 236.4,
+          "median": 1369.9
+        },
+        "low_exp": {
+          "mean": 1072.2,
+          "std": 135.0,
+          "median": 1000.0
+        }
+      },
+      "rd_bowl": {
+        "all": {
+          "mean": 212.9,
+          "std": 97.6,
+          "p05": 92.8,
+          "median": 167.4,
+          "p95": 350.0,
+          "min": 63.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 187.8,
+          "std": 96.0,
+          "median": 154.9
+        },
+        "low_exp": {
+          "mean": 234.3,
+          "std": 93.9,
+          "median": 176.0
+        }
+      },
+      "r_field": {
+        "all": {
+          "mean": 742.6,
+          "std": 187.0,
+          "p05": 498.5,
+          "median": 750.3,
+          "p95": 950.0,
+          "min": 485.5,
+          "max": 950.0
+        },
+        "established": {
+          "mean": 899.4,
+          "std": 104.5,
+          "median": 950.0
+        },
+        "low_exp": {
+          "mean": 609.4,
+          "std": 129.4,
+          "median": 586.3
+        }
+      },
+      "rd_field": {
+        "all": {
+          "mean": 256.9,
+          "std": 56.6,
+          "p05": 150.0,
+          "median": 269.7,
+          "p95": 344.4,
+          "min": 150.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 225.9,
+          "std": 65.4,
+          "median": 215.4
+        },
+        "low_exp": {
+          "mean": 283.1,
+          "std": 28.2,
+          "median": 270.8
+        }
+      },
+      "r_allround": {
+        "all": {
+          "mean": 106.4,
+          "std": 100.6,
+          "p05": 0.0,
+          "median": 77.9,
+          "p95": 292.6,
+          "min": 0.0,
+          "max": 847.2
+        },
+        "established": {
+          "mean": 136.7,
+          "std": 114.8,
+          "median": 117.2
+        },
+        "low_exp": {
+          "mean": 80.8,
+          "std": 78.1,
+          "median": 58.5
+        }
+      },
+      "rd_allround": {
+        "all": {
+          "mean": 146.7,
+          "std": 57.0,
+          "p05": 84.6,
+          "median": 139.6,
+          "p95": 350.0,
+          "min": 62.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 125.1,
+          "std": 46.9,
+          "median": 114.2
+        },
+        "low_exp": {
+          "mean": 165.0,
+          "std": 58.4,
+          "median": 152.9
+        }
+      },
+      "vorp_rating": {
+        "all": {
+          "mean": 4.6,
+          "std": 3.2,
+          "p05": 0.2,
+          "median": 4.2,
+          "p95": 10.5,
+          "min": -1.5,
+          "max": 23.7
+        },
+        "established": {
+          "mean": 6.7,
+          "std": 2.9,
+          "median": 6.1
+        },
+        "low_exp": {
+          "mean": 2.8,
+          "std": 2.2,
+          "median": 2.5
+        }
+      }
+    }
+  },
+  "ODI": {
+    "total": 2015,
+    "established": 1079,
+    "low_exposure": 936,
+    "metrics": {
+      "r_bat": {
+        "all": {
+          "mean": 941.7,
+          "std": 98.8,
+          "p05": 756.5,
+          "median": 954.2,
+          "p95": 1080.3,
+          "min": 503.9,
+          "max": 1175.3
+        },
+        "established": {
+          "mean": 940.7,
+          "std": 112.3,
+          "median": 957.0
+        },
+        "low_exp": {
+          "mean": 942.9,
+          "std": 80.5,
+          "median": 951.6
+        }
+      },
+      "rd_bat": {
+        "all": {
+          "mean": 149.8,
+          "std": 53.9,
+          "p05": 89.2,
+          "median": 141.6,
+          "p95": 232.5,
+          "min": 68.1,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 131.2,
+          "std": 36.6,
+          "median": 125.2
+        },
+        "low_exp": {
+          "mean": 171.2,
+          "std": 62.1,
+          "median": 157.6
+        }
+      },
+      "r_bowl": {
+        "all": {
+          "mean": 1205.1,
+          "std": 223.5,
+          "p05": 949.0,
+          "median": 1135.3,
+          "p95": 1562.9,
+          "min": 737.1,
+          "max": 1690.0
+        },
+        "established": {
+          "mean": 1303.7,
+          "std": 232.1,
+          "median": 1395.1
+        },
+        "low_exp": {
+          "mean": 1091.4,
+          "std": 146.0,
+          "median": 1019.6
+        }
+      },
+      "rd_bowl": {
+        "all": {
+          "mean": 201.7,
+          "std": 93.1,
+          "p05": 91.3,
+          "median": 164.8,
+          "p95": 350.0,
+          "min": 65.9,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 186.1,
+          "std": 94.6,
+          "median": 152.4
+        },
+        "low_exp": {
+          "mean": 219.8,
+          "std": 87.8,
+          "median": 168.6
+        }
+      },
+      "r_field": {
+        "all": {
+          "mean": 760.8,
+          "std": 179.5,
+          "p05": 496.6,
+          "median": 801.7,
+          "p95": 950.0,
+          "min": 485.0,
+          "max": 950.0
+        },
+        "established": {
+          "mean": 891.3,
+          "std": 98.0,
+          "median": 950.0
+        },
+        "low_exp": {
+          "mean": 610.4,
+          "std": 126.6,
+          "median": 582.6
+        }
+      },
+      "rd_field": {
+        "all": {
+          "mean": 242.4,
+          "std": 57.9,
+          "p05": 150.0,
+          "median": 263.0,
+          "p95": 336.9,
+          "min": 150.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 211.4,
+          "std": 58.1,
+          "median": 198.4
+        },
+        "low_exp": {
+          "mean": 278.2,
+          "std": 30.6,
+          "median": 270.3
+        }
+      },
+      "r_allround": {
+        "all": {
+          "mean": 125.5,
+          "std": 99.0,
+          "p05": 2.8,
+          "median": 109.2,
+          "p95": 296.9,
+          "min": 0.0,
+          "max": 514.3
+        },
+        "established": {
+          "mean": 148.3,
+          "std": 108.4,
+          "median": 144.8
+        },
+        "low_exp": {
+          "mean": 99.2,
+          "std": 79.1,
+          "median": 87.7
+        }
+      },
+      "rd_allround": {
+        "all": {
+          "mean": 138.4,
+          "std": 41.7,
+          "p05": 85.1,
+          "median": 135.9,
+          "p95": 198.5,
+          "min": 65.9,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 121.7,
+          "std": 36.1,
+          "median": 114.5
+        },
+        "low_exp": {
+          "mean": 157.6,
+          "std": 39.4,
+          "median": 155.3
+        }
+      },
+      "vorp_rating": {
+        "all": {
+          "mean": 8.9,
+          "std": 5.1,
+          "p05": 1.4,
+          "median": 8.0,
+          "p95": 18.0,
+          "min": -0.1,
+          "max": 26.8
+        },
+        "established": {
+          "mean": 11.8,
+          "std": 4.5,
+          "median": 11.5
+        },
+        "low_exp": {
+          "mean": 5.6,
+          "std": 3.6,
+          "median": 5.2
+        }
+      }
+    }
+  },
+  "TEST": {
+    "total": 1070,
+    "established": 488,
+    "low_exposure": 582,
+    "metrics": {
+      "r_bat": {
+        "all": {
+          "mean": 1085.2,
+          "std": 126.3,
+          "p05": 885.6,
+          "median": 1088.3,
+          "p95": 1276.8,
+          "min": 667.4,
+          "max": 1413.3
+        },
+        "established": {
+          "mean": 1138.0,
+          "std": 132.7,
+          "median": 1172.9
+        },
+        "low_exp": {
+          "mean": 1040.9,
+          "std": 101.5,
+          "median": 1037.9
+        }
+      },
+      "rd_bat": {
+        "all": {
+          "mean": 145.7,
+          "std": 34.2,
+          "p05": 104.3,
+          "median": 140.9,
+          "p95": 199.3,
+          "min": 91.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 134.7,
+          "std": 27.7,
+          "median": 129.1
+        },
+        "low_exp": {
+          "mean": 154.9,
+          "std": 36.3,
+          "median": 151.4
+        }
+      },
+      "r_bowl": {
+        "all": {
+          "mean": 1254.2,
+          "std": 264.9,
+          "p05": 968.3,
+          "median": 1166.0,
+          "p95": 1670.4,
+          "min": 869.9,
+          "max": 1809.6
+        },
+        "established": {
+          "mean": 1337.4,
+          "std": 289.3,
+          "median": 1470.0
+        },
+        "low_exp": {
+          "mean": 1184.4,
+          "std": 219.6,
+          "median": 1083.2
+        }
+      },
+      "rd_bowl": {
+        "all": {
+          "mean": 210.1,
+          "std": 91.6,
+          "p05": 97.3,
+          "median": 173.6,
+          "p95": 350.0,
+          "min": 76.2,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 202.0,
+          "std": 93.9,
+          "median": 182.0
+        },
+        "low_exp": {
+          "mean": 217.0,
+          "std": 89.0,
+          "median": 172.2
+        }
+      },
+      "r_field": {
+        "all": {
+          "mean": 769.3,
+          "std": 172.1,
+          "p05": 497.4,
+          "median": 819.4,
+          "p95": 950.0,
+          "min": 484.5,
+          "max": 950.0
+        },
+        "established": {
+          "mean": 901.0,
+          "std": 83.3,
+          "median": 950.0
+        },
+        "low_exp": {
+          "mean": 658.8,
+          "std": 147.8,
+          "median": 645.2
+        }
+      },
+      "rd_field": {
+        "all": {
+          "mean": 236.5,
+          "std": 59.1,
+          "p05": 150.0,
+          "median": 255.0,
+          "p95": 330.5,
+          "min": 150.0,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 199.4,
+          "std": 56.4,
+          "median": 179.0
+        },
+        "low_exp": {
+          "mean": 267.6,
+          "std": 40.5,
+          "median": 269.8
+        }
+      },
+      "r_allround": {
+        "all": {
+          "mean": 159.6,
+          "std": 124.9,
+          "p05": 13.0,
+          "median": 130.0,
+          "p95": 395.9,
+          "min": 0.0,
+          "max": 589.5
+        },
+        "established": {
+          "mean": 180.9,
+          "std": 140.5,
+          "median": 142.2
+        },
+        "low_exp": {
+          "mean": 141.8,
+          "std": 107.1,
+          "median": 121.0
+        }
+      },
+      "rd_allround": {
+        "all": {
+          "mean": 139.8,
+          "std": 29.6,
+          "p05": 98.9,
+          "median": 137.9,
+          "p95": 188.1,
+          "min": 77.9,
+          "max": 350.0
+        },
+        "established": {
+          "mean": 127.0,
+          "std": 28.0,
+          "median": 119.7
+        },
+        "low_exp": {
+          "mean": 150.6,
+          "std": 26.4,
+          "median": 152.4
+        }
+      },
+      "vorp_rating": {
+        "all": {
+          "mean": 15.6,
+          "std": 8.4,
+          "p05": 4.5,
+          "median": 13.7,
+          "p95": 31.7,
+          "min": -0.0,
+          "max": 45.3
+        },
+        "established": {
+          "mean": 19.9,
+          "std": 8.1,
+          "median": 17.8
+        },
+        "low_exp": {
+          "mean": 12.1,
+          "std": 6.9,
+          "median": 11.1
+        }
+      }
+    }
+  }
+}

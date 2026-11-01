@@ -1,0 +1,1432 @@
+{
+  "report_name": "CricEngine AI \u2014 Player Display Name Collision Report",
+  "total_mappings": 7029,
+  "total_colliding_names": 71,
+  "total_affected_rows": 152,
+  "status_distribution": {
+    "VERIFIED": 6876,
+    "AMBIGUOUS": 152,
+    "PROBABLE": 1
+  },
+  "collisions": {
+    "A Awasthi": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "93544e69",
+          "unique_name": "Abhishek Awasthi",
+          "key_cricinfo": "1500607",
+          "key_bcci": null,
+          "identity_mapping_id": "a456988f894ca1e8ee7c6b30207442e2"
+        },
+        {
+          "player_id": "fa62a463",
+          "unique_name": "A Awasthi",
+          "key_cricinfo": "1403178",
+          "key_bcci": null,
+          "identity_mapping_id": "c8a970abaee47bb28719e34178c9b39f"
+        }
+      ]
+    },
+    "A Mishra": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "54690147",
+          "unique_name": "Ayushmaan Mishra",
+          "key_cricinfo": "1528649",
+          "key_bcci": null,
+          "identity_mapping_id": "eda66b197477b80f003392d8532b2f51"
+        },
+        {
+          "player_id": "6b19d823",
+          "unique_name": "A Mishra",
+          "key_cricinfo": "31107",
+          "key_bcci": "JKViieiGOiIJAXbzeIJJU0CLyOcihQ1",
+          "identity_mapping_id": "739a523c939f9ff139f46d661d70cd26"
+        }
+      ]
+    },
+    "A Shukla": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "a1e80d06",
+          "unique_name": "A Shukla",
+          "key_cricinfo": "1167779",
+          "key_bcci": null,
+          "identity_mapping_id": "05dcef3423def7a7564c8887e4247370"
+        },
+        {
+          "player_id": "c594137f",
+          "unique_name": "Arpit Shukla",
+          "key_cricinfo": "1445602",
+          "key_bcci": null,
+          "identity_mapping_id": "96a06ea384996444b9f62ca86cbba45c"
+        }
+      ]
+    },
+    "Abdul Samad": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "21dbacff",
+          "unique_name": "Abdul Samad (2)",
+          "key_cricinfo": "1431566",
+          "key_bcci": null,
+          "identity_mapping_id": "25fbf8af657aeab617ce22ef7af51bea"
+        },
+        {
+          "player_id": "8e514b4c",
+          "unique_name": "Abdul Samad",
+          "key_cricinfo": "1175485",
+          "key_bcci": "hicQGCIJAJiJiVKXbJLyU0Oii1OzIee",
+          "identity_mapping_id": "70f512b3b929a0ceb883ae5e6c597bc9"
+        },
+        {
+          "player_id": "8e554b6b",
+          "unique_name": "Abdul Samad (3)",
+          "key_cricinfo": "1073106",
+          "key_bcci": null,
+          "identity_mapping_id": "dc1342e23ae1667351af0c54f0028a2d"
+        }
+      ]
+    },
+    "Abdul Shakoor": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "7b9b9aef",
+          "unique_name": "Abdul Shakoor",
+          "key_cricinfo": "585100",
+          "key_bcci": null,
+          "identity_mapping_id": "da2d7be12f74bdd92a70300c1f4bc062"
+        },
+        {
+          "player_id": "d52b13a6",
+          "unique_name": "Abdul Shakoor (2)",
+          "key_cricinfo": "1198937",
+          "key_bcci": null,
+          "identity_mapping_id": "35405ff42ed468c484101e31a1b200e6"
+        }
+      ]
+    },
+    "Adil Butt": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "598f5484",
+          "unique_name": "Adil Butt",
+          "key_cricinfo": "1217293",
+          "key_bcci": null,
+          "identity_mapping_id": "18d0d39dc4c4b7eb2e9e4f537e0d61e7"
+        },
+        {
+          "player_id": "fde53ec1",
+          "unique_name": "Adil Butt (2)",
+          "key_cricinfo": "1347279",
+          "key_bcci": null,
+          "identity_mapping_id": "de6bbd6d8a427503737c1a73a8e93ee5"
+        }
+      ]
+    },
+    "Aftab Ahmed": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "53bc7b84",
+          "unique_name": "Aftab Ahmed",
+          "key_cricinfo": "56266",
+          "key_bcci": null,
+          "identity_mapping_id": "fd4602aa40a3bc7fa5f00cea771f41e7"
+        },
+        {
+          "player_id": "94ed8d37",
+          "unique_name": "Aftab Ahmed (2)",
+          "key_cricinfo": "303415",
+          "key_bcci": null,
+          "identity_mapping_id": "1a5d0beef70daf869642c3c102971129"
+        }
+      ]
+    },
+    "Ahmed Hassan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "7c885103",
+          "unique_name": "Ahmed Hassan",
+          "key_cricinfo": "387120",
+          "key_bcci": null,
+          "identity_mapping_id": "a1fa33622a14a7d0a31a47e5ec2867d5"
+        },
+        {
+          "player_id": "c439461b",
+          "unique_name": "Ahmed Hassan (2)",
+          "key_cricinfo": "1209330",
+          "key_bcci": null,
+          "identity_mapping_id": "4040ac80307f866bd8d3ff38bfce6bc2"
+        }
+      ]
+    },
+    "Ajay Kumar": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "c80b4969",
+          "unique_name": "Ajay Kumar (2)",
+          "key_cricinfo": "1511696",
+          "key_bcci": null,
+          "identity_mapping_id": "d76254e66423bea9c38c08e284466243"
+        },
+        {
+          "player_id": "ea02d56d",
+          "unique_name": "Ajay Kumar",
+          "key_cricinfo": "481047",
+          "key_bcci": "iCXcOhJG1y0UzeIVIiQbJeJiLJKiOiA",
+          "identity_mapping_id": "ff5caa22b11562f69a9e463075d3a403"
+        }
+      ]
+    },
+    "Ali Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "692c7070",
+          "unique_name": "Ali Shamsher Khan",
+          "key_cricinfo": "227757",
+          "key_bcci": null,
+          "identity_mapping_id": "07d59b36f8e772c7f0e5d930f8281598"
+        },
+        {
+          "player_id": "b0eaaac6",
+          "unique_name": "Ali Khan",
+          "key_cricinfo": "927119",
+          "key_bcci": null,
+          "identity_mapping_id": "979edad514ad63cb957075489d29f9ea"
+        }
+      ]
+    },
+    "Amit Mishra": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "1d8388eb",
+          "unique_name": "Amit Mishra",
+          "key_cricinfo": "482546",
+          "key_bcci": "XQCyIVJiiUiG1Jbe0cOKAieJJOiLIhz",
+          "identity_mapping_id": "0b460cf189a4a1e3c0210245da67dcc6"
+        },
+        {
+          "player_id": "40792cff",
+          "unique_name": "Amit Mishra (2)",
+          "key_cricinfo": "604550",
+          "key_bcci": "ieLUKhIAJcGiieyCi1J0OIXQJJbzVOi",
+          "identity_mapping_id": "3f3bbea68b060ff70202eea200395877"
+        }
+      ]
+    },
+    "Arshad Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "0a4c6dfd",
+          "unique_name": "Arshad Khan",
+          "key_cricinfo": "39005",
+          "key_bcci": null,
+          "identity_mapping_id": "3639a76a275d5891bf9dadb233e73114"
+        },
+        {
+          "player_id": "12314277",
+          "unique_name": "Arshad Khan (2)",
+          "key_cricinfo": "1244751",
+          "key_bcci": null,
+          "identity_mapping_id": "c5b403caeb6c197b69a7a77355a2c189"
+        }
+      ]
+    },
+    "D Jansen": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "8dc152d1",
+          "unique_name": "Duan Jansen",
+          "key_cricinfo": "595954",
+          "key_bcci": null,
+          "identity_mapping_id": "a0a9e625bff52a1023386b0eec233c5e"
+        },
+        {
+          "player_id": "c90346a0",
+          "unique_name": "D Jansen",
+          "key_cricinfo": "1058501",
+          "key_bcci": null,
+          "identity_mapping_id": "9424667cffdad9c294cd72035acf36d0"
+        }
+      ]
+    },
+    "D Johnson": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "945981e5",
+          "unique_name": "Diyon Johnson",
+          "key_cricinfo": "1487992",
+          "key_bcci": null,
+          "identity_mapping_id": "4aaf1892bc059b94dbce8fee0bb949ba"
+        },
+        {
+          "player_id": "d406e303",
+          "unique_name": "D Johnson",
+          "key_cricinfo": "1310711",
+          "key_bcci": null,
+          "identity_mapping_id": "3cc374f700f9d841dfeb3fee8f8227de"
+        }
+      ]
+    },
+    "Gagandeep Singh": {
+      "candidate_count": 4,
+      "candidates": [
+        {
+          "player_id": "239197f1",
+          "unique_name": "Gagandeep Singh (4)",
+          "key_cricinfo": "1287064",
+          "key_bcci": null,
+          "identity_mapping_id": "77928d41411ae00c66b4b16b5f99f479"
+        },
+        {
+          "player_id": "4a370769",
+          "unique_name": "Gagandeep Singh (3)",
+          "key_cricinfo": "1382797",
+          "key_bcci": null,
+          "identity_mapping_id": "2fb780866bca4235e4063ca8767e1fd1"
+        },
+        {
+          "player_id": "87046e99",
+          "unique_name": "Gagandeep Singh (2)",
+          "key_cricinfo": "1335146",
+          "key_bcci": null,
+          "identity_mapping_id": "38f5820de28e8d8937584d0b23676072"
+        },
+        {
+          "player_id": "890de8cb",
+          "unique_name": "Gagandeep Singh",
+          "key_cricinfo": "28758",
+          "key_bcci": null,
+          "identity_mapping_id": "b88f80d5a2413dc21f89754f750cdd56"
+        }
+      ]
+    },
+    "Gurpreet Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "1a5d690f",
+          "unique_name": "Gurpreet Singh",
+          "key_cricinfo": "1343334",
+          "key_bcci": null,
+          "identity_mapping_id": "7209fc7ccdee7eb3cf271a743e9b4942"
+        },
+        {
+          "player_id": "f43dcdc1",
+          "unique_name": "Gurpreet Singh (2)",
+          "key_cricinfo": "1509250",
+          "key_bcci": null,
+          "identity_mapping_id": "34abf9b7e4088249fb3b034a0600b254"
+        }
+      ]
+    },
+    "Haider Ali": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "c13e34f4",
+          "unique_name": "Haider Ali",
+          "key_cricinfo": "1168651",
+          "key_bcci": null,
+          "identity_mapping_id": "0f332d2e2bd16239cb2399c6eeda6423"
+        },
+        {
+          "player_id": "dd572696",
+          "unique_name": "Haider Ali (3)",
+          "key_cricinfo": "1160970",
+          "key_bcci": null,
+          "identity_mapping_id": "f994e3fe4f4fa4e65c8483ba2e6e762d"
+        }
+      ]
+    },
+    "Hardeep Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "2123d0af",
+          "unique_name": "Hardeep Singh",
+          "key_cricinfo": "1201532",
+          "key_bcci": "20169478a5db8c8211e69558028d29d",
+          "identity_mapping_id": "0fec3bb94db3a74b127cea0d1b3f39c2"
+        },
+        {
+          "player_id": "d617f2bf",
+          "unique_name": "Hardeep Singh (2)",
+          "key_cricinfo": "1448031",
+          "key_bcci": null,
+          "identity_mapping_id": "11d46e3b9c8b8477c281a85fe224be14"
+        }
+      ]
+    },
+    "Harmeet Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "0bf15e52",
+          "unique_name": "Harmeet Singh (2)",
+          "key_cricinfo": "422847",
+          "key_bcci": "hiL0i1JJzecGUAyOIbCXQJJIVKieOii",
+          "identity_mapping_id": "2eaf67372c22412db90e443508cba26d"
+        },
+        {
+          "player_id": "2a72fd4f",
+          "unique_name": "Harmeet Singh",
+          "key_cricinfo": "391128",
+          "key_bcci": "IJCzV1XJiOOAJiiGLU0icJQyieIehbK",
+          "identity_mapping_id": "57568a03f0b9921e6aee6489e862cec9"
+        }
+      ]
+    },
+    "Hassan Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "486065b3",
+          "unique_name": "Hassan Khan",
+          "key_cricinfo": "959789",
+          "key_bcci": null,
+          "identity_mapping_id": "2fce91daa65884983f2bbc54eda315b8"
+        },
+        {
+          "player_id": "8f0c3818",
+          "unique_name": "Mohammad Hassan Khan",
+          "key_cricinfo": "1492928",
+          "key_bcci": null,
+          "identity_mapping_id": "f97a79d0664350e934987b7a7a75d7c2"
+        }
+      ]
+    },
+    "Het Patel": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "000803b1",
+          "unique_name": "Het Patel (2)",
+          "key_cricinfo": "1426418",
+          "key_bcci": null,
+          "identity_mapping_id": "47158c767396fc3e1799096070fe7826"
+        },
+        {
+          "player_id": "f543b251",
+          "unique_name": "Het Patel",
+          "key_cricinfo": "1070199",
+          "key_bcci": "iJiJKJzXI1QbV0UAyIeLOiiecJihCOG",
+          "identity_mapping_id": "12109a160d4b00dd675204b13dc99be8"
+        }
+      ]
+    },
+    "Ibrar Ahmad": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "9dc8bc5c",
+          "unique_name": "Ibrar Ahmad (2)",
+          "key_cricinfo": "1490899",
+          "key_bcci": null,
+          "identity_mapping_id": "d774c13d69c192f9d695e90bfdd90e7f"
+        },
+        {
+          "player_id": "aa47439d",
+          "unique_name": "Ibrar Ahmad",
+          "key_cricinfo": "1460538",
+          "key_bcci": null,
+          "identity_mapping_id": "6592ae426d1e343a90a7625229f7e738"
+        }
+      ]
+    },
+    "Imran Butt": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "72683b68",
+          "unique_name": "Imran Butt (2)",
+          "key_cricinfo": "598905",
+          "key_bcci": null,
+          "identity_mapping_id": "e613798dd66faadd65c06609ba2a6297"
+        },
+        {
+          "player_id": "cc3fb3b3",
+          "unique_name": "Imran Butt",
+          "key_cricinfo": "1122396",
+          "key_bcci": null,
+          "identity_mapping_id": "201486b086446ba9cd35df7a0c760641"
+        }
+      ]
+    },
+    "Imran Haider": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "0226b73a",
+          "unique_name": "Imran Haider",
+          "key_cricinfo": "943275",
+          "key_bcci": null,
+          "identity_mapping_id": "360d55a97beac41e4b8030efc1f0ac80"
+        },
+        {
+          "player_id": "1b8242f2",
+          "unique_name": "Imran Haider (2)",
+          "key_cricinfo": "1198941",
+          "key_bcci": null,
+          "identity_mapping_id": "7cc0a0435deee3bdac16da3e71810bba"
+        }
+      ]
+    },
+    "Imran Khan": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "2b0f2af3",
+          "unique_name": "Imran Khan (2)",
+          "key_cricinfo": "316363",
+          "key_bcci": null,
+          "identity_mapping_id": "d188cb02695f64895947148b87a60242"
+        },
+        {
+          "player_id": "a0a32dd1",
+          "unique_name": "Imran Khan (4)",
+          "key_cricinfo": "1204641",
+          "key_bcci": null,
+          "identity_mapping_id": "bd20953159120236cad23d6bda492914"
+        },
+        {
+          "player_id": "da3b91fd",
+          "unique_name": "Imran Khan (5)",
+          "key_cricinfo": "1328734",
+          "key_bcci": null,
+          "identity_mapping_id": "f3b8f7c1d0e5f23a4af474b198b86c4f"
+        }
+      ]
+    },
+    "J Anderson": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "33001741",
+          "unique_name": "Jehu Anderson",
+          "key_cricinfo": "1339016",
+          "key_bcci": null,
+          "identity_mapping_id": "3b7ef400cda466e963818328f7223db0"
+        },
+        {
+          "player_id": "d5bbb6a2",
+          "unique_name": "J Anderson",
+          "key_cricinfo": "44014",
+          "key_bcci": null,
+          "identity_mapping_id": "74ffeeb55837f8d29902f0115c605887"
+        }
+      ]
+    },
+    "Jaskaran Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "5efcabe2",
+          "unique_name": "Jaskaran Singh (3)",
+          "key_cricinfo": "543922",
+          "key_bcci": "bOzOhJIiiVQyJicXJACJ1iLiKUG0Iee",
+          "identity_mapping_id": "a42fc65ec43202dc8f83cff214be6679"
+        },
+        {
+          "player_id": "d7b3a420",
+          "unique_name": "Jaskaran Singh",
+          "key_cricinfo": "376102",
+          "key_bcci": "h0cCJIKOeUVJIiXGiiiLeJOzAyJb1iQ",
+          "identity_mapping_id": "a8baa8c0fccfd4ac4f2969c5a2cffb35"
+        }
+      ]
+    },
+    "Junaid Khan": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "086f5984",
+          "unique_name": "Junaid Khan",
+          "key_cricinfo": "259551",
+          "key_bcci": null,
+          "identity_mapping_id": "bbd8ccf3ffa1746219b7289e5f2c586e"
+        },
+        {
+          "player_id": "670e6804",
+          "unique_name": "Junaid Khan (2)",
+          "key_cricinfo": "1496497",
+          "key_bcci": null,
+          "identity_mapping_id": "91115893eae792fe177d56317540b2fb"
+        },
+        {
+          "player_id": "be0077ba",
+          "unique_name": "J Khan",
+          "key_cricinfo": "1274040",
+          "key_bcci": null,
+          "identity_mapping_id": "3e02d1dce93c8277439b5682f8d461dc"
+        }
+      ]
+    },
+    "Junaid Siddique": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "62e203d4",
+          "unique_name": "Junaid Siddique",
+          "key_cricinfo": "55946",
+          "key_bcci": null,
+          "identity_mapping_id": "544f6b68379fd77d1f2be02d359601b5"
+        },
+        {
+          "player_id": "84dc72db",
+          "unique_name": "Junaid Siddique (2)",
+          "key_cricinfo": "1203754",
+          "key_bcci": null,
+          "identity_mapping_id": "7f0967932210b2b5a5c1c5bdc76f6d0c"
+        }
+      ]
+    },
+    "Kamran Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "6ef60d3a",
+          "unique_name": "Kamran Khan",
+          "key_cricinfo": "391121",
+          "key_bcci": null,
+          "identity_mapping_id": "185354a62bd6ea03a65efe6f5a81339f"
+        },
+        {
+          "player_id": "922e3dcc",
+          "unique_name": "Kamran Khan (2)",
+          "key_cricinfo": "319750",
+          "key_bcci": null,
+          "identity_mapping_id": "2ca700cd4072fd523cfef16a9a38aba4"
+        }
+      ]
+    },
+    "Khurram Shahzad": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "27c5715d",
+          "unique_name": "Khurram Shahzad (2)",
+          "key_cricinfo": "1159495",
+          "key_bcci": null,
+          "identity_mapping_id": "1852cf541f8f576a07e3b31e05a0bfa4"
+        },
+        {
+          "player_id": "85b0ccd1",
+          "unique_name": "Khurram Shahzad",
+          "key_cricinfo": "1093668",
+          "key_bcci": null,
+          "identity_mapping_id": "423529191380083442925b28801a9b50"
+        }
+      ]
+    },
+    "Mandeep Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "c3a96caf",
+          "unique_name": "Mandeep Singh",
+          "key_cricinfo": "398506",
+          "key_bcci": "OzV0LUQiKbJeGieihXiCAIOJ1IiJyJc",
+          "identity_mapping_id": "062996d95bd8462b846ca82b5779f5e1"
+        },
+        {
+          "player_id": "dc39e9ab",
+          "unique_name": "Mandeep Singh (2)",
+          "key_cricinfo": "1441894",
+          "key_bcci": null,
+          "identity_mapping_id": "f92c79dc52f8605309318114ca13229f"
+        }
+      ]
+    },
+    "Manish Sharma": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "5473ec6f",
+          "unique_name": "Manish Sharma (2)",
+          "key_cricinfo": "1349476",
+          "key_bcci": null,
+          "identity_mapping_id": "a189911b9d33fe0faa5d5d785c7b9d43"
+        },
+        {
+          "player_id": "b4ff4409",
+          "unique_name": "Manish Sharma",
+          "key_cricinfo": "1175481",
+          "key_bcci": "201850adc291d75211e8a30e02726df",
+          "identity_mapping_id": "57581dcec061aadb8429bb29b774902f"
+        }
+      ]
+    },
+    "Mohsin Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "2669d6b7",
+          "unique_name": "Mohsin Khan",
+          "key_cricinfo": "919535",
+          "key_bcci": null,
+          "identity_mapping_id": "868ad8af2c07e3e438c4d053d391fdc0"
+        },
+        {
+          "player_id": "c33d8116",
+          "unique_name": "Mohsin Khan (2)",
+          "key_cricinfo": "1132005",
+          "key_bcci": "eiIL1ciCOJJJI0GzOybiQhViUJKAieX",
+          "identity_mapping_id": "8bc4009fee27cfe02846e430779ad4b9"
+        }
+      ]
+    },
+    "Muhammad Asim": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "8ba04532",
+          "unique_name": "Muhammad Asim (2)",
+          "key_cricinfo": "1514025",
+          "key_bcci": null,
+          "identity_mapping_id": "eb1cff485a5c0383f9741bce075e4df5"
+        },
+        {
+          "player_id": "b424d3d3",
+          "unique_name": "Muhammad Asim",
+          "key_cricinfo": "1464831",
+          "key_bcci": null,
+          "identity_mapping_id": "492a3b1ea0022f31bdedc8c30dc8d0a7"
+        }
+      ]
+    },
+    "Muhammad Farooq": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "81416a78",
+          "unique_name": "Muhammad Farooq (2)",
+          "key_cricinfo": "1163171",
+          "key_bcci": null,
+          "identity_mapping_id": "26f0305e39b9cb7fac1eb97769bbbd40"
+        },
+        {
+          "player_id": "8f3c6b8a",
+          "unique_name": "Muhammad Farooq",
+          "key_cricinfo": "1323402",
+          "key_bcci": null,
+          "identity_mapping_id": "b43e2105242d123c76f937cdc596c85b"
+        }
+      ]
+    },
+    "Muhammad Naeem": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "993281c2",
+          "unique_name": "Muhammad Naeem (3)",
+          "key_cricinfo": "1516326",
+          "key_bcci": null,
+          "identity_mapping_id": "3bfc74d29f1d648e6abdabc35991f63a"
+        },
+        {
+          "player_id": "e2f7d34b",
+          "unique_name": "Muhammad Naeem",
+          "key_cricinfo": "1172140",
+          "key_bcci": null,
+          "identity_mapping_id": "abf4f981ddd33546e05e8062d3d3966f"
+        }
+      ]
+    },
+    "Muhammad Usman": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "45642393",
+          "unique_name": "Muhammad Usman",
+          "key_cricinfo": "974719",
+          "key_bcci": null,
+          "identity_mapping_id": "e612191f478a8fce1055578cc3bee67c"
+        },
+        {
+          "player_id": "82a7dfdd",
+          "unique_name": "Muhammad Usman (4)",
+          "key_cricinfo": "1496499",
+          "key_bcci": null,
+          "identity_mapping_id": "e2535c98de4738d6d79466eacc05b973"
+        },
+        {
+          "player_id": "b7621723",
+          "unique_name": "Muhammad Usman (3)",
+          "key_cricinfo": "1319152",
+          "key_bcci": null,
+          "identity_mapping_id": "5ca651f216daefb87ef0a1931b2065ff"
+        }
+      ]
+    },
+    "NK Patel": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "a2870fb7",
+          "unique_name": "Niraj Patel",
+          "key_cricinfo": "32240",
+          "key_bcci": null,
+          "identity_mapping_id": "c59697a2eb39f68292e4ec5fc8f0edea"
+        },
+        {
+          "player_id": "c6e10e5c",
+          "unique_name": "NK Patel",
+          "key_cricinfo": "532247",
+          "key_bcci": null,
+          "identity_mapping_id": "315ff61703b37d679c7011d1cc554bf5"
+        }
+      ]
+    },
+    "Nazmus Sakib": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "53967e23",
+          "unique_name": "Nazmus Sakib",
+          "key_cricinfo": "1428733",
+          "key_bcci": null,
+          "identity_mapping_id": "cf1bd48169d1e0818c4d3000add033b3"
+        },
+        {
+          "player_id": "d3347684",
+          "unique_name": "Nazmus Sakib (2)",
+          "key_cricinfo": "1547472",
+          "key_bcci": null,
+          "identity_mapping_id": "ca7fa7d8b2feb445f765352cc1833808"
+        }
+      ]
+    },
+    "Parveen Kumar": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "6fffb04a",
+          "unique_name": "Parveen Kumar (3)",
+          "key_cricinfo": "1535799",
+          "key_bcci": null,
+          "identity_mapping_id": "bb45d39914b804b4e448533833c851c0"
+        },
+        {
+          "player_id": "babc65d3",
+          "unique_name": "Parveen Kumar",
+          "key_cricinfo": "1313734",
+          "key_bcci": null,
+          "identity_mapping_id": "c68fe3d244786067b16d7d7f5208cdab"
+        },
+        {
+          "player_id": "e6b3c3cc",
+          "unique_name": "Parveen Kumar (2)",
+          "key_cricinfo": "1365333",
+          "key_bcci": null,
+          "identity_mapping_id": "8169b0321694e60906251b37ae618416"
+        }
+      ]
+    },
+    "R Sharma": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "2278c4ca",
+          "unique_name": "Raoul Sharma",
+          "key_cricinfo": "1179839",
+          "key_bcci": null,
+          "identity_mapping_id": "bdeb5e9677728d805a81786d67b21884"
+        },
+        {
+          "player_id": "5d9a1a73",
+          "unique_name": "R Sharma",
+          "key_cricinfo": "272994",
+          "key_bcci": null,
+          "identity_mapping_id": "205a9d7466f0136b88a27bb186f19271"
+        }
+      ]
+    },
+    "R Smith": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "02d59576",
+          "unique_name": "R Smith (2)",
+          "key_cricinfo": "1542420",
+          "key_bcci": null,
+          "identity_mapping_id": "39ffb4c1ecbb48829c328e44b8e0b30c"
+        },
+        {
+          "player_id": "0b91b5d5",
+          "unique_name": "R Smith",
+          "key_cricinfo": "1463213",
+          "key_bcci": null,
+          "identity_mapping_id": "1b1814073acdfee4046a528e534cd277"
+        }
+      ]
+    },
+    "RK Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "0a509d6b",
+          "unique_name": "RK Singh",
+          "key_cricinfo": "723105",
+          "key_bcci": "VIcLi1IJUAXzCeiiJQJKJebiyOi0GOh",
+          "identity_mapping_id": "715e8c1de972fe927ed0fdcf854e2a98"
+        },
+        {
+          "player_id": "6e974d8f",
+          "unique_name": "Rupesh Kumar Singh",
+          "key_cricinfo": "1463383",
+          "key_bcci": null,
+          "identity_mapping_id": "fa92adf1d09b8a613a7ce426b0294492"
+        }
+      ]
+    },
+    "Rahat Ali": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "3cc13c68",
+          "unique_name": "Rahat Ali (2)",
+          "key_cricinfo": "1380791",
+          "key_bcci": null,
+          "identity_mapping_id": "185f1088694f2edbf5fdfc9bec4dc0b7"
+        },
+        {
+          "player_id": "a63775d6",
+          "unique_name": "Rahat Ali",
+          "key_cricinfo": "323244",
+          "key_bcci": null,
+          "identity_mapping_id": "f2372f7bc4e7cc6e6b1d37252408e974"
+        }
+      ]
+    },
+    "Rahul Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "42df38b0",
+          "unique_name": "Rahul Singh (2)",
+          "key_cricinfo": "1083024",
+          "key_bcci": "UQIOee0iOcLJXJbViiJJiGAzyKhiC1I",
+          "identity_mapping_id": "408ced6513d03c6b374527faf2900d83"
+        },
+        {
+          "player_id": "adf454e9",
+          "unique_name": "Rahul Singh",
+          "key_cricinfo": "604612",
+          "key_bcci": "IiJJ1iUJciJOiehzG0bLOyQACeiXIVK",
+          "identity_mapping_id": "a0e9d031bfcea7a074c8cf11f55ba3bc"
+        }
+      ]
+    },
+    "Rakibul Hasan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "77768f72",
+          "unique_name": "Rakibul Hasan (2)",
+          "key_cricinfo": "1012131",
+          "key_bcci": null,
+          "identity_mapping_id": "b3d93b929059a917c6512f5fc672dd7b"
+        },
+        {
+          "player_id": "b75b7b09",
+          "unique_name": "Rakibul Hasan",
+          "key_cricinfo": "671889",
+          "key_bcci": null,
+          "identity_mapping_id": "791c9f3c8dc3047b06bc0436e442e1b2"
+        }
+      ]
+    },
+    "Rashid Khan": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "1eaac48d",
+          "unique_name": "Rashid Khan (4)",
+          "key_cricinfo": "1498680",
+          "key_bcci": null,
+          "identity_mapping_id": "fe989928150738d97a5c8ea790d857ff"
+        },
+        {
+          "player_id": "5f547c8b",
+          "unique_name": "Rashid Khan",
+          "key_cricinfo": "793463",
+          "key_bcci": null,
+          "identity_mapping_id": "ba4b0a64cbf9ae1e5e187317e23da71b"
+        },
+        {
+          "player_id": "69cccff3",
+          "unique_name": "Rashid Khan (2)",
+          "key_cricinfo": "1161020",
+          "key_bcci": null,
+          "identity_mapping_id": "cbdd0b52cb4409a396726ed7353cfd2a"
+        }
+      ]
+    },
+    "Rohit Sharma": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "94ed3e4b",
+          "unique_name": "Rohit Sharma",
+          "key_cricinfo": "924355",
+          "key_bcci": "KihiGUXVeJeJzJLbOAi1IJCiIQ0icyO",
+          "identity_mapping_id": "b24b96bbc6a2f5bbc07117039e28a03d"
+        },
+        {
+          "player_id": "a1cbdeeb",
+          "unique_name": "Rohit Sharma (2)",
+          "key_cricinfo": "1542004",
+          "key_bcci": null,
+          "identity_mapping_id": "a155fa9478f8a3c66c774326c7f5d567"
+        }
+      ]
+    },
+    "S Arora": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "7aa74830",
+          "unique_name": "S Arora",
+          "key_cricinfo": "1175439",
+          "key_bcci": "20183c2ff33bc30811e8a30e02726df",
+          "identity_mapping_id": "0eb182a0f662c9f85edc9de76447f9cc"
+        },
+        {
+          "player_id": "d7423da1",
+          "unique_name": "Salil Arora",
+          "key_cricinfo": "1199281",
+          "key_bcci": null,
+          "identity_mapping_id": "9f88694e5c226bcbf68c026332050dae"
+        }
+      ]
+    },
+    "S Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "321fcf79",
+          "unique_name": "S Singh",
+          "key_cricinfo": "1204648",
+          "key_bcci": null,
+          "identity_mapping_id": "b713b2d350755c141ca2d0ff53e161f4"
+        },
+        {
+          "player_id": "612a395c",
+          "unique_name": "Sukhdeep Singh",
+          "key_cricinfo": "1107669",
+          "key_bcci": null,
+          "identity_mapping_id": "edbe52ac8b9afe281f94662bd13fccc6"
+        }
+      ]
+    },
+    "SB Wagh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "acf06e10",
+          "unique_name": "Sanjay Wagh",
+          "key_cricinfo": "1428735",
+          "key_bcci": null,
+          "identity_mapping_id": "69aeacd713dbaf4079077fe612ef5098"
+        },
+        {
+          "player_id": "dddca1d6",
+          "unique_name": "SB Wagh",
+          "key_cricinfo": "279552",
+          "key_bcci": "LAXCiJyzJIi0iJheOiQb1KGOVIceiJU",
+          "identity_mapping_id": "df6ed5461103464776a755f95242075d"
+        }
+      ]
+    },
+    "Sajid Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "54909313",
+          "unique_name": "Sajid Khan (2)",
+          "key_cricinfo": "1445609",
+          "key_bcci": null,
+          "identity_mapping_id": "6655e32570ce09cd22926cae9f48e4a6"
+        },
+        {
+          "player_id": "bbc192a4",
+          "unique_name": "Sajid Khan",
+          "key_cricinfo": "1062812",
+          "key_bcci": null,
+          "identity_mapping_id": "961f32e9bb8c737290b023fcef6bb977"
+        }
+      ]
+    },
+    "Sandeep Goud": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "4e1c9f6e",
+          "unique_name": "Sandeep Goud",
+          "key_cricinfo": "1174024",
+          "key_bcci": null,
+          "identity_mapping_id": "413838e9c0789be924d9af9acbc49a08"
+        },
+        {
+          "player_id": "c83ef4d6",
+          "unique_name": "Sandeep Goud (2)",
+          "key_cricinfo": "1287099",
+          "key_bcci": null,
+          "identity_mapping_id": "1e6d31cfa42b2ef733531305959ffd26"
+        }
+      ]
+    },
+    "Saurabh Kumar": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "2a6afc6f",
+          "unique_name": "Saurabh Kumar",
+          "key_cricinfo": "627214",
+          "key_bcci": "iOKJJiXJGiheIibCOLVieUQz1AJcy0I",
+          "identity_mapping_id": "e1ffcea9e259039a9a0edaebfa6bab28"
+        },
+        {
+          "player_id": "afb1e61d",
+          "unique_name": "Saurabh Kumar (2)",
+          "key_cricinfo": "1451385",
+          "key_bcci": null,
+          "identity_mapping_id": "862d58cfbd7c634c6762d0e40372c9e5"
+        }
+      ]
+    },
+    "Shahab Alam": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "1b09fbcf",
+          "unique_name": "Shahab Alam (2)",
+          "key_cricinfo": "1547473",
+          "key_bcci": null,
+          "identity_mapping_id": "d1e3585af68ea9545cd044b81d8b1322"
+        },
+        {
+          "player_id": "cdd9fa95",
+          "unique_name": "Shahab Alam",
+          "key_cricinfo": "1090597",
+          "key_bcci": null,
+          "identity_mapping_id": "76f0e1874a7d8202dd893bd88d482151"
+        }
+      ]
+    },
+    "Shahadat Hossain": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "090f9211",
+          "unique_name": "Shahadat Hossain",
+          "key_cricinfo": "56149",
+          "key_bcci": null,
+          "identity_mapping_id": "28335efc714df3976bcd27d407d942f1"
+        },
+        {
+          "player_id": "69e23303",
+          "unique_name": "Shahadat Hossain Dipu",
+          "key_cricinfo": "989935",
+          "key_bcci": null,
+          "identity_mapping_id": "11dc21005dbdc354492a3e14b4e407da"
+        }
+      ]
+    },
+    "Shahid Afridi": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "0dc00542",
+          "unique_name": "Shahid Afridi",
+          "key_cricinfo": "42639",
+          "key_bcci": null,
+          "identity_mapping_id": "d307ca61a7b82e3f7bde26a562da35b2"
+        },
+        {
+          "player_id": "5b2acc3f",
+          "unique_name": "Shahid Afridi (2)",
+          "key_cricinfo": "1380679",
+          "key_bcci": null,
+          "identity_mapping_id": "2feddbbe3ff2587dad898051042092e2"
+        }
+      ]
+    },
+    "Shivam Sharma": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "5bdeeed4",
+          "unique_name": "Shivam Sharma (3)",
+          "key_cricinfo": "1481834",
+          "key_bcci": null,
+          "identity_mapping_id": "242706e27a01a7edfebcbfd5de44e102"
+        },
+        {
+          "player_id": "6f49cc6e",
+          "unique_name": "Shivam Sharma",
+          "key_cricinfo": "717201",
+          "key_bcci": "J1OehUiQGiLe0JXIzbAyOiiVIJCiJcK",
+          "identity_mapping_id": "60742ac0442af0e3fe1474d320823cc0"
+        },
+        {
+          "player_id": "982dc390",
+          "unique_name": "Shivam Sharma (2)",
+          "key_cricinfo": "1175490",
+          "key_bcci": "20181d321c82c3c011e8a30e02726df",
+          "identity_mapping_id": "2a69377cc4cdb95e6b8636a0a7379c62"
+        }
+      ]
+    },
+    "Shoaib Khan": {
+      "candidate_count": 3,
+      "candidates": [
+        {
+          "player_id": "03ecfde2",
+          "unique_name": "Shoaib Azam Khan",
+          "key_cricinfo": "1301601",
+          "key_bcci": null,
+          "identity_mapping_id": "982903c73920dfd5aad490f6480bcf7b"
+        },
+        {
+          "player_id": "21afb939",
+          "unique_name": "Shoaib Khan",
+          "key_cricinfo": "1276700",
+          "key_bcci": null,
+          "identity_mapping_id": "6014bfd6f3eca7c5eef92488214560e8"
+        },
+        {
+          "player_id": "fdee4a01",
+          "unique_name": "Shoaib Khan (2)",
+          "key_cricinfo": "1508989",
+          "key_bcci": null,
+          "identity_mapping_id": "3261a22c47e9ab92b70984f2cb11021b"
+        }
+      ]
+    },
+    "Sultan Ahmed": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "07687c15",
+          "unique_name": "Sultan Ahmed (2)",
+          "key_cricinfo": "873769",
+          "key_bcci": null,
+          "identity_mapping_id": "6848921eb53e5c9144092cdab159b882"
+        },
+        {
+          "player_id": "3bf7c034",
+          "unique_name": "Sultan Ahmed",
+          "key_cricinfo": "42876",
+          "key_bcci": null,
+          "identity_mapping_id": "513a770d2b019a91acbdbca6e680f2cd"
+        }
+      ]
+    },
+    "Sumit Kumar": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "8998a68f",
+          "unique_name": "Sumit Kumar",
+          "key_cricinfo": "1159734",
+          "key_bcci": "XJ1IOeIcVCibQOJiieJihALUGJKyzi0",
+          "identity_mapping_id": "5dc7008e839434a9ff0e62a9791dafef"
+        },
+        {
+          "player_id": "fe180dba",
+          "unique_name": "Sumit Kumar (2)",
+          "key_cricinfo": "820393",
+          "key_bcci": "eezOhiGIiiKJX1VCcLUQAibIJOJ0iJy",
+          "identity_mapping_id": "a8eaf0b049dd6d7b6d1025e166a92591"
+        }
+      ]
+    },
+    "Sumit Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "6798b28e",
+          "unique_name": "Sumit Pratap Singh",
+          "key_cricinfo": "1376779",
+          "key_bcci": null,
+          "identity_mapping_id": "fc50edf0f77a4b0735ba91d60246e57e"
+        },
+        {
+          "player_id": "9ad3a550",
+          "unique_name": "Sumit Singh",
+          "key_cricinfo": "430486",
+          "key_bcci": "iUiJCXJIziJGbiIiQ0AeVJLyeKOOc1h",
+          "identity_mapping_id": "d9b2867148ddd6f98aa83d0bbcce5088"
+        }
+      ]
+    },
+    "Suresh Kumar": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "177eb92d",
+          "unique_name": "Suresh Kumar",
+          "key_cricinfo": "313763",
+          "key_bcci": "JiyGeOV1UiQLIJKJiJb0AceIiOhiCXz",
+          "identity_mapping_id": "979f77d33424f48503565aa3f38ae6be"
+        },
+        {
+          "player_id": "1b95b3cd",
+          "unique_name": "Suresh Kumar (2)",
+          "key_cricinfo": "1203178",
+          "key_bcci": null,
+          "identity_mapping_id": "833fe51823093a885765698001508c8e"
+        }
+      ]
+    },
+    "Tarun Sharma": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "1ba16d18",
+          "unique_name": "Tarun Sharma",
+          "key_cricinfo": "463068",
+          "key_bcci": null,
+          "identity_mapping_id": "80e673a3d05bdfc7c3a1f961aecc6ead"
+        },
+        {
+          "player_id": "f915844b",
+          "unique_name": "Tarun Sharma (2)",
+          "key_cricinfo": "1440692",
+          "key_bcci": null,
+          "identity_mapping_id": "3eec208c4982ae70c61e7684041ed05e"
+        }
+      ]
+    },
+    "Usman Khan": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "bafb9238",
+          "unique_name": "Usman Khan (2)",
+          "key_cricinfo": "1123428",
+          "key_bcci": null,
+          "identity_mapping_id": "83f02d00f6e8c5b51cbe3e49d89f10b4"
+        },
+        {
+          "player_id": "e8a552ef",
+          "unique_name": "Usman Khan",
+          "key_cricinfo": "467829",
+          "key_bcci": null,
+          "identity_mapping_id": "92014916697519747523ab8ab26ae80f"
+        }
+      ]
+    },
+    "Vishal Sharma": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "b9d8abd3",
+          "unique_name": "Vishal Sharma (2)",
+          "key_cricinfo": "1479950",
+          "key_bcci": null,
+          "identity_mapping_id": "017389eec144c31e4bf5285e78639973"
+        },
+        {
+          "player_id": "f555bcf4",
+          "unique_name": "Vishal Sharma",
+          "key_cricinfo": "317711",
+          "key_bcci": "KeOiiULhJJCAQXJVIiOI01cJbiyGeiz",
+          "identity_mapping_id": "afcdcb2c41c806e86862ff1a62a5454c"
+        }
+      ]
+    },
+    "Yasir Ali": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "79209272",
+          "unique_name": "Yasir Ali",
+          "key_cricinfo": "1156622",
+          "key_bcci": null,
+          "identity_mapping_id": "c85a369ea1edccbb3ba4e83a35fe8a91"
+        },
+        {
+          "player_id": "add68fb0",
+          "unique_name": "Yasir Ali (2)",
+          "key_cricinfo": "43670",
+          "key_bcci": null,
+          "identity_mapping_id": "e58cdb201be4730515f512fedd11a7f3"
+        }
+      ]
+    },
+    "Yuvraj Singh": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "1c914163",
+          "unique_name": "Yuvraj Singh",
+          "key_cricinfo": "36084",
+          "key_bcci": "0XiUJyiJVeOiGcOI1JLQbziICKiJAeh",
+          "identity_mapping_id": "07a542a4ae6ae0ff3f9a3b6457aca42e"
+        },
+        {
+          "player_id": "30829ea2",
+          "unique_name": "Yuvraj Singh (2)",
+          "key_cricinfo": "1246442",
+          "key_bcci": "IeiQJheiOcCIAbJy1VJUiOGKzLJi0Xi",
+          "identity_mapping_id": "bf6a2efac5b25c2bf8237aedfbe8d916"
+        }
+      ]
+    },
+    "Zeeshan Ali": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "2c89dbf9",
+          "unique_name": "Zeeshan Ali (3)",
+          "key_cricinfo": "1496498",
+          "key_bcci": null,
+          "identity_mapping_id": "2660004d7c0fb26f3a59449c8631aa90"
+        },
+        {
+          "player_id": "987187b9",
+          "unique_name": "Zeeshan Ali (2)",
+          "key_cricinfo": "386302",
+          "key_bcci": null,
+          "identity_mapping_id": "a40ce5eadc17409f5dad50a3f1fc9122"
+        }
+      ]
+    },
+    "Zulqarnain Haider": {
+      "candidate_count": 2,
+      "candidates": [
+        {
+          "player_id": "2d46e8ed",
+          "unique_name": "Zulqarnain Haider (2)",
+          "key_cricinfo": "1046641",
+          "key_bcci": null,
+          "identity_mapping_id": "7fdce719845112884d045b1ecb073827"
+        },
+        {
+          "player_id": "ee9bdbc8",
+          "unique_name": "Zulqarnain Haider",
+          "key_cricinfo": "43860",
+          "key_bcci": null,
+          "identity_mapping_id": "d968e852e4f55a50ab7f9689070587ef"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,242 @@
+{
+  "batting_adhoc_calibration": {
+    "50%": {
+      "nominal_coverage": 0.5,
+      "empirical_coverage": 0.711,
+      "coverage_gap": 0.211,
+      "mean_width": 18.92,
+      "median_width": 13.48,
+      "winkler_score": 23.73
+    },
+    "80%": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.9715,
+      "coverage_gap": 0.1715,
+      "mean_width": 35.36,
+      "median_width": 25.2,
+      "winkler_score": 36.98
+    },
+    "90%": {
+      "nominal_coverage": 0.9,
+      "empirical_coverage": 0.9877,
+      "coverage_gap": 0.0877,
+      "mean_width": 44.35,
+      "median_width": 30.45,
+      "winkler_score": 45.86
+    },
+    "95%": {
+      "nominal_coverage": 0.95,
+      "empirical_coverage": 0.9939,
+      "coverage_gap": 0.0439,
+      "mean_width": 50.25,
+      "median_width": 33.66,
+      "winkler_score": 52.04
+    }
+  },
+  "batting_rigorous_calibration": {
+    "50%": {
+      "nominal_coverage": 0.5,
+      "empirical_coverage": 0.5304,
+      "coverage_gap": 0.0304,
+      "mean_width": 16.9,
+      "median_width": 11.11,
+      "winkler_score": 23.29
+    },
+    "80%": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.9028,
+      "coverage_gap": 0.1028,
+      "mean_width": 32.1,
+      "median_width": 21.14,
+      "winkler_score": 34.74
+    },
+    "90%": {
+      "nominal_coverage": 0.9,
+      "empirical_coverage": 0.9729,
+      "coverage_gap": 0.0729,
+      "mean_width": 40.97,
+      "median_width": 27.11,
+      "winkler_score": 43.43
+    },
+    "95%": {
+      "nominal_coverage": 0.95,
+      "empirical_coverage": 0.9844,
+      "coverage_gap": 0.0344,
+      "mean_width": 47.14,
+      "median_width": 30.32,
+      "winkler_score": 50.2
+    }
+  },
+  "batting_by_tier_rigorous": {
+    "Debutant (<5)": {
+      "50%": {
+        "nominal_coverage": 0.5,
+        "empirical_coverage": 0.469,
+        "coverage_gap": -0.031,
+        "mean_width": 14.57,
+        "median_width": 9.38,
+        "winkler_score": 20.84
+      },
+      "80%": {
+        "nominal_coverage": 0.8,
+        "empirical_coverage": 0.9095,
+        "coverage_gap": 0.1095,
+        "mean_width": 27.66,
+        "median_width": 17.84,
+        "winkler_score": 29.56
+      },
+      "90%": {
+        "nominal_coverage": 0.9,
+        "empirical_coverage": 0.9845,
+        "coverage_gap": 0.0845,
+        "mean_width": 34.99,
+        "median_width": 22.2,
+        "winkler_score": 36.55
+      },
+      "95%": {
+        "nominal_coverage": 0.95,
+        "empirical_coverage": 0.9929,
+        "coverage_gap": 0.0429,
+        "mean_width": 39.65,
+        "median_width": 24.43,
+        "winkler_score": 41.98
+      }
+    },
+    "Moderate (5-9)": {
+      "50%": {
+        "nominal_coverage": 0.5,
+        "empirical_coverage": 0.5015,
+        "coverage_gap": 0.0015,
+        "mean_width": 15.48,
+        "median_width": 10.15,
+        "winkler_score": 21.86
+      },
+      "80%": {
+        "nominal_coverage": 0.8,
+        "empirical_coverage": 0.9012,
+        "coverage_gap": 0.1012,
+        "mean_width": 29.41,
+        "median_width": 19.3,
+        "winkler_score": 31.87
+      },
+      "90%": {
+        "nominal_coverage": 0.9,
+        "empirical_coverage": 0.9746,
+        "coverage_gap": 0.0746,
+        "mean_width": 37.52,
+        "median_width": 24.76,
+        "winkler_score": 39.85
+      },
+      "95%": {
+        "nominal_coverage": 0.95,
+        "empirical_coverage": 0.9835,
+        "coverage_gap": 0.0335,
+        "mean_width": 43.06,
+        "median_width": 27.42,
+        "winkler_score": 45.53
+      }
+    },
+    "Established (>=10)": {
+      "50%": {
+        "nominal_coverage": 0.5,
+        "empirical_coverage": 0.551,
+        "coverage_gap": 0.051,
+        "mean_width": 17.74,
+        "median_width": 11.78,
+        "winkler_score": 24.16
+      },
+      "80%": {
+        "nominal_coverage": 0.8,
+        "empirical_coverage": 0.9015,
+        "coverage_gap": 0.1015,
+        "mean_width": 33.71,
+        "median_width": 22.42,
+        "winkler_score": 36.56
+      },
+      "90%": {
+        "nominal_coverage": 0.9,
+        "empirical_coverage": 0.9698,
+        "coverage_gap": 0.0698,
+        "mean_width": 43.09,
+        "median_width": 28.76,
+        "winkler_score": 45.8
+      },
+      "95%": {
+        "nominal_coverage": 0.95,
+        "empirical_coverage": 0.9826,
+        "coverage_gap": 0.0326,
+        "mean_width": 49.75,
+        "median_width": 32.36,
+        "winkler_score": 53.11
+      }
+    }
+  },
+  "bowling_adhoc_calibration": {
+    "50%": {
+      "nominal_coverage": 0.5,
+      "empirical_coverage": 0.4849,
+      "coverage_gap": -0.0151,
+      "mean_width": 1.74,
+      "median_width": 1.55,
+      "winkler_score": 3.09
+    },
+    "80%": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.8972,
+      "coverage_gap": 0.0972,
+      "mean_width": 3.0,
+      "median_width": 2.56,
+      "winkler_score": 3.73
+    },
+    "90%": {
+      "nominal_coverage": 0.9,
+      "empirical_coverage": 0.9508,
+      "coverage_gap": 0.0508,
+      "mean_width": 3.55,
+      "median_width": 2.98,
+      "winkler_score": 4.22
+    },
+    "95%": {
+      "nominal_coverage": 0.95,
+      "empirical_coverage": 0.9678,
+      "coverage_gap": 0.0178,
+      "mean_width": 3.99,
+      "median_width": 3.35,
+      "winkler_score": 4.74
+    }
+  },
+  "bowling_rigorous_calibration": {
+    "50%": {
+      "nominal_coverage": 0.5,
+      "empirical_coverage": 0.4882,
+      "coverage_gap": -0.0118,
+      "mean_width": 1.76,
+      "median_width": 1.56,
+      "winkler_score": 3.08
+    },
+    "80%": {
+      "nominal_coverage": 0.8,
+      "empirical_coverage": 0.8997,
+      "coverage_gap": 0.0997,
+      "mean_width": 3.02,
+      "median_width": 2.57,
+      "winkler_score": 3.73
+    },
+    "90%": {
+      "nominal_coverage": 0.9,
+      "empirical_coverage": 0.9514,
+      "coverage_gap": 0.0514,
+      "mean_width": 3.58,
+      "median_width": 2.99,
+      "winkler_score": 4.23
+    },
+    "95%": {
+      "nominal_coverage": 0.95,
+      "empirical_coverage": 0.9683,
+      "coverage_gap": 0.0183,
+      "mean_width": 4.02,
+      "median_width": 3.36,
+      "winkler_score": 4.74
+    }
+  }
+}

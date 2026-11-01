@@ -1,0 +1,11 @@
+{
+  "total_players": 7014,
+  "missing_full_name": 5610,
+  "missing_date_of_birth": 6980,
+  "missing_nationality": 526,
+  "missing_batting_hand": 6980,
+  "missing_bowling_style": 6983,
+  "missing_pace_spin_class": 6983,
+  "missing_officially_listed_role": 6980,
+  "missing_derived_statistical_role": 7014
+}

@@ -1,0 +1,13 @@
+Population,Unique Matches,Unique Players,Unique Player-Match Pairs,Observation Rows,Notes
+Canonical Matches Processed (All-Time),9085,6974,200709,200709,"All historical matches across T20, ODI, Test (2001-2026)"
+Pre-Match Snapshots Materialized (All-Time),900,4336,19642,19642,Materialized via 10% batch sampling (batch_idx % 10 == 0)
+Feature Store Holdout Participations (2020-2024),3102,4247,68689,68689,Complete player-match census in holdout period
+Pre-Match Snapshots in Holdout (2020-2024),305,2329,6634,6634,Exact sampled snapshot cohort in holdout period
+True 1-to-1 Holdout Evaluated Player-Matches,305,2329,6634,6634,True ground-truth sample (1 row per player-match)
+True Holdout Batting Innings (balls_faced > 0),305,1911,4951,4951,Active batting observations (DNB excluded)
+True Holdout Batting DNB (balls_faced == 0),284,912,1683,1683,Did not bat or faced 0 balls
+True Holdout Bowling Spells (legal_balls > 0),304,1414,3599,3599,Active bowling observations (Did not bowl excluded)
+True Holdout Bowling DNB (legal_balls == 0),305,1178,3035,3035,Did not bowl
+Phase 4B.1 Reported Holdout Evaluation (Cartesian 9x),305,2329,6634,59706,"Cartesian explosion: 6,634 x 3 (rm windows) x 3 (rt windows)"
+Phase 4B.1 Reported Batting Evaluation (Cartesian 9x),305,1911,4951,44559,"Cartesian explosion: 4,951 x 9 = 44,559"
+Phase 4B.1 Reported Bowling Evaluation (Cartesian 9x),304,1414,3599,32391,"Cartesian explosion: 3,599 x 9 = 32,391"
