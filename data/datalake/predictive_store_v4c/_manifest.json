@@ -1,0 +1,359 @@
+{
+  "version": "4.3.0-phase4c",
+  "created_at": "2026-11-01T21:20:45Z",
+  "total_files": 86,
+  "files": {
+    "batting_predictions/match_format=ODI/year=2020/batting_predictions.parquet": {
+      "sha256": "d91e0c38d4289f95cef500a24ea1741843028753bfb92aef29b873a295115ee9",
+      "bytes": 21192
+    },
+    "batting_predictions/match_format=ODI/year=2021/batting_predictions.parquet": {
+      "sha256": "035602f5d798d5a97f45319dcfe3e94f536faf5eff6c7fc24e8ed39219d32d2a",
+      "bytes": 28108
+    },
+    "batting_predictions/match_format=ODI/year=2022/batting_predictions.parquet": {
+      "sha256": "4aa987f9759edbbe3c6a6657400ef64cf43c3c0ac8639ffcbef5a639061600bd",
+      "bytes": 40915
+    },
+    "batting_predictions/match_format=ODI/year=2023/batting_predictions.parquet": {
+      "sha256": "3ca388a88b7060dbded55fb375e8cf28aa7b37c8ec2901210a5fc7add5bd4f0b",
+      "bytes": 39974
+    },
+    "batting_predictions/match_format=ODI/year=2024/batting_predictions.parquet": {
+      "sha256": "53811d375363b68d79168875dfa793fc01a7aabda2d93c4921ae4953b12c7b21",
+      "bytes": 39643
+    },
+    "batting_predictions/match_format=ODI/year=2025/batting_predictions.parquet": {
+      "sha256": "19a8b3919d0bb3889f1d53b6108b3ba539535e148cb78106d0597228c5234985",
+      "bytes": 30216
+    },
+    "batting_predictions/match_format=ODI/year=2026/batting_predictions.parquet": {
+      "sha256": "0f3d055335f36af278e858b4117d1ad457982ad3165ce71028a38b3669532124",
+      "bytes": 36037
+    },
+    "batting_predictions/match_format=T20/year=2020/batting_predictions.parquet": {
+      "sha256": "6f91dcc811d54e8e52c8527a3964dfc3f891e29ccbc83c2f6b51678cf53db654",
+      "bytes": 40078
+    },
+    "batting_predictions/match_format=T20/year=2021/batting_predictions.parquet": {
+      "sha256": "78f5c58a8f1bb8182502584c158e7e748c38ca9e608d1d3b1b5790e3ddca8585",
+      "bytes": 78711
+    },
+    "batting_predictions/match_format=T20/year=2022/batting_predictions.parquet": {
+      "sha256": "265598db1bef3d82f9d91dc6fc255f5a3ad61e6a44e231a697152b4e6c178185",
+      "bytes": 97273
+    },
+    "batting_predictions/match_format=T20/year=2023/batting_predictions.parquet": {
+      "sha256": "ae2e7476ce1c82037f516416a38e668987381eb36c13ce5b0b6a8b7d358740c5",
+      "bytes": 76012
+    },
+    "batting_predictions/match_format=T20/year=2024/batting_predictions.parquet": {
+      "sha256": "5ae9795f55540a404e8370beeb331c8f865ff4b3d05f740ddf1dd0e8e77b4800",
+      "bytes": 104163
+    },
+    "batting_predictions/match_format=T20/year=2025/batting_predictions.parquet": {
+      "sha256": "33a9f4177ecb166b840864d73fc5089cb3e182dc240ca8cc1d0b9649ccc7677c",
+      "bytes": 87262
+    },
+    "batting_predictions/match_format=T20/year=2026/batting_predictions.parquet": {
+      "sha256": "dbc27d1ab76ed7fbdd3141b7978311c0450eeae5ea5ec2931d757a16697ee059",
+      "bytes": 101773
+    },
+    "batting_predictions/match_format=TEST/year=2020/batting_predictions.parquet": {
+      "sha256": "8b3bbbd79d53cc6702555c1fa6b73a599a0cddec2f134c833b210418c300090b",
+      "bytes": 19177
+    },
+    "batting_predictions/match_format=TEST/year=2021/batting_predictions.parquet": {
+      "sha256": "10066c62212933f859a32f5c0b4d2e2c9077de607e51f616ba242a98ed2a905d",
+      "bytes": 25085
+    },
+    "batting_predictions/match_format=TEST/year=2022/batting_predictions.parquet": {
+      "sha256": "1b850aa81c36f14a1741c704ef778de1c3ad0a0310914644c02a6ceecfc5cd62",
+      "bytes": 23149
+    },
+    "batting_predictions/match_format=TEST/year=2023/batting_predictions.parquet": {
+      "sha256": "2a55fbf0be2e9ec81acc15039856a4bb2b9d7a6257e3824571182965742b8d0d",
+      "bytes": 31362
+    },
+    "batting_predictions/match_format=TEST/year=2024/batting_predictions.parquet": {
+      "sha256": "f5235f1f4839eb8a76a9e2e61075ade248c64c2770f46c4dc239fcddb7d1bed5",
+      "bytes": 21260
+    },
+    "batting_predictions/match_format=TEST/year=2025/batting_predictions.parquet": {
+      "sha256": "fbd76ed20a7cdb5a8f07d75d873a3bf6e8ef89ade196ea655638f3bcde08cfe8",
+      "bytes": 26532
+    },
+    "batting_predictions/match_format=TEST/year=2026/batting_predictions.parquet": {
+      "sha256": "8d2b513a343d5dff4ef7198d9a2695798435a6841a47bfd63cf980b8878f3098",
+      "bytes": 19043
+    },
+    "bowling_predictions/match_format=ODI/year=2020/bowling_predictions.parquet": {
+      "sha256": "cbe8489d0e8754859b88f3226e76a619484387521f914d12209f5daada08aafe",
+      "bytes": 21673
+    },
+    "bowling_predictions/match_format=ODI/year=2021/bowling_predictions.parquet": {
+      "sha256": "c68e4d7d3b1d1748805586f894449c23e086be69ea726f6e277dbab786732aae",
+      "bytes": 26681
+    },
+    "bowling_predictions/match_format=ODI/year=2022/bowling_predictions.parquet": {
+      "sha256": "640a1cf7361bd3c00b8d635ed1d72fbaa90fd6a3706930fba6e3d7aee2114851",
+      "bytes": 35902
+    },
+    "bowling_predictions/match_format=ODI/year=2023/bowling_predictions.parquet": {
+      "sha256": "1e7b937a4a5398558c783dc0debc2abff7e4a1f0fd1680f15831bbd82bb5b9ac",
+      "bytes": 35509
+    },
+    "bowling_predictions/match_format=ODI/year=2024/bowling_predictions.parquet": {
+      "sha256": "9a4bfc1754bb8b72dbecc99f539adb691c725354fae64533cf1e82ec036a117a",
+      "bytes": 34934
+    },
+    "bowling_predictions/match_format=ODI/year=2025/bowling_predictions.parquet": {
+      "sha256": "c455744f92a4661713a6e1b35d7e7e89c116cdce90a398b0cf0cea664f526906",
+      "bytes": 28046
+    },
+    "bowling_predictions/match_format=ODI/year=2026/bowling_predictions.parquet": {
+      "sha256": "7c43362f9cfb6c25b23882aa1857f954b90afef8d60142b6ee593dc697709d82",
+      "bytes": 32256
+    },
+    "bowling_predictions/match_format=T20/year=2020/bowling_predictions.parquet": {
+      "sha256": "8b9b30260b6ce1642b7cb0848d4b8f2d30841c9d74510bc838044c3240f77fd3",
+      "bytes": 35094
+    },
+    "bowling_predictions/match_format=T20/year=2021/bowling_predictions.parquet": {
+      "sha256": "943f238cae92ac47b296c320d2f50c4abcc17b0c0e126635bc3512d1b754417f",
+      "bytes": 63481
+    },
+    "bowling_predictions/match_format=T20/year=2022/bowling_predictions.parquet": {
+      "sha256": "b9d04ba2c210ece06e3d96757cd2f527d11ac0ad3d84c20a61caa5e0bb0d5326",
+      "bytes": 76990
+    },
+    "bowling_predictions/match_format=T20/year=2023/bowling_predictions.parquet": {
+      "sha256": "9f71255703b0a98d8f916e1cfbca79f0721ade5b84b5126e0267cc72109a8251",
+      "bytes": 61486
+    },
+    "bowling_predictions/match_format=T20/year=2024/bowling_predictions.parquet": {
+      "sha256": "962e877623b62765eef4f842dd56d9a9e4aa9505e63e19d84ba8606676142989",
+      "bytes": 83479
+    },
+    "bowling_predictions/match_format=T20/year=2025/bowling_predictions.parquet": {
+      "sha256": "8239cbb1cbde91e83ca2d6bada0252f192be2b37e7034f1801de5566e14773b2",
+      "bytes": 70047
+    },
+    "bowling_predictions/match_format=T20/year=2026/bowling_predictions.parquet": {
+      "sha256": "1abbc226c0c039ae49bb10aad26f13f802972fabd7d4dbd911b56726511f29a0",
+      "bytes": 82435
+    },
+    "bowling_predictions/match_format=TEST/year=2020/bowling_predictions.parquet": {
+      "sha256": "0199d944c38e0f0e63891dcd3c2854f5106c4f58856a1ca69b500dd4ecca58d1",
+      "bytes": 20085
+    },
+    "bowling_predictions/match_format=TEST/year=2021/bowling_predictions.parquet": {
+      "sha256": "48ec5d0e6cb0b53855ba535c478b26a07f03ea505cb2f9f54e84f30b8131e8fc",
+      "bytes": 24445
+    },
+    "bowling_predictions/match_format=TEST/year=2022/bowling_predictions.parquet": {
+      "sha256": "c7af3d51a86250b60e7c5a09cc43f5d65c7fe763e9c0fa726a063aef483fce4c",
+      "bytes": 23041
+    },
+    "bowling_predictions/match_format=TEST/year=2023/bowling_predictions.parquet": {
+      "sha256": "6d79bdec7bf00b1fc1d2c15dada328ca0ed8a3373021938178515766afee4571",
+      "bytes": 28764
+    },
+    "bowling_predictions/match_format=TEST/year=2024/bowling_predictions.parquet": {
+      "sha256": "83147f5cdcbf81c35242f229ab8f94ae2302c5a169ee54cbfca33bbd674a8de5",
+      "bytes": 21823
+    },
+    "bowling_predictions/match_format=TEST/year=2025/bowling_predictions.parquet": {
+      "sha256": "99392da7a3cd4748dc6129a5be84391e5cc3fc8b8a02a43ac2bef24e011c7f2a",
+      "bytes": 25210
+    },
+    "bowling_predictions/match_format=TEST/year=2026/bowling_predictions.parquet": {
+      "sha256": "ceb25432ab0527e9938eb7d7f5bb32c0ae5e08216e8903637d2dcb5037774b37",
+      "bytes": 20289
+    },
+    "evaluation_metrics/benchmark_comparison.parquet": {
+      "sha256": "587d3e29468327e66930cd282787408d4f982503081f2cf65f00662dcf6fbc8a",
+      "bytes": 7312
+    },
+    "evaluation_metrics/calibration_diagnostics.parquet": {
+      "sha256": "5b70e9275bb8949e3ff1a394986e7670bb0a4fafad0b656ca81e3bf66e3b6874",
+      "bytes": 6862
+    },
+    "fielding_predictions/match_format=ODI/year=2020/fielding_predictions.parquet": {
+      "sha256": "697f3c71ebe4ef03369f611ba90c685ac52802f65b0b806fa77ed9ebc23da2df",
+      "bytes": 11900
+    },
+    "fielding_predictions/match_format=ODI/year=2021/fielding_predictions.parquet": {
+      "sha256": "c6da5273cdc9e1d19a19c0bbc740080e41c4edacc506ab9203fd8b066e201a09",
+      "bytes": 14170
+    },
+    "fielding_predictions/match_format=ODI/year=2022/fielding_predictions.parquet": {
+      "sha256": "caca42cfddef10b1cecc8a80ed793bd1f07b8ec0fcad013f873540d821aac061",
+      "bytes": 18663
+    },
+    "fielding_predictions/match_format=ODI/year=2023/fielding_predictions.parquet": {
+      "sha256": "19f48e555f2e44199b5e0fb1924066605274d3db2e1b7c34fa10f0563ebe31a0",
+      "bytes": 18142
+    },
+    "fielding_predictions/match_format=ODI/year=2024/fielding_predictions.parquet": {
+      "sha256": "7d159fb2847973e74e7acba745301828d4393d4b1775f89668f01603e2bf79a6",
+      "bytes": 17856
+    },
+    "fielding_predictions/match_format=ODI/year=2025/fielding_predictions.parquet": {
+      "sha256": "927b76263c25f7da8880af6fff6425a14d49948a301b34e98916b043e0d8992a",
+      "bytes": 14770
+    },
+    "fielding_predictions/match_format=ODI/year=2026/fielding_predictions.parquet": {
+      "sha256": "0a44324192f0ba2ff1f06bc192e0abeb292d6189299950ecb25d158bff150aa0",
+      "bytes": 16801
+    },
+    "fielding_predictions/match_format=T20/year=2020/fielding_predictions.parquet": {
+      "sha256": "94bea7231587cf37db5b4fff6c043aa7a3c7776c1f381479c57f5f059c554613",
+      "bytes": 17557
+    },
+    "fielding_predictions/match_format=T20/year=2021/fielding_predictions.parquet": {
+      "sha256": "2a4ae47e8fd410eefa48519e3a2ffcdf37f7d181bb680315a7f682247cee6fd3",
+      "bytes": 32985
+    },
+    "fielding_predictions/match_format=T20/year=2022/fielding_predictions.parquet": {
+      "sha256": "e88813339daf72eecedf3c9e03b5c6e1fe901ece00eb946e2c404f5761b196cf",
+      "bytes": 38923
+    },
+    "fielding_predictions/match_format=T20/year=2023/fielding_predictions.parquet": {
+      "sha256": "9d929cb1918b021ac963fb5650dc6e8b4357733557de9817df408860fffe98b3",
+      "bytes": 30685
+    },
+    "fielding_predictions/match_format=T20/year=2024/fielding_predictions.parquet": {
+      "sha256": "b76e3ef15b30d2c9e6b75ce6a7dac99f56f2f4647ca09b36bf52e5af3eb47ad6",
+      "bytes": 42381
+    },
+    "fielding_predictions/match_format=T20/year=2025/fielding_predictions.parquet": {
+      "sha256": "ed5de4c6e251db91c46c70cacddadb9e6657153968e083c76aa35563dd04da3a",
+      "bytes": 35056
+    },
+    "fielding_predictions/match_format=T20/year=2026/fielding_predictions.parquet": {
+      "sha256": "1fc9a46f705ee2c1a4fafe65c1aa5608a4d8a1f9eff25ddb281a518f6e6af5ce",
+      "bytes": 41158
+    },
+    "fielding_predictions/match_format=TEST/year=2020/fielding_predictions.parquet": {
+      "sha256": "239d41fd700f32fe267a28667e663df14b643bc1cb0e397504d6ff88510b37f5",
+      "bytes": 11246
+    },
+    "fielding_predictions/match_format=TEST/year=2021/fielding_predictions.parquet": {
+      "sha256": "c55935ac5f2cddd3ffd6231fd063f290f7055abedf7c7137fd19c2170038e6f6",
+      "bytes": 13096
+    },
+    "fielding_predictions/match_format=TEST/year=2022/fielding_predictions.parquet": {
+      "sha256": "ca00b92944c7e96270b115922a43d75bff29f2c3d5e98ea1d53f4410f619b12d",
+      "bytes": 12573
+    },
+    "fielding_predictions/match_format=TEST/year=2023/fielding_predictions.parquet": {
+      "sha256": "54e8add22a0f961f5021f39e91093639ebe3ab8839b7cb42e848fb84b901aa13",
+      "bytes": 15142
+    },
+    "fielding_predictions/match_format=TEST/year=2024/fielding_predictions.parquet": {
+      "sha256": "a43dcb922362e8bb5b1bde37f85a19a32f1a6b19db7ba5db1f28077066f02c58",
+      "bytes": 11846
+    },
+    "fielding_predictions/match_format=TEST/year=2025/fielding_predictions.parquet": {
+      "sha256": "280bc14817b59a5ed85ff1afb80ee7f576702b728d0d3cf4ca7ea8a3d473b685",
+      "bytes": 13506
+    },
+    "fielding_predictions/match_format=TEST/year=2026/fielding_predictions.parquet": {
+      "sha256": "d5e645760149ddafc8316fdebcb1a6895e5480cd70b55c64077c31dbb70fe5ab",
+      "bytes": 11182
+    },
+    "player_match_vorp/match_format=ODI/year=2020/player_match_vorp.parquet": {
+      "sha256": "10fe2b320c07127275a3812adc36765987fbab5c3fc7ed81ba3abfb4c2103290",
+      "bytes": 9992
+    },
+    "player_match_vorp/match_format=ODI/year=2021/player_match_vorp.parquet": {
+      "sha256": "9e7d49d3ba7219d926abdc78d29ec2dc73e8221670ab6ddcc5210e747376454b",
+      "bytes": 12472
+    },
+    "player_match_vorp/match_format=ODI/year=2022/player_match_vorp.parquet": {
+      "sha256": "a3b91f913a4924e1b51173d1fcd689b3f823b29ccd81fc83fff6c7fc32739317",
+      "bytes": 17436
+    },
+    "player_match_vorp/match_format=ODI/year=2023/player_match_vorp.parquet": {
+      "sha256": "11af0211bdb59af611c812a7c2eb4ba097732eb82b24cf13ad1113024335072b",
+      "bytes": 17051
+    },
+    "player_match_vorp/match_format=ODI/year=2024/player_match_vorp.parquet": {
+      "sha256": "2bb1cf6a43cdf99cdb7185b0001ad16ea65202e80ed3f1b03caee4f45ca855d8",
+      "bytes": 16790
+    },
+    "player_match_vorp/match_format=ODI/year=2025/player_match_vorp.parquet": {
+      "sha256": "abf67f51590a23abe4fd04cf7193682ebe7ef8284244fb859828b5019eced564",
+      "bytes": 13310
+    },
+    "player_match_vorp/match_format=ODI/year=2026/player_match_vorp.parquet": {
+      "sha256": "4678ef97c7b48bd9b06ab93fe61b8b1d3c615d2eb3c0d55b9da40e1a68262e53",
+      "bytes": 15521
+    },
+    "player_match_vorp/match_format=T20/year=2020/player_match_vorp.parquet": {
+      "sha256": "aca63c5aab221caeb8e215cb6a440ced494dd473b7ddd08e9a6ae3c7062ea598",
+      "bytes": 16887
+    },
+    "player_match_vorp/match_format=T20/year=2021/player_match_vorp.parquet": {
+      "sha256": "e7010aecb6c5202280ba602b44a69115f9c4de8c528323b78491937b23d92292",
+      "bytes": 31734
+    },
+    "player_match_vorp/match_format=T20/year=2022/player_match_vorp.parquet": {
+      "sha256": "1bba28588034ef0816595a0e7decc84503507db78c3600ac26d36398b89bceef",
+      "bytes": 38088
+    },
+    "player_match_vorp/match_format=T20/year=2023/player_match_vorp.parquet": {
+      "sha256": "e9293d35bab256c396e79ef4390caa89194a0c1da73a6bca50d854525ee33133",
+      "bytes": 30498
+    },
+    "player_match_vorp/match_format=T20/year=2024/player_match_vorp.parquet": {
+      "sha256": "bffc2571b0acf8a5c258de90cc6e7a53f577e1357952d068b29530e8e0f42a87",
+      "bytes": 41422
+    },
+    "player_match_vorp/match_format=T20/year=2025/player_match_vorp.parquet": {
+      "sha256": "e971fdde0befa6abae622ccbea4c7469edf054b9a584fa12274dc0d8da1f1dee",
+      "bytes": 34872
+    },
+    "player_match_vorp/match_format=T20/year=2026/player_match_vorp.parquet": {
+      "sha256": "d35e542e0dce605f05879d7d4b9355b799e49b3a61f8df5b653af32626a6654c",
+      "bytes": 40625
+    },
+    "player_match_vorp/match_format=TEST/year=2020/player_match_vorp.parquet": {
+      "sha256": "2309222e831fe68b278ec0f716f810d011c2f39fc31130a2bda9586b675deef1",
+      "bytes": 9227
+    },
+    "player_match_vorp/match_format=TEST/year=2021/player_match_vorp.parquet": {
+      "sha256": "294c45d9560dd207b8a312e0b1eb078594242e9ba8737375f32b4f3937ec212c",
+      "bytes": 11389
+    },
+    "player_match_vorp/match_format=TEST/year=2022/player_match_vorp.parquet": {
+      "sha256": "22c58622cef372effb9091c752db5a1f8e547ed0dbf57f795339b07d95fc6a8d",
+      "bytes": 10756
+    },
+    "player_match_vorp/match_format=TEST/year=2023/player_match_vorp.parquet": {
+      "sha256": "a54cede42b18bca6e37d019ff8a02b64dc656d22dc5ab408f9d3134db0d3f755",
+      "bytes": 13700
+    },
+    "player_match_vorp/match_format=TEST/year=2024/player_match_vorp.parquet": {
+      "sha256": "ebb864120f7f37897584c8a0c19ce773915ed71ff830728aa7db965afbe946fe",
+      "bytes": 10045
+    },
+    "player_match_vorp/match_format=TEST/year=2025/player_match_vorp.parquet": {
+      "sha256": "0df3bbda382eb91275e194e79baf8a00e95ce210e0d1a4e4d7c555f17af3f181",
+      "bytes": 11864
+    },
+    "player_match_vorp/match_format=TEST/year=2026/player_match_vorp.parquet": {
+      "sha256": "85078a0419efb1e07520f9dbd9bc43e63ce5a046bde3182adbcccfad9a48605e",
+      "bytes": 9268
+    }
+  },
+  "summary": {
+    "total_batting_predictions": 9708,
+    "total_bowling_predictions": 9708,
+    "total_fielding_predictions": 9708,
+    "total_vorp_records": 9708,
+    "vorp_surplus_ratio": 0.997,
+    "d_minus_1_verified": true
+  }
+}

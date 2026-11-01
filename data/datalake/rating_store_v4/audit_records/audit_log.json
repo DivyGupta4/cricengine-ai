@@ -1,0 +1,13 @@
+{
+  "total_matches_processed": 9085,
+  "total_participations_evaluated": 200709,
+  "batting_observations_updated": 152265,
+  "bowling_observations_updated": 107866,
+  "fielding_observations_updated": 199704,
+  "zero_exposure_skips": 141287,
+  "numerical_failures": 0,
+  "identity_uncertain_evaluations": 3,
+  "start_time_utc": "2026-11-01T19:55:57.607878+00:00",
+  "end_time_utc": "2026-11-01T19:56:19.122247+00:00",
+  "elapsed_seconds": 21.51
+}
