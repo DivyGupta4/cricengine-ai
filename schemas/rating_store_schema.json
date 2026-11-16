@@ -1,0 +1,367 @@
+{
+  "schema_version": "4.0.0",
+  "store_name": "rating_store_v4",
+  "model": "CA-HBSS (Context-Aware Hierarchical Bayesian State-Space)",
+  "datasets": {
+    "pre_match_snapshots": {
+      "description": "Point-in-time D-1 player latent ratings strictly frozen before match toss",
+      "row_count": 19642,
+      "partition_keys": [
+        "match_format",
+        "year"
+      ],
+      "schema": {
+        "file_count": 69,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "pre_r_bat",
+            "type": "double"
+          },
+          {
+            "name": "pre_rd_bat",
+            "type": "double"
+          },
+          {
+            "name": "pre_r_bowl",
+            "type": "double"
+          },
+          {
+            "name": "pre_rd_bowl",
+            "type": "double"
+          },
+          {
+            "name": "pre_r_field",
+            "type": "double"
+          },
+          {
+            "name": "pre_rd_field",
+            "type": "double"
+          },
+          {
+            "name": "pre_vorp",
+            "type": "double"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "__index_level_0__",
+            "type": "int64"
+          }
+        ]
+      }
+    },
+    "player_rating_current": {
+      "description": "Latest active latent ability parameters across formats",
+      "row_count": 9406,
+      "partition_keys": [
+        "match_format"
+      ],
+      "schema": {
+        "file_count": 3,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "as_of_date",
+            "type": "large_string"
+          },
+          {
+            "name": "last_match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "observations_count",
+            "type": "int64"
+          },
+          {
+            "name": "effective_exposure_bat",
+            "type": "double"
+          },
+          {
+            "name": "effective_exposure_bowl",
+            "type": "double"
+          },
+          {
+            "name": "effective_exposure_field",
+            "type": "double"
+          },
+          {
+            "name": "theta_bat_rate",
+            "type": "double"
+          },
+          {
+            "name": "var_bat_rate",
+            "type": "double"
+          },
+          {
+            "name": "theta_bat_surv",
+            "type": "double"
+          },
+          {
+            "name": "var_bat_surv",
+            "type": "double"
+          },
+          {
+            "name": "theta_bowl_haz",
+            "type": "double"
+          },
+          {
+            "name": "var_bowl_haz",
+            "type": "double"
+          },
+          {
+            "name": "theta_bowl_econ",
+            "type": "double"
+          },
+          {
+            "name": "var_bowl_econ",
+            "type": "double"
+          },
+          {
+            "name": "theta_field",
+            "type": "double"
+          },
+          {
+            "name": "var_field",
+            "type": "double"
+          },
+          {
+            "name": "r_bat",
+            "type": "double"
+          },
+          {
+            "name": "rd_bat",
+            "type": "double"
+          },
+          {
+            "name": "r_bowl",
+            "type": "double"
+          },
+          {
+            "name": "rd_bowl",
+            "type": "double"
+          },
+          {
+            "name": "r_field",
+            "type": "double"
+          },
+          {
+            "name": "rd_field",
+            "type": "double"
+          },
+          {
+            "name": "r_allround",
+            "type": "double"
+          },
+          {
+            "name": "rd_allround",
+            "type": "double"
+          },
+          {
+            "name": "vorp_rating",
+            "type": "double"
+          },
+          {
+            "name": "recent_form_bat",
+            "type": "double"
+          },
+          {
+            "name": "recent_form_bowl",
+            "type": "double"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "role_confidence",
+            "type": "double"
+          },
+          {
+            "name": "role_uncertainty_flag",
+            "type": "large_string"
+          },
+          {
+            "name": "identity_confidence_status",
+            "type": "large_string"
+          },
+          {
+            "name": "rating_status",
+            "type": "large_string"
+          }
+        ]
+      }
+    },
+    "player_rating_history": {
+      "description": "Longitudinal player rating progression checkpoints",
+      "row_count": 73039,
+      "partition_keys": [
+        "match_format"
+      ],
+      "schema": {
+        "file_count": 73,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "as_of_date",
+            "type": "large_string"
+          },
+          {
+            "name": "last_match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "observations_count",
+            "type": "int64"
+          },
+          {
+            "name": "effective_exposure_bat",
+            "type": "double"
+          },
+          {
+            "name": "effective_exposure_bowl",
+            "type": "double"
+          },
+          {
+            "name": "effective_exposure_field",
+            "type": "double"
+          },
+          {
+            "name": "theta_bat_rate",
+            "type": "double"
+          },
+          {
+            "name": "var_bat_rate",
+            "type": "double"
+          },
+          {
+            "name": "theta_bat_surv",
+            "type": "double"
+          },
+          {
+            "name": "var_bat_surv",
+            "type": "double"
+          },
+          {
+            "name": "theta_bowl_haz",
+            "type": "double"
+          },
+          {
+            "name": "var_bowl_haz",
+            "type": "double"
+          },
+          {
+            "name": "theta_bowl_econ",
+            "type": "double"
+          },
+          {
+            "name": "var_bowl_econ",
+            "type": "double"
+          },
+          {
+            "name": "theta_field",
+            "type": "double"
+          },
+          {
+            "name": "var_field",
+            "type": "double"
+          },
+          {
+            "name": "r_bat",
+            "type": "double"
+          },
+          {
+            "name": "rd_bat",
+            "type": "double"
+          },
+          {
+            "name": "r_bowl",
+            "type": "double"
+          },
+          {
+            "name": "rd_bowl",
+            "type": "double"
+          },
+          {
+            "name": "r_field",
+            "type": "double"
+          },
+          {
+            "name": "rd_field",
+            "type": "double"
+          },
+          {
+            "name": "r_allround",
+            "type": "double"
+          },
+          {
+            "name": "rd_allround",
+            "type": "double"
+          },
+          {
+            "name": "vorp_rating",
+            "type": "double"
+          },
+          {
+            "name": "recent_form_bat",
+            "type": "double"
+          },
+          {
+            "name": "recent_form_bowl",
+            "type": "double"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "role_confidence",
+            "type": "double"
+          },
+          {
+            "name": "role_uncertainty_flag",
+            "type": "large_string"
+          },
+          {
+            "name": "identity_confidence_status",
+            "type": "large_string"
+          },
+          {
+            "name": "rating_status",
+            "type": "large_string"
+          },
+          {
+            "name": "__index_level_0__",
+            "type": "int64"
+          }
+        ]
+      }
+    },
+    "audit_records": {
+      "description": "Rating reconciliation and state verification audits",
+      "schema": {
+        "file_count": 0,
+        "columns": []
+      }
+    }
+  }
+}

@@ -486,84 +486,137 @@ print(con.execute(query).df())
 
 ---
 
-## 11. Installation and Environment Setup
+## 11. Dataset Distribution Architecture (Two-Platform Model)
+
+CricEngine AI implements a decoupled two-platform distribution model designed for sustainable open-source research and large-scale data engineering:
+
+1. **GitHub (`cricengine-ai`)**: Serves as the primary source code, schema definition, and developer collaboration hub. Contains Python ETL pipelines, Bayesian rating models, GLM prediction architectures, unit/integration test suites, cryptographic manifests (`dataset_manifest.json`, `SHA256SUMS`), schemas (`schemas/`), and technical documentation. Large raw data lakes and Parquet stores are intentionally kept out of default git bloat.
+2. **Hugging Face Hub (`cricengine-ai/cricengine-ai-dataset`)**: Serves as the official immutable dataset host. Stores release-tagged binary artifacts under versioned tags (`v1.0.0`):
+   - `canonical_database/cricengine.duckdb` (383 MB DuckDB database)
+   - `feature_store/feature_store_v3b/` (1,164 Parquet files, 117 MB)
+   - `rating_store/rating_store_v4/` (145 Parquet files, 12.5 MB)
+   - `predictive_store/predictive_store_v4c/` (86 Parquet files, 2.8 MB)
+   - `schemas/` and `documentation/` (`DATA_DICTIONARY.md`, `DATASET_CARD.md`, `DATA_LINEAGE.md`, `KNOWN_LIMITATIONS.md`)
+
+---
+
+## 12. How to Download Dataset Components
+
+We provide an automated, resilient Python download CLI in `src.data.download_dataset` supporting chunked resumable downloads, integrity checking, and custom target directories.
+
+### Available Download Commands
+
+```bash
+# 1. Download Canonical DuckDB Database (383 MB)
+python -m src.data.download_dataset --component database
+
+# 2. Download Point-in-Time Feature Store v3b (117 MB)
+python -m src.data.download_dataset --component features
+
+# 3. Download Player Rating Store v4 (12.5 MB)
+python -m src.data.download_dataset --component ratings
+
+# 4. Download Predictive Store v4c & VORP (2.8 MB)
+python -m src.data.download_dataset --component predictions
+
+# 5. Download All Approved Dataset Components (Full Lakehouse ~515 MB)
+python -m src.data.download_dataset --component all
+
+# 6. Download to a Custom Directory
+python -m src.data.download_dataset --component database --dest /path/to/custom/dir
+```
+
+### Raw Data Ingestion Policy
+Raw match archives from Cricsheet are governed by ODbL v1.0 and CC BY-SA 4.0 licenses. To avoid repository bloat and respect open data provenance, raw source JSONs are not bundled directly in the pre-built dataset release.
+To download original raw Cricsheet data directly from the official source, run:
+```bash
+python etl/download_cricsheet.py
+```
+
+---
+
+## 13. Integrity Verification & Cryptographic Manifests
+
+Every dataset artifact is cryptographically hashed and versioned.
+
+### Reference SHA-256 Checksums (Release v1.0.0)
+
+| Component | Target File / Manifest | Expected SHA-256 Checksum | Size |
+| :--- | :--- | :--- | :--- |
+| **Canonical Database** | `data/datalake/curated/cricengine.duckdb` | `a6a99617719a93578169bac670f75e394d9c2c84f7cffa3ab233fc97c3067aae` | 383 MB |
+| **Feature Store Manifest** | `data/datalake/feature_store_v3b/_manifest.json` | `b334890a8803a113ecaa6878b668032f643e9fa8e718d72dfa6f44d67e6f8fbb` | 2.2 KB |
+| **Rating Store Manifest** | `data/datalake/rating_store_v4/_manifest.json` | `7406e0abffb221087cf9c277054f00fcba68ab941ee2b45e82ee8f05fc2636fc` | 27.8 KB |
+| **Predictive Store Manifest**| `data/datalake/predictive_store_v4c/_manifest.json`| `d4c7c46eb0f04603e8fe0e7fa364c760459da797ca800b395646f905c1d68a5d` | 17.1 KB |
+
+### Automated Verification Command
+Verify any local component with the built-in verifier:
+```bash
+# Verify canonical database
+python -m src.data.download_dataset --component database --verify-only
+
+# Verify all components against manifest
+python -m src.data.download_dataset --component all --verify-only
+```
+
+---
+
+## 14. Installation and Environment Setup
 
 ### System Prerequisites
 - **Operating System**: macOS (tested on Apple Silicon) or Linux (Ubuntu 22.04+).
   *(Windows has not been explicitly tested; WSL2 is recommended for Windows environments)*.
 - **Python**: `>= 3.12.0` (developed and tested on Python `3.12.10`).
-- **Git** & **Git LFS**: Required for cloning the DuckDB canonical database.
+- **Git** & **Git LFS**: Required for cloning the DuckDB canonical database if using Git LFS.
 
-### 1. Install Git LFS
+### Step-by-Step Setup
 ```bash
-# macOS (via Homebrew)
-brew install git-lfs
-
-# Ubuntu / Debian
-sudo apt-get install git-lfs
-
-# Initialize Git LFS
-git lfs install
-```
-
-### 2. Clone the Repository
-```bash
+# 1. Clone the Repository
 git clone https://github.com/DivyGupta4/cricengine-ai.git
 cd cricengine-ai
 
-# Pull Git LFS objects (downloads data/datalake/curated/cricengine.duckdb)
-git lfs pull
-```
-
-### 3. Create & Activate Virtual Environment
-```bash
+# 2. Create & Activate Virtual Environment
 python3.12 -m venv .venv
 source .venv/bin/activate
-```
 
-### 4. Install Dependencies
-```bash
+# 3. Install Dependencies
 pip install --upgrade pip
 pip install -r requirements.txt
-```
 
-### 5. Verify Installation
-```bash
-# Set file descriptor limits for DuckDB on macOS and run tests
+# 4. Download Canonical Database
+python -m src.data.download_dataset --component database
+
+# 5. Verify Installation and Test Suite
 bash -c "ulimit -n 4096 && PYTHONPATH=. pytest tests/ -v"
 ```
 
 ---
 
-## 12. Running the Project
+## 15. Reproducing Supported Workflows
 
-### Safe Commands (Inspection & Verification)
+### Supported Safe Commands (Inspection & Exploration)
 
-#### 1. Run Complete Test Suite
+#### 1. Interactive Database Explorer
 ```bash
-bash -c "ulimit -n 4096 && PYTHONPATH=. pytest tests/"
+python professor_demo/explore_database.py
+# Or list all tables directly:
+python professor_demo/explore_database.py --list
 ```
 
-#### 2. Verify Canonical Database Integrity
+#### 2. Interactive Feature & Predictive Store Inspector
 ```bash
-shasum -a 256 data/datalake/curated/cricengine.duckdb
-# Expected SHA-256:
-# a6a99617719a93578169bac670f75e394d9c2c84f7cffa3ab233fc97c3067aae
+python professor_demo/explore_features.py
+# Or list Parquet datasets directly:
+python professor_demo/explore_features.py --list
 ```
 
-#### 3. Inspect Pre-Match Ratings
+#### 3. Run Pre-Verified Demonstration SQL Queries
 ```bash
-PYTHONPATH=. .venv/bin/python -c "
-import duckdb
-con = duckdb.connect()
-print(con.execute('''
-    SELECT p.canonical_name, r.match_format, ROUND(r.r_bat, 1) AS r_bat, ROUND(r.r_bowl, 1) AS r_bowl, ROUND(r.vorp_rating, 2) AS vorp
-    FROM read_parquet('data/datalake/rating_store_v4/player_rating_current/match_format=T20/*.parquet') r
-    JOIN read_parquet('data/datalake/enrichment_v3b/dim_player_master_enriched.parquet') p ON r.player_id = p.player_id
-    WHERE r.observations_count >= 30
-    ORDER BY r.vorp_rating DESC LIMIT 10
-''').df())
-"
+python professor_demo/explore_database.py --examples-all
+```
+
+#### 4. Run Complete 8-Step Walkthrough
+```bash
+python professor_demo/run_demo_walkthrough.py
 ```
 
 ### Pipeline Execution Guide
@@ -572,75 +625,51 @@ print(con.execute('''
 | :--- | :--- | :--- | :--- |
 | **Test Suite** | `pytest tests/` | Pass (100/100) | **Yes**: Purely read-only test suite. |
 | **DuckDB Queries** | `duckdb.connect(..., read_only=True)` | Pass | **Yes**: Completely safe in read-only mode. |
-| **Predictive Pipeline** | `src/predictive/pipeline.py` | Complete (v4c) | **Caution**: Will rebuild `data/datalake/predictive_store_v4c/`. |
-| **Rating Engine** | `src/ratings/engine.py` | Complete (v4) | **Caution**: Will recalculate ratings in `data/datalake/rating_store_v4/`. |
-| **Feature Store Pipeline**| `etl/build_feature_store_v3b.py` | Complete (v3b) | **Caution**: Computes rolling metrics from canonical DuckDB. |
-| **Canonical Ingestion** | `etl/ingest_canonical.py` | Complete | **Protected**: Do NOT run unless re-ingesting raw JSONs into DuckDB. |
+| **Demo Walkthrough**| `professor_demo/run_demo_walkthrough.py`| Pass | **Yes**: Read-only interactive guide. |
+| **Predictive Pipeline** | `src/predictive/pipeline.py` | Complete (v4c) | **Caution**: Recomputes `data/datalake/predictive_store_v4c/`. |
+| **Rating Engine** | `src/ratings/run_rating_pipeline.py` | Complete (v4) | **Caution**: Recomputes `data/datalake/rating_store_v4/`. |
+| **Feature Store Pipeline**| `etl/build_feature_store_v3b.py` | Complete (v3b) | **Caution**: Recomputes rolling metrics from DuckDB. |
+| **Canonical Ingestion** | `etl/ingest_canonical.py` | Complete | **Protected**: Do NOT run unless rebuilding DuckDB. |
 | **Raw Downloader** | `etl/download_cricsheet.py` | Complete | **Caution**: Downloads external archives from Cricsheet. |
 
 ---
 
-## 13. Reproducibility and Data Integrity
+## 16. Current Project Status
 
-Every data layer in CricEngine AI is governed by cryptographic SHA-256 manifests to guarantee determinism and detect corruption.
+To provide rigorous open-source transparency, the project distinguishes between completed components, accepted-with-limitations work, and future milestones:
 
-### Baseline Cryptographic Manifests
-
-| Asset | File Location | Authoritative SHA-256 Hash |
+| Area | Status | Technical Scope & Notes |
 | :--- | :--- | :--- |
-| **Canonical DuckDB** | `data/datalake/curated/cricengine.duckdb` | `a6a99617719a93578169bac670f75e394d9c2c84f7cffa3ab233fc97c3067aae` |
-| **Feature Store Manifest** | `data/datalake/feature_store_v3b/_manifest.json` | `b334890a8803a113ecaa6878b668032f643e9fa8e718d72dfa6f44d67e6f8fbb` |
-| **Rating Store Manifest** | `data/datalake/rating_store_v4/_manifest.json` | `7406e0abffb221087cf9c277054f00fcba68ab941ee2b45e82ee8f05fc2636fc` |
-| **Predictive Store Manifest**| `data/datalake/predictive_store_v4c/_manifest.json`| `d4c7c46eb0f04603e8fe0e7fa364c760459da797ca800b395646f905c1d68a5d` |
+| **Raw Ingestion & Schema Audit** | **Completed** | Full ingestion of Tests, ODIs, T20Is, IPL, and SMAT with SHA-256 manifests. |
+| **Canonical Relational DB** | **Completed** | 14-table 3NF relational model in DuckDB with verified foreign key integrity. |
+| **Entity Disambiguation** | **Completed** | 7,029 source IDs reconciled to 7,014 canonical entities with 99.98% accuracy. |
+| **Feature Store (v3b)** | **Completed** | 1,164 Parquet files with rolling form windows ($w=5, 10, 20$) and zero leakage. |
+| **CA-HBSS Rating Engine (v4)** | **Completed** | Bayesian state-space engine with variance penalties and D-1 pre-match snapshots. |
+| **Predictive Modeling (v4c)** | **Completed** | Two-stage hurdle GLMs with calibrated $50\%, 80\%, 90\%, 95\%$ intervals. |
+| **Tier 3 Domestic Scope** | **Accepted with Limitations** | SMAT included; Ranji Trophy and Vijay Hazare ball-by-ball unavailable on Cricsheet. |
+| **VORP Valuation** | **Accepted with Limitations** | Realized match VORP operational; replacement baselines subject to role sparsity. |
+| **Playing XI Optimizer** | **Planned (Future Work)** | Phase 5: Mixed-Integer Linear Programming (MILP) lineup selection. |
 
-### Integrity Verification Command
-You can verify the SHA-256 checksums of the downloaded assets using:
-```bash
-shasum -a 256 data/datalake/curated/cricengine.duckdb
-shasum -a 256 data/datalake/feature_store_v3b/_manifest.json
-shasum -a 256 data/datalake/rating_store_v4/_manifest.json
-shasum -a 256 data/datalake/predictive_store_v4c/_manifest.json
-```
+*Academic & Research Disclaimer: CricEngine AI is an academic research platform and quantitative data lakehouse. All predictive intervals and VORP ratings represent statistical estimates; real-world match outcomes are inherently probabilistic and cannot be guaranteed. Not designed or licensed for commercial wagering.*
 
 ---
 
-## 14. Current Project Status
+## 17. Known Limitations and Governance
 
-| Component | Status | Description |
-| :--- | :--- | :--- |
-| **Data Ingestion** | Complete | 9,088 raw matches parsed, validated, and normalized across 5 competition archives. |
-| **Canonical Database** | Complete | DuckDB 3NF relational database (`cricengine.duckdb`, 14 tables, 4.38M balls). |
-| **Identity Resolution** | Complete with Limitations | 7,028 VERIFIED identities (99.98%), 1 PROBABLE identity (Babar Ali collision). |
-| **Feature Store (v3b)** | Complete | 1,167 Parquet partitions across rolling windows ($w \in \{5, 10, 20\}$) and contextual splits. |
-| **Rating Engine (v4)** | Complete | CA-HBSS Bayesian state-space engine with variance penalties and point-in-time snapshots. |
-| **Predictive Modeling (v4c)** | Complete | Two-stage hurdle GLMs with calibrated $50\%$, $80\%$, $90\%$, and $95\%$ prediction intervals. |
-| **VORP Valuation** | Partially Provisional | Player-match VORP operational; replacement-level bowling threshold subject to tuning. |
-| **Playing XI Optimizer** | Planned (Phase 5) | Mixed-Integer Linear Programming (MILP) lineup selection under tactical constraints. |
+Detailed documentation on technical boundaries is provided in [KNOWN_LIMITATIONS.md](KNOWN_LIMITATIONS.md):
+1. **Absence of Optical Sensor Data**: Hawk-Eye pitch coordinates, release velocities, and fielder tracking are proprietary to broadcasters and absent from open scorecards.
+2. **Three Quarantined Matches**: `data/quarantine/` contains three historical matches (`64073.json`, `64112.json`, `65457.json`) exhibiting malformed JSON delivery sequences in Cricsheet raw data.
+3. **Single Identity Ambiguity**: One unresolved display name collision persists: Babar Ali (`e9ee5fdf` vs `bb2d5257`), representing two distinct domestic cricketers active across overlapping eras without distinct Cricinfo keys. Documented in `data/datalake/metadata_v3b/remaining_collisions.json`.
+4. **T20 Scoring Rate Drift**: Extreme contemporary scoring velocity (e.g. IPL 250+ matches) exhibits right-skewed hazard behavior compared to historical priors.
 
 ---
 
-## 15. Limitations and Known Issues
-
-1. **Three Quarantined Matches**:
-   - `data/quarantine/` contains three source matches (`64073.json`, `64112.json`, `65457.json`) exhibiting malformed JSON delivery sequences or unresolvable innings over counts in Cricsheet raw data. They were quarantined to preserve database integrity.
-2. **Single Probable Identity (Babar Ali)**:
-   - One unresolved display name collision persists: Babar Ali (`e9ee5fdf` vs `bb2d5257`), representing two distinct domestic cricketers active across overlapping eras without distinct Cricinfo keys. Documented in `data/datalake/metadata_v3b/remaining_collisions.json`.
-3. **Incomplete Historical Biographies**:
-   - For ~12% of domestic cricketers in Tier 3 (Syed Mushtaq Ali Trophy), birth dates and secondary bowling styles are unrecorded in public registries.
-4. **Bowling MAE Trade-off**:
-   - In bowling predictions, GLMs optimize log-likelihood and quantile calibration. In high-scoring T20 death overs, wicket hazard distributions exhibit right-skew, leading to a modest mean absolute error trade-off.
-5. **Fielding Opportunity Tracking**:
-   - Fielding metrics capture successful dismissals (catches, stumpings, run outs) but do not record dropped catches or missed run-out opportunities due to Cricsheet source recording boundaries.
-
----
-
-## 16. Roadmap
+## 18. Roadmap
 
 ### Phase 5: India Playing XI Optimization & Tactical Lineup Engine
-The next milestone will implement the decision-support and team-selection layer:
 - **Mixed-Integer Linear Programming (MILP) Optimizer**: Formulate lineup selection as a constrained mathematical optimization problem maximizing aggregate team expected VORP.
 - **Tactical Constraints**:
-  - Minimum 5 bowling options ($\ge 20$ overs in ODIs, $\ge 20$ overs in T20s).
+  - Minimum 5 bowling options ($\\ge 20$ overs in ODIs, $\\ge 20$ overs in T20s).
   - Balance of pace vs spin tailored to venue characteristics (e.g. Wankhede vs Chepauk).
   - Left-hand / Right-hand batting combination preferences.
   - Designated wicketkeeper and minimum batting depth constraints.
@@ -648,14 +677,14 @@ The next milestone will implement the decision-support and team-selection layer:
 
 ---
 
-## 17. Contributing
+## 19. Contributing
 
-We welcome contributions from cricket analytics researchers, data engineers, and machine learning practitioners.
+We welcome contributions from cricket analytics researchers, data engineers, and machine learning practitioners. Please consult [CONTRIBUTING.md](CONTRIBUTING.md) for full guidelines.
 
 ### Contribution Workflow
 1. **Fork the Repository**: Create your fork on GitHub.
 2. **Create a Feature Branch**: `git checkout -b feat/your-feature-name`.
-3. **Set Up the Environment**: Follow Section 11 to configure the virtual environment and install dependencies.
+3. **Set Up the Environment**: Follow Section 14 to configure the virtual environment and install dependencies.
 4. **Ensure Tests Pass**: Run `bash -c "ulimit -n 4096 && PYTHONPATH=. pytest tests/"`.
 5. **Adhere to Code Standards**: Follow PEP 8 guidelines and include type hints where practical.
 6. **Preserve Point-in-Time Data Integrity**: Never introduce forward-looking features into feature store or rating components.
@@ -663,7 +692,7 @@ We welcome contributions from cricket analytics researchers, data engineers, and
 
 ---
 
-## 18. Data Sources and Attribution
+## 20. Data Sources and Attribution
 
 All match ball-by-ball records, metadata, and player registers used in CricEngine AI originate from **Cricsheet**:
 - **Source**: [Cricsheet](https://cricsheet.org)
@@ -677,7 +706,7 @@ CricEngine AI gratefully acknowledges Cricsheet for making high-quality, open-ac
 
 ---
 
-## 19. License
+## 21. License
 
 This repository uses dual licensing to respect both software and open-data requirements:
 

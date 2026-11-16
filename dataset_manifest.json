@@ -1,0 +1,87 @@
+{
+  "dataset_name": "cricengine-ai-dataset",
+  "release_version": "v1.0.0",
+  "created_at_utc": "2026-11-16T18:25:00Z",
+  "repository": "https://github.com/DivyGupta4/cricengine-ai",
+  "huggingface_hub": "https://huggingface.co/datasets/cricengine-ai/cricengine-ai-dataset",
+  "license": "Open Data Commons Open Database License (ODbL) v1.0 / CC BY-SA 4.0",
+  "attribution": "Data derived from Cricsheet (https://cricsheet.org)",
+  "components": {
+    "database": {
+      "name": "canonical_database",
+      "description": "Canonical DuckDB 3NF relational database (14 tables, 4.9M rows)",
+      "file_path": "canonical_database/cricengine.duckdb",
+      "local_source": "data/datalake/curated/cricengine.duckdb",
+      "file_count": 1,
+      "total_bytes": 401616896,
+      "sha256": "a6a99617719a93578169bac670f75e394d9c2c84f7cffa3ab233fc97c3067aae",
+      "format": "DuckDB v2.0.0",
+      "tables": 14,
+      "total_rows": 4907393
+    },
+    "features": {
+      "name": "feature_store_v3b",
+      "description": "Engineered player performance and rolling window Parquet feature store",
+      "dir_path": "feature_store/feature_store_v3b",
+      "local_source": "data/datalake/feature_store_v3b",
+      "file_count": 1164,
+      "total_bytes": 119811716,
+      "manifest_sha256": "b334890a6ba4801e33a2439be1a5f2b9e2d7e0e0cc844fdb6b1801750a7053f5",
+      "format": "Apache Parquet (Hive partitioned, Snappy)",
+      "datasets": [
+        "player_match",
+        "rolling_match",
+        "rolling_time",
+        "contextual_features",
+        "contextual_baselines"
+      ],
+      "total_rows": 1605672
+    },
+    "ratings": {
+      "name": "rating_store_v4",
+      "description": "CA-HBSS latent skill player ratings and pre-match D-1 snapshots",
+      "dir_path": "rating_store/rating_store_v4",
+      "local_source": "data/datalake/rating_store_v4",
+      "file_count": 145,
+      "total_bytes": 12469924,
+      "manifest_sha256": "7406e0ab66e989057f12e6e29512cdc8d3dbc8c68da759fcf6d4bf57aaa50cec",
+      "format": "Apache Parquet",
+      "datasets": [
+        "pre_match_snapshots",
+        "player_rating_current",
+        "player_rating_history",
+        "audit_records"
+      ],
+      "active_states": 9406,
+      "pre_match_snapshots": 19642
+    },
+    "predictions": {
+      "name": "predictive_store_v4c",
+      "description": "Probabilistic forecasts, uncertainty intervals, and Value Over Replacement Player (VORP)",
+      "dir_path": "predictive_store/predictive_store_v4c",
+      "local_source": "data/datalake/predictive_store_v4c",
+      "file_count": 86,
+      "total_bytes": 2705394,
+      "manifest_sha256": "d4c7c46e76c821e6bc9eec97dd176eb4f10db9072a7ba6e9ea92e161cf44215b",
+      "format": "Apache Parquet",
+      "datasets": [
+        "player_match_vorp",
+        "batting_predictions",
+        "bowling_predictions",
+        "fielding_predictions",
+        "evaluation_metrics"
+      ],
+      "total_predictions": 38832
+    },
+    "schemas": {
+      "name": "schemas",
+      "file_count": 4,
+      "files": {
+        "rating_store_schema.json": "c555274b66da186b44ffe22f0b2f816201586af64c70366f524d480d586cde87",
+        "database_schema.json": "6bdc7bded6fa09bb89057922bad576753a542aabf9b374e8083649548f43829a",
+        "predictive_store_schema.json": "f0073e42cc7b774fca4b17db7d6a794cb29466e6d1aa62681e168ce025c62f03",
+        "feature_store_schema.json": "bfeba137ef11ca94d15c775693d90b3e40e484abed7cbbcaab044a8d6aad7736"
+      }
+    }
+  }
+}

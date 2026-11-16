@@ -1,0 +1,792 @@
+{
+  "schema_version": "1.0.0",
+  "database_name": "cricengine.duckdb",
+  "storage_engine": "DuckDB v2.0.0",
+  "total_tables": 14,
+  "tables": {
+    "data_quality_results": {
+      "row_count": 1160,
+      "type": "metadata_audit",
+      "columns": [
+        {
+          "name": "check_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "execution_timestamp",
+          "type": "TIMESTAMP",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "table_name",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "rule_name",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "severity",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "status",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "details",
+          "type": "VARCHAR",
+          "nullable": true
+        }
+      ]
+    },
+    "data_source_manifest": {
+      "row_count": 5,
+      "type": "metadata_audit",
+      "columns": [
+        {
+          "name": "manifest_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "competition",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_format",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "tier",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "source_url",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "archive_filename",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "archive_sha256",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "archive_size_bytes",
+          "type": "BIGINT",
+          "nullable": false
+        },
+        {
+          "name": "download_status",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "extraction_status",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "retrieval_timestamp",
+          "type": "TIMESTAMP",
+          "nullable": false
+        },
+        {
+          "name": "matches_ingested",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "error_message",
+          "type": "VARCHAR",
+          "nullable": true
+        }
+      ]
+    },
+    "dim_match": {
+      "row_count": 9085,
+      "type": "dimension",
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "competition_name",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "competition_tier",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "match_format",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_type_number",
+          "type": "INTEGER",
+          "nullable": true
+        },
+        {
+          "name": "season",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "start_date",
+          "type": "DATE",
+          "nullable": false
+        },
+        {
+          "name": "end_date",
+          "type": "DATE",
+          "nullable": false
+        },
+        {
+          "name": "team_1",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "team_2",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "gender",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "balls_per_over",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "source_archive",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "source_file_path",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "source_file_hash",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "revision_number",
+          "type": "INTEGER",
+          "nullable": false
+        }
+      ]
+    },
+    "dim_match_context": {
+      "row_count": 9085,
+      "type": "dimension",
+      "columns": [
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "venue_name",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "city",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "toss_winner",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "toss_decision",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "outcome_winner",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "outcome_result",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "win_by_type",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "win_by_margin",
+          "type": "INTEGER",
+          "nullable": true
+        },
+        {
+          "name": "method",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "balls_per_over",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "event_name",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "match_number",
+          "type": "VARCHAR",
+          "nullable": true
+        }
+      ]
+    },
+    "dim_player_master": {
+      "row_count": 7014,
+      "type": "dimension",
+      "columns": [
+        {
+          "name": "player_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "canonical_name",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "is_active",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "created_at",
+          "type": "TIMESTAMP",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_ball_by_ball": {
+      "row_count": 4383700,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "ball_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "innings_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "innings_num",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "over_num",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "delivery_num",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "is_legal_delivery",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "match_phase",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "batter_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "bowler_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "non_striker_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "runs_batter",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "runs_extras",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "runs_total",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "wides",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "noballs",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "byes",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "legbyes",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "penalty",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "is_wicket",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "wicket_count",
+          "type": "INTEGER",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_delivery_dismissal": {
+      "row_count": 136691,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "dismissal_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "ball_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "innings_num",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "dismissal_seq",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "player_out_id",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "player_out_name_raw",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "dismissal_kind",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "bowler_credited",
+          "type": "BOOLEAN",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_dismissal_fielder": {
+      "row_count": 94926,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "dismissal_fielder_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "dismissal_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "fielder_seq",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "fielder_id",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "fielder_name_raw",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "is_substitute",
+          "type": "BOOLEAN",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_innings": {
+      "row_count": 19697,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "innings_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "innings_num",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "batting_team",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "bowling_team",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "is_super_over",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "total_runs_scored",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "total_wickets_lost",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "total_deliveries",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "total_legal_deliveries",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "penalty_runs_pre",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "penalty_runs_post",
+          "type": "INTEGER",
+          "nullable": false
+        },
+        {
+          "name": "target_runs",
+          "type": "INTEGER",
+          "nullable": true
+        },
+        {
+          "name": "target_overs",
+          "type": "FLOAT",
+          "nullable": true
+        }
+      ]
+    },
+    "fact_match_official": {
+      "row_count": 37467,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "official_assignment_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "official_id",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "official_name_raw",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "official_role",
+          "type": "VARCHAR",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_match_participation": {
+      "row_count": 200709,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "participation_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "player_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "team_name",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "participation_role",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "in_starting_xi",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "batted_flag",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "bowled_flag",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "fielded_flag",
+          "type": "BOOLEAN",
+          "nullable": false
+        },
+        {
+          "name": "evidence_confidence",
+          "type": "VARCHAR",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_match_replacement": {
+      "row_count": 825,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "replacement_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "ball_id",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "team_name",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "in_player_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "out_player_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "in_player_name",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "out_player_name",
+          "type": "VARCHAR",
+          "nullable": true
+        },
+        {
+          "name": "replacement_reason",
+          "type": "VARCHAR",
+          "nullable": false
+        }
+      ]
+    },
+    "fact_pairwise_synergy_matrix": {
+      "row_count": 0,
+      "type": "fact",
+      "columns": [
+        {
+          "name": "synergy_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "player_a_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "player_b_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "match_format",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "sample_deliveries",
+          "type": "INTEGER",
+          "nullable": true
+        },
+        {
+          "name": "synergy_score",
+          "type": "FLOAT",
+          "nullable": true
+        },
+        {
+          "name": "created_at",
+          "type": "TIMESTAMP",
+          "nullable": false
+        }
+      ]
+    },
+    "player_source_identity": {
+      "row_count": 7029,
+      "type": "metadata_audit",
+      "columns": [
+        {
+          "name": "identity_mapping_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "player_id",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "source_system",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "source_identifier",
+          "type": "VARCHAR",
+          "nullable": false
+        },
+        {
+          "name": "confidence_status",
+          "type": "VARCHAR",
+          "nullable": false
+        }
+      ]
+    }
+  }
+}

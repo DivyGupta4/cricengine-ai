@@ -97,3 +97,13 @@ data/raw_cricsheet/extracted/
 # Superseded intermediate feature stores (frozen baseline is feature_store_v3b)
 data/datalake/feature_store/
 data/datalake/feature_store_v3a/
+
+# ------------------------------------------------------------------------------
+# 5. Dataset Distribution & Release Staging
+# ------------------------------------------------------------------------------
+distribution/
+cricengine-ai-dataset/
+*.tar.gz
+*.zip
+!data/raw_cricsheet/archives/*.zip
+

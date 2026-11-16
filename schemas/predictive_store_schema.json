@@ -1,0 +1,454 @@
+{
+  "schema_version": "4.1.0",
+  "store_name": "predictive_store_v4c",
+  "model": "Two-Stage Hurdle / Poisson & VORP (Value Over Replacement Player)",
+  "datasets": {
+    "player_match_vorp": {
+      "description": "Value Over Replacement Player ratings across batting, bowling, fielding",
+      "row_count": 9708,
+      "partition_keys": [
+        "match_format",
+        "year"
+      ],
+      "schema": {
+        "file_count": 21,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "vorp_bat",
+            "type": "double"
+          },
+          {
+            "name": "vorp_bowl",
+            "type": "double"
+          },
+          {
+            "name": "vorp_field",
+            "type": "double"
+          },
+          {
+            "name": "vorp_total",
+            "type": "double"
+          },
+          {
+            "name": "is_above_replacement",
+            "type": "bool"
+          },
+          {
+            "name": "rep_r_bat",
+            "type": "double"
+          },
+          {
+            "name": "rep_r_bowl",
+            "type": "double"
+          },
+          {
+            "name": "rep_r_field",
+            "type": "double"
+          },
+          {
+            "name": "__index_level_0__",
+            "type": "int64"
+          }
+        ]
+      }
+    },
+    "batting_predictions": {
+      "description": "Probabilistic expected runs with 50%, 80%, 90%, 95% intervals",
+      "row_count": 9708,
+      "partition_keys": [
+        "match_format",
+        "year"
+      ],
+      "schema": {
+        "file_count": 21,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "batting_position",
+            "type": "int8"
+          },
+          {
+            "name": "pre_r_bat",
+            "type": "double"
+          },
+          {
+            "name": "pre_rd_bat",
+            "type": "double"
+          },
+          {
+            "name": "expected_balls_faced",
+            "type": "double"
+          },
+          {
+            "name": "expected_scoring_rate",
+            "type": "double"
+          },
+          {
+            "name": "expected_runs",
+            "type": "double"
+          },
+          {
+            "name": "runs_total_variance",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_50_low",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_50_high",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_80_low",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_80_high",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_90_low",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_90_high",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_95_low",
+            "type": "double"
+          },
+          {
+            "name": "runs_interval_95_high",
+            "type": "double"
+          },
+          {
+            "name": "dismissal_probability",
+            "type": "double"
+          },
+          {
+            "name": "expected_boundary_rate",
+            "type": "double"
+          },
+          {
+            "name": "actual_runs_scored",
+            "type": "int16"
+          },
+          {
+            "name": "actual_balls_faced",
+            "type": "int16"
+          },
+          {
+            "name": "actual_is_dismissed",
+            "type": "bool"
+          },
+          {
+            "name": "__index_level_0__",
+            "type": "int64"
+          }
+        ]
+      }
+    },
+    "bowling_predictions": {
+      "description": "Expected wickets and runs conceded with uncertainty intervals",
+      "row_count": 9708,
+      "partition_keys": [
+        "match_format",
+        "year"
+      ],
+      "schema": {
+        "file_count": 21,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "pre_r_bowl",
+            "type": "double"
+          },
+          {
+            "name": "pre_rd_bowl",
+            "type": "double"
+          },
+          {
+            "name": "expected_balls_bowled",
+            "type": "double"
+          },
+          {
+            "name": "expected_overs_bowled",
+            "type": "double"
+          },
+          {
+            "name": "expected_hazard_rate",
+            "type": "double"
+          },
+          {
+            "name": "expected_economy_rate",
+            "type": "double"
+          },
+          {
+            "name": "expected_wickets",
+            "type": "double"
+          },
+          {
+            "name": "wickets_total_variance",
+            "type": "double"
+          },
+          {
+            "name": "wickets_interval_50_low",
+            "type": "double"
+          },
+          {
+            "name": "wickets_interval_50_high",
+            "type": "double"
+          },
+          {
+            "name": "wickets_interval_90_low",
+            "type": "double"
+          },
+          {
+            "name": "wickets_interval_90_high",
+            "type": "double"
+          },
+          {
+            "name": "expected_runs_conceded",
+            "type": "double"
+          },
+          {
+            "name": "runs_conceded_total_variance",
+            "type": "double"
+          },
+          {
+            "name": "runs_conceded_interval_50_low",
+            "type": "double"
+          },
+          {
+            "name": "runs_conceded_interval_50_high",
+            "type": "double"
+          },
+          {
+            "name": "runs_conceded_interval_90_low",
+            "type": "double"
+          },
+          {
+            "name": "runs_conceded_interval_90_high",
+            "type": "double"
+          },
+          {
+            "name": "expected_dot_pct",
+            "type": "double"
+          },
+          {
+            "name": "actual_legal_balls_bowled",
+            "type": "int16"
+          },
+          {
+            "name": "actual_runs_conceded",
+            "type": "int16"
+          },
+          {
+            "name": "actual_wickets_taken",
+            "type": "int8"
+          },
+          {
+            "name": "__index_level_0__",
+            "type": "int64"
+          }
+        ]
+      }
+    },
+    "fielding_predictions": {
+      "description": "Expected fielding involvements and run values",
+      "row_count": 9708,
+      "partition_keys": [
+        "match_format",
+        "year"
+      ],
+      "schema": {
+        "file_count": 21,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_id",
+            "type": "large_string"
+          },
+          {
+            "name": "match_date",
+            "type": "large_string"
+          },
+          {
+            "name": "inferred_role",
+            "type": "large_string"
+          },
+          {
+            "name": "pre_r_field",
+            "type": "double"
+          },
+          {
+            "name": "pre_rd_field",
+            "type": "double"
+          },
+          {
+            "name": "is_wicketkeeper",
+            "type": "bool"
+          },
+          {
+            "name": "expected_involvements",
+            "type": "double"
+          },
+          {
+            "name": "fielding_total_variance",
+            "type": "double"
+          },
+          {
+            "name": "fielding_interval_90_low",
+            "type": "double"
+          },
+          {
+            "name": "fielding_interval_90_high",
+            "type": "double"
+          },
+          {
+            "name": "expected_fielding_run_value",
+            "type": "double"
+          },
+          {
+            "name": "actual_catches_taken",
+            "type": "int8"
+          },
+          {
+            "name": "actual_fielding_involvements",
+            "type": "int8"
+          },
+          {
+            "name": "__index_level_0__",
+            "type": "int64"
+          }
+        ]
+      }
+    },
+    "evaluation_metrics": {
+      "description": "Out-of-sample calibration diagnostics and benchmark comparisons",
+      "tables": {
+        "benchmark_comparison": {
+          "file_count": 1,
+          "columns": [
+            {
+              "name": "discipline",
+              "type": "large_string"
+            },
+            {
+              "name": "model",
+              "type": "large_string"
+            },
+            {
+              "name": "n_samples",
+              "type": "int64"
+            },
+            {
+              "name": "mae",
+              "type": "double"
+            },
+            {
+              "name": "rmse",
+              "type": "double"
+            },
+            {
+              "name": "pearson_r",
+              "type": "double"
+            },
+            {
+              "name": "spearman_rho",
+              "type": "double"
+            },
+            {
+              "name": "kendall_tau",
+              "type": "double"
+            },
+            {
+              "name": "winkler_90",
+              "type": "double"
+            },
+            {
+              "name": "crps",
+              "type": "double"
+            }
+          ]
+        },
+        "calibration_diagnostics": {
+          "file_count": 1,
+          "columns": [
+            {
+              "name": "diagnostic_type",
+              "type": "large_string"
+            },
+            {
+              "name": "target_nominal",
+              "type": "double"
+            },
+            {
+              "name": "empirical_rate",
+              "type": "double"
+            },
+            {
+              "name": "error",
+              "type": "double"
+            },
+            {
+              "name": "details",
+              "type": "large_string"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

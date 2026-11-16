@@ -1,0 +1,659 @@
+{
+  "schema_version": "3.1.0",
+  "store_name": "feature_store_v3b",
+  "partitioning": "Hive",
+  "compression": "snappy",
+  "datasets": {
+    "player_match": {
+      "description": "Match-level transformed player performance metrics",
+      "row_count": 200709,
+      "partition_keys": [
+        "match_format",
+        "season"
+      ],
+      "schema": {
+        "file_count": 145,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "string"
+          },
+          {
+            "name": "match_id",
+            "type": "string"
+          },
+          {
+            "name": "competition_name",
+            "type": "string"
+          },
+          {
+            "name": "competition_tier",
+            "type": "int8"
+          },
+          {
+            "name": "start_date",
+            "type": "date32[day]"
+          },
+          {
+            "name": "team_name",
+            "type": "string"
+          },
+          {
+            "name": "opposition_team",
+            "type": "string"
+          },
+          {
+            "name": "venue_name",
+            "type": "string"
+          },
+          {
+            "name": "canonical_venue_name",
+            "type": "string"
+          },
+          {
+            "name": "city",
+            "type": "string"
+          },
+          {
+            "name": "participation_role",
+            "type": "string"
+          },
+          {
+            "name": "in_starting_xi",
+            "type": "bool"
+          },
+          {
+            "name": "has_batted",
+            "type": "bool"
+          },
+          {
+            "name": "has_bowled",
+            "type": "bool"
+          },
+          {
+            "name": "has_fielded",
+            "type": "bool"
+          },
+          {
+            "name": "batting_position",
+            "type": "int8"
+          },
+          {
+            "name": "runs_scored",
+            "type": "int16"
+          },
+          {
+            "name": "balls_faced",
+            "type": "int16"
+          },
+          {
+            "name": "boundary_fours",
+            "type": "int8"
+          },
+          {
+            "name": "boundary_sixes",
+            "type": "int8"
+          },
+          {
+            "name": "dot_balls_faced",
+            "type": "int16"
+          },
+          {
+            "name": "is_dismissed",
+            "type": "bool"
+          },
+          {
+            "name": "dismissals_count",
+            "type": "int8"
+          },
+          {
+            "name": "dismissal_kind",
+            "type": "string"
+          },
+          {
+            "name": "strike_rate",
+            "type": "float"
+          },
+          {
+            "name": "boundary_pct",
+            "type": "float"
+          },
+          {
+            "name": "dot_pct_faced",
+            "type": "float"
+          },
+          {
+            "name": "legal_balls_bowled",
+            "type": "int16"
+          },
+          {
+            "name": "overs_bowled",
+            "type": "float"
+          },
+          {
+            "name": "runs_conceded",
+            "type": "int16"
+          },
+          {
+            "name": "wickets_credited",
+            "type": "int8"
+          },
+          {
+            "name": "dot_balls_bowled",
+            "type": "int16"
+          },
+          {
+            "name": "boundaries_conceded",
+            "type": "int16"
+          },
+          {
+            "name": "maiden_overs",
+            "type": "int8"
+          },
+          {
+            "name": "economy_rate",
+            "type": "float"
+          },
+          {
+            "name": "bowling_strike_rate",
+            "type": "float"
+          },
+          {
+            "name": "bowling_average",
+            "type": "float"
+          },
+          {
+            "name": "catches_taken",
+            "type": "int8"
+          },
+          {
+            "name": "stumpings_taken",
+            "type": "int8"
+          },
+          {
+            "name": "runouts_involved",
+            "type": "int8"
+          },
+          {
+            "name": "total_fielding_involvements",
+            "type": "int8"
+          },
+          {
+            "name": "batting_load",
+            "type": "float"
+          },
+          {
+            "name": "bowling_load",
+            "type": "float"
+          },
+          {
+            "name": "allrounder_balance_index",
+            "type": "float"
+          },
+          {
+            "name": "batting_hand",
+            "type": "string"
+          },
+          {
+            "name": "bowling_style",
+            "type": "string"
+          },
+          {
+            "name": "pace_spin_class",
+            "type": "string"
+          },
+          {
+            "name": "primary_role",
+            "type": "string"
+          },
+          {
+            "name": "player_age_at_match",
+            "type": "float"
+          }
+        ]
+      }
+    },
+    "rolling_match": {
+      "description": "Multi-scale rolling match windows (5, 10, 20 matches) with exponential decay",
+      "row_count": 602127,
+      "partition_keys": [
+        "match_format",
+        "window_size",
+        "season"
+      ],
+      "schema": {
+        "file_count": 435,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "string"
+          },
+          {
+            "name": "match_id",
+            "type": "string"
+          },
+          {
+            "name": "evaluation_date",
+            "type": "date32[day]"
+          },
+          {
+            "name": "matches_in_window",
+            "type": "int8"
+          },
+          {
+            "name": "rolling_runs_scored",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_balls_faced",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_dismissals_count",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_batting_sr",
+            "type": "float"
+          },
+          {
+            "name": "rolling_batting_avg",
+            "type": "float"
+          },
+          {
+            "name": "rolling_boundary_pct",
+            "type": "float"
+          },
+          {
+            "name": "rolling_dot_pct_faced",
+            "type": "float"
+          },
+          {
+            "name": "rolling_legal_balls_bowled",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_overs_bowled",
+            "type": "float"
+          },
+          {
+            "name": "rolling_runs_conceded",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_wickets_taken",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_economy_rate",
+            "type": "float"
+          },
+          {
+            "name": "rolling_bowling_sr",
+            "type": "float"
+          },
+          {
+            "name": "rolling_bowling_avg",
+            "type": "float"
+          },
+          {
+            "name": "rolling_dot_pct_bowled",
+            "type": "float"
+          },
+          {
+            "name": "rolling_maidens_count",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_catches",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_stumpings",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_runouts",
+            "type": "int16"
+          },
+          {
+            "name": "decayed_batting_sr",
+            "type": "float"
+          },
+          {
+            "name": "decayed_economy_rate",
+            "type": "float"
+          },
+          {
+            "name": "shrunk_batting_sr",
+            "type": "float"
+          },
+          {
+            "name": "shrunk_economy_rate",
+            "type": "float"
+          },
+          {
+            "name": "mean_batting_load",
+            "type": "float"
+          },
+          {
+            "name": "mean_bowling_load",
+            "type": "float"
+          },
+          {
+            "name": "mean_allrounder_index",
+            "type": "float"
+          },
+          {
+            "name": "days_since_last_match",
+            "type": "int16"
+          }
+        ]
+      }
+    },
+    "rolling_time": {
+      "description": "Calendar-time rolling windows (30, 90, 365 days)",
+      "row_count": 602127,
+      "partition_keys": [
+        "match_format",
+        "window_days",
+        "season"
+      ],
+      "schema": {
+        "file_count": 435,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "string"
+          },
+          {
+            "name": "match_id",
+            "type": "string"
+          },
+          {
+            "name": "evaluation_date",
+            "type": "date32[day]"
+          },
+          {
+            "name": "matches_in_window",
+            "type": "int8"
+          },
+          {
+            "name": "rolling_runs_scored",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_balls_faced",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_dismissals_count",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_batting_sr",
+            "type": "float"
+          },
+          {
+            "name": "rolling_batting_avg",
+            "type": "float"
+          },
+          {
+            "name": "rolling_legal_balls_bowled",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_runs_conceded",
+            "type": "int32"
+          },
+          {
+            "name": "rolling_wickets_taken",
+            "type": "int16"
+          },
+          {
+            "name": "rolling_economy_rate",
+            "type": "float"
+          },
+          {
+            "name": "decayed_batting_sr",
+            "type": "float"
+          },
+          {
+            "name": "decayed_economy_rate",
+            "type": "float"
+          },
+          {
+            "name": "days_since_last_match",
+            "type": "int16"
+          }
+        ]
+      }
+    },
+    "contextual_features": {
+      "description": "Environmental and opponent contextual features",
+      "row_count": 200709,
+      "partition_keys": [
+        "match_format",
+        "season"
+      ],
+      "schema": {
+        "file_count": 145,
+        "columns": [
+          {
+            "name": "player_id",
+            "type": "string"
+          },
+          {
+            "name": "match_id",
+            "type": "string"
+          },
+          {
+            "name": "evaluation_date",
+            "type": "date32[day]"
+          },
+          {
+            "name": "venue_name",
+            "type": "string"
+          },
+          {
+            "name": "canonical_venue_name",
+            "type": "string"
+          },
+          {
+            "name": "opposition_team",
+            "type": "string"
+          },
+          {
+            "name": "venue_historical_park_factor",
+            "type": "float"
+          },
+          {
+            "name": "opposition_bowling_quality_index",
+            "type": "float"
+          },
+          {
+            "name": "opposition_batting_quality_index",
+            "type": "float"
+          },
+          {
+            "name": "is_home_match",
+            "type": "bool"
+          },
+          {
+            "name": "is_neutral_match",
+            "type": "bool"
+          },
+          {
+            "name": "competition_tier_multiplier",
+            "type": "float"
+          },
+          {
+            "name": "career_powerplay_strike_rate",
+            "type": "float"
+          },
+          {
+            "name": "career_death_strike_rate",
+            "type": "float"
+          },
+          {
+            "name": "career_powerplay_economy",
+            "type": "float"
+          },
+          {
+            "name": "career_death_economy",
+            "type": "float"
+          }
+        ]
+      }
+    },
+    "contextual_baselines": {
+      "description": "Historical venue park factors, phase baselines, opponent baselines",
+      "tables": {
+        "venue_park_factors": {
+          "file_count": 1,
+          "columns": [
+            {
+              "name": "canonical_venue_name",
+              "type": "large_string"
+            },
+            {
+              "name": "match_format",
+              "type": "large_string"
+            },
+            {
+              "name": "total_matches",
+              "type": "int64"
+            },
+            {
+              "name": "total_runs",
+              "type": "double"
+            },
+            {
+              "name": "total_legal_balls",
+              "type": "int64"
+            },
+            {
+              "name": "park_factor",
+              "type": "double"
+            }
+          ]
+        },
+        "phase_scoring_baselines": {
+          "file_count": 1,
+          "columns": [
+            {
+              "name": "match_format",
+              "type": "large_string"
+            },
+            {
+              "name": "match_phase",
+              "type": "large_string"
+            },
+            {
+              "name": "total_balls",
+              "type": "int64"
+            },
+            {
+              "name": "total_legal_balls",
+              "type": "int64"
+            },
+            {
+              "name": "total_runs",
+              "type": "double"
+            },
+            {
+              "name": "total_wickets",
+              "type": "double"
+            },
+            {
+              "name": "runs_per_over",
+              "type": "double"
+            },
+            {
+              "name": "boundary_pct",
+              "type": "double"
+            },
+            {
+              "name": "dot_pct",
+              "type": "double"
+            }
+          ]
+        },
+        "opposition_bowling_baselines": {
+          "file_count": 1,
+          "columns": [
+            {
+              "name": "match_format",
+              "type": "large_string"
+            },
+            {
+              "name": "team_name",
+              "type": "large_string"
+            },
+            {
+              "name": "total_matches",
+              "type": "int64"
+            },
+            {
+              "name": "total_legal_deliveries",
+              "type": "double"
+            },
+            {
+              "name": "total_runs_conceded",
+              "type": "double"
+            },
+            {
+              "name": "total_wickets_taken",
+              "type": "double"
+            },
+            {
+              "name": "team_economy_rate",
+              "type": "double"
+            },
+            {
+              "name": "team_bowling_average",
+              "type": "double"
+            }
+          ]
+        },
+        "opposition_batting_baselines": {
+          "file_count": 1,
+          "columns": [
+            {
+              "name": "match_format",
+              "type": "large_string"
+            },
+            {
+              "name": "team_name",
+              "type": "large_string"
+            },
+            {
+              "name": "total_matches",
+              "type": "int64"
+            },
+            {
+              "name": "total_legal_deliveries",
+              "type": "double"
+            },
+            {
+              "name": "total_runs_scored",
+              "type": "double"
+            },
+            {
+              "name": "total_wickets_lost",
+              "type": "double"
+            },
+            {
+              "name": "team_scoring_rate",
+              "type": "double"
+            },
+            {
+              "name": "team_batting_average",
+              "type": "double"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
