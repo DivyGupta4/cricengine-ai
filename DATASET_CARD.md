@@ -1,15 +1,5 @@
 ---
-license: odbl-1.0
-dataset_info:
-  features:
-  - name: canonical_database
-    dtype: duckdb
-  - name: feature_store_v3b
-    dtype: parquet
-  - name: rating_store_v4
-    dtype: parquet
-  - name: predictive_store_v4c
-    dtype: parquet
+license: cc-by-sa-4.0
 tags:
 - sports-analytics
 - cricket

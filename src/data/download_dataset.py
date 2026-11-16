@@ -19,13 +19,21 @@ import hashlib
 import json
 import os
 import shutil
+import ssl
 import sys
 import urllib.request
 import urllib.error
 import time
 
+try:
+    import certifi
+    DEFAULT_SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where())
+    os.environ.setdefault("SSL_CERT_FILE", certifi.where())
+except Exception:
+    DEFAULT_SSL_CONTEXT = None
+
 # Official Distribution Constants
-DEFAULT_REPO_ID = "cricengine-ai/cricengine-ai-dataset"
+DEFAULT_REPO_ID = "divii1304/cricengine-ai-dataset"
 DEFAULT_RELEASE_VERSION = "v1.0.0"
 HF_BASE_URL = f"https://huggingface.co/datasets/{DEFAULT_REPO_ID}/resolve"
 
@@ -124,7 +132,10 @@ def download_file_stream(url, dest_path, expected_size=None, expected_sha256=Non
 
     req = urllib.request.Request(url, headers=headers)
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
+        kwargs = {"timeout": 30}
+        if DEFAULT_SSL_CONTEXT is not None:
+            kwargs["context"] = DEFAULT_SSL_CONTEXT
+        with urllib.request.urlopen(req, **kwargs) as resp:
             total_size = resp.headers.get("Content-Length")
             total_size = int(total_size) + existing_bytes if total_size else expected_size
 
@@ -299,43 +310,77 @@ def download_component(comp_key, target_dir, version=DEFAULT_RELEASE_VERSION,
         verify_component(comp_key, target_dir)
         return
 
-    # Hugging Face download
-    if not comp["is_dir"]:
-        # Download single file
-        remote_url = f"{HF_BASE_URL}/{version}/{comp['remote_path']}"
-        try:
-            download_file_stream(remote_url, dest_path,
-                                 expected_size=comp.get("expected_size"),
-                                 expected_sha256=comp.get("expected_sha256"))
-        except (FileNotFoundError, RuntimeError) as e:
-            # Fall back gracefully to local source if present
-            if local_src:
-                print(f"\n[NOTICE] Remote {remote_url} is not yet published or requires authentication.")
-                print(f"Falling back to local repository baseline: {local_src}")
-                copy_from_local_source(comp_key, local_src, target_dir, force=force)
-            else:
-                raise e
-    else:
-        # Directory component (Parquet partition tree)
-        if local_src and source == "auto":
-            print(f"Synchronizing Parquet directory from repository baseline: {local_src}...")
-            copy_from_local_source(comp_key, local_src, target_dir, force=force)
+    # 1. Try Hugging Face Hub library if available
+    downloaded = False
+    try:
+        from huggingface_hub import hf_hub_download, snapshot_download
+        print(f"Connecting to Hugging Face Hub ({DEFAULT_REPO_ID} @ {version})...")
+
+        if not comp["is_dir"]:
+            # Single file download
+            os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+            staging_tmp = os.path.join(target_dir, ".hf_staging")
+            os.makedirs(staging_tmp, exist_ok=True)
+            down_file = hf_hub_download(
+                repo_id=DEFAULT_REPO_ID,
+                repo_type="dataset",
+                filename=comp["remote_path"],
+                revision=version,
+                local_dir=staging_tmp
+            )
+            if os.path.exists(dest_path):
+                os.remove(dest_path)
+            shutil.move(down_file, dest_path)
+            if os.path.exists(staging_tmp):
+                shutil.rmtree(staging_tmp)
+            downloaded = True
         else:
+            # Directory / Parquet partition tree download
+            staging_tmp = os.path.join(target_dir, ".hf_staging")
+            os.makedirs(staging_tmp, exist_ok=True)
+            snapshot_download(
+                repo_id=DEFAULT_REPO_ID,
+                repo_type="dataset",
+                revision=version,
+                allow_patterns=f"{comp['remote_path']}/*",
+                local_dir=staging_tmp
+            )
+            staged_src = os.path.join(staging_tmp, comp["remote_path"])
+            if os.path.exists(dest_path):
+                shutil.rmtree(dest_path)
+            os.makedirs(os.path.dirname(dest_path), exist_ok=True)
+            shutil.move(staged_src, dest_path)
+            if os.path.exists(staging_tmp):
+                shutil.rmtree(staging_tmp)
+            downloaded = True
+
+    except Exception as e:
+        print(f"  [Notice] Hugging Face Hub client download encountered: {e}")
+        print("  Attempting HTTP direct streaming or local fallback...")
+
+    # 2. Fallback to direct HTTP stream or local source
+    if not downloaded:
+        if not comp["is_dir"]:
+            remote_url = f"{HF_BASE_URL}/{version}/{comp['remote_path']}"
             try:
-                remote_archive = f"{HF_BASE_URL}/{version}/{comp['remote_path']}.zip"
-                zip_dest = dest_path + ".zip"
-                print(f"Downloading archived store from: {remote_archive}")
-                download_file_stream(remote_archive, zip_dest)
-                print(f"Extracting to {dest_path}...")
-                shutil.unpack_archive(zip_dest, dest_path)
-                if os.path.exists(zip_dest):
-                    os.remove(zip_dest)
-            except (FileNotFoundError, RuntimeError) as e:
+                download_file_stream(remote_url, dest_path,
+                                     expected_size=comp.get("expected_size"),
+                                     expected_sha256=comp.get("expected_sha256"))
+                downloaded = True
+            except Exception as e:
                 if local_src:
-                    print(f"\n[NOTICE] Remote archive not found. Falling back to local baseline: {local_src}")
+                    print(f"\n[NOTICE] Remote fetch failed ({e}). Falling back to local repository baseline: {local_src}")
                     copy_from_local_source(comp_key, local_src, target_dir, force=force)
+                    downloaded = True
                 else:
                     raise e
+        else:
+            if local_src:
+                print(f"Synchronizing Parquet directory from local repository baseline: {local_src}...")
+                copy_from_local_source(comp_key, local_src, target_dir, force=force)
+                downloaded = True
+            else:
+                raise RuntimeError(f"Could not download remote directory for {comp_key}")
 
     verify_component(comp_key, target_dir)
 

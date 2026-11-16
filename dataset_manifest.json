@@ -3,7 +3,7 @@
   "release_version": "v1.0.0",
   "created_at_utc": "2026-11-16T18:25:00Z",
   "repository": "https://github.com/DivyGupta4/cricengine-ai",
-  "huggingface_hub": "https://huggingface.co/datasets/cricengine-ai/cricengine-ai-dataset",
+  "huggingface_hub": "https://huggingface.co/datasets/divii1304/cricengine-ai-dataset",
   "license": "Open Data Commons Open Database License (ODbL) v1.0 / CC BY-SA 4.0",
   "attribution": "Data derived from Cricsheet (https://cricsheet.org)",
   "components": {

@@ -172,7 +172,7 @@ def check_hf_auth():
     return False, None
 
 
-def upload_to_huggingface(release_dir, repo_id="cricengine-ai/cricengine-ai-dataset"):
+def upload_to_huggingface(release_dir, repo_id="divii1304/cricengine-ai-dataset"):
     """Upload release directory to Hugging Face Hub."""
     is_auth, user = check_hf_auth()
     if not is_auth:
@@ -190,7 +190,7 @@ To upload the prepared dataset release, follow these steps:
    hf auth login
 
 3. Upload the prepared dataset bundle:
-   hf upload cricengine-ai/cricengine-ai-dataset ./distribution/cricengine-ai-dataset . --repo-type dataset
+   hf upload divii1304/cricengine-ai-dataset ./distribution/cricengine-ai-dataset . --repo-type dataset
 
 The release bundle has been fully assembled, verified, and staged locally at:
    ./distribution/cricengine-ai-dataset
@@ -215,7 +215,7 @@ def main():
     parser.add_argument("--out-dir", type=str, default=DEFAULT_OUT_DIR, help="Output staging directory")
     parser.add_argument("--copy", action="store_true", help="Copy files instead of hardlinking")
     parser.add_argument("--upload", action="store_true", help="Attempt upload to Hugging Face Hub after assembly")
-    parser.add_argument("--repo-id", type=str, default="cricengine-ai/cricengine-ai-dataset", help="Target Hugging Face Hub repo")
+    parser.add_argument("--repo-id", type=str, default="divii1304/cricengine-ai-dataset", help="Target Hugging Face Hub repo")
     args = parser.parse_args()
 
     build_release_package(args.out_dir, copy_mode=args.copy)

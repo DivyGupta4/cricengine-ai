@@ -491,7 +491,7 @@ print(con.execute(query).df())
 CricEngine AI implements a decoupled two-platform distribution model designed for sustainable open-source research and large-scale data engineering:
 
 1. **GitHub (`cricengine-ai`)**: Serves as the primary source code, schema definition, and developer collaboration hub. Contains Python ETL pipelines, Bayesian rating models, GLM prediction architectures, unit/integration test suites, cryptographic manifests (`dataset_manifest.json`, `SHA256SUMS`), schemas (`schemas/`), and technical documentation. Large raw data lakes and Parquet stores are intentionally kept out of default git bloat.
-2. **Hugging Face Hub (`cricengine-ai/cricengine-ai-dataset`)**: Serves as the official immutable dataset host. Stores release-tagged binary artifacts under versioned tags (`v1.0.0`):
+2. **Hugging Face Hub ([`divii1304/cricengine-ai-dataset`](https://huggingface.co/datasets/divii1304/cricengine-ai-dataset))**: Serves as the official immutable dataset host. Stores release-tagged binary artifacts under versioned tags (`v1.0.0`):
    - `canonical_database/cricengine.duckdb` (383 MB DuckDB database)
    - `feature_store/feature_store_v3b/` (1,164 Parquet files, 117 MB)
    - `rating_store/rating_store_v4/` (145 Parquet files, 12.5 MB)
