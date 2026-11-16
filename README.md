@@ -11,6 +11,14 @@
 
 ---
 
+## New Developer? Start Here
+
+New to CricEngine AI? Follow the comprehensive step-by-step onboarding walkthrough:
+
+👉 **[New Developer Dataset Access Guide](docs/NEW_DEVELOPER_DATASET_ACCESS_GUIDE.md)** — Instructions to navigate the repository, set up the environment, download the 528 MB published dataset from Hugging Face, verify SHA-256 manifests, query DuckDB, and explore the feature stores.
+
+---
+
 ## 1. Project Introduction
 
 **CricEngine AI** is a quantitative cricket analytics system designed for player evaluation, point-in-time rating estimation, probabilistic match performance forecasting, and team optimization.
